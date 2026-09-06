@@ -320,6 +320,7 @@ var DATA = { articles:[], sources:[], updated:"" };
 var SRC = {};              // id -> source
 var view = { tab:"unread", src:"" };
 var current = null;
+var PAGE = 24, shown = PAGE;      // note の画像は一度に何十枚も頼むと弾かれるので少しずつ出す
 
 var $  = function(s,r){ return (r||document).querySelector(s); };
 var $$ = function(s,r){ return Array.prototype.slice.call((r||document).querySelectorAll(s)); };
@@ -353,6 +354,24 @@ function allItems(){
 }
 
 // ---------------------------------------------------------------- 表示
+// 一覧のサムネに原寸は要らない。note は ?width= 、Substack は CDN の変換で縮める
+// （Substack の元画像は1枚1MB超あるので、これをやらないとスクロールで数十MB落ちる）
+function sized(u, w){
+  if(!u) return "";
+  if(u.indexOf("st-note.com") > -1){
+    return /[?&]width=/.test(u) ? u.replace(/([?&]width=)\d+/, "$1" + w)
+                                : u + (u.indexOf("?") > -1 ? "&" : "?") + "width=" + w;
+  }
+  if(u.indexOf("substackcdn.com/image/fetch") > -1) return u.replace(/\/w_\d+/, "/w_" + w);
+  if(u.indexOf("substack-post-media") > -1 || u.indexOf("substack.com") > -1){
+    return "https://substackcdn.com/image/fetch/w_" + w +
+           ",c_limit,f_auto,q_auto:good,fl_progressive:steep/" + encodeURIComponent(u);
+  }
+  return u;
+}
+function thumbUrl(u){ return sized(u, 320); }
+function heroUrl(u){ return sized(u, 1000); }
+
 function hueColor(s, l){ return "hsl(" + ((s && s.hue) || 220) + " 62% " + (l||62) + "%)"; }
 
 function fmtDay(iso){
@@ -407,13 +426,14 @@ function render(){
 
   // 一覧
   var xs = filtered(), html = [], lastDay = "";
+  var page = xs.slice(0, shown);
   if(!xs.length){
     html.push('<div class="empty">' + (view.tab === "unread"
       ? "未読はありません。<br>下の「＋」から記事やメルマガを足せます。"
       : view.tab === "later" ? "「あとで」に入れた記事がここに並びます。"
       : "まだ記事がありません。") + "</div>");
   }
-  xs.forEach(function(a){
+  page.forEach(function(a){
     var day = fmtDay(a.date);
     if(day !== lastDay){ html.push('<div class="day">' + esc(day) + "</div>"); lastDay = day; }
     var s = SRC[a.source] || {name:a.source, hue:220};
@@ -431,12 +451,25 @@ function render(){
           '<h3 class="ctitle">' + esc(a.title) + "</h3>" +
           '<p class="cexcerpt">' + esc(ex) + "</p>" +
         "</div>" +
-        (a.image ? '<img class="cthumb" src="' + esc(a.image) + '" alt="" loading="lazy" '
+        (a.image ? '<img class="cthumb" src="' + esc(thumbUrl(a.image)) + '" alt="" loading="lazy" '
                  + 'referrerpolicy="no-referrer" onerror="this.remove()">' : "") +
       "</article>");
   });
+  if(xs.length > shown){
+    html.push('<div class="empty" style="padding:26px 0;font-size:12px">' +
+      "残り " + (xs.length - shown) + " 件</div>");
+  }
   $("#list").innerHTML = html.join("");
 }
+
+// 追い読みは scroll 監視で行う（IntersectionObserver は検証しづらい）
+window.addEventListener("scroll", function(){
+  if(document.querySelector(".sheet.on")) return;
+  if(window.innerHeight + window.scrollY < document.body.offsetHeight - 500) return;
+  if(shown >= filtered().length) return;
+  shown += PAGE;
+  render();
+}, {passive:true});
 
 // ---------------------------------------------------------------- 記事
 function openArticle(id){
@@ -451,7 +484,7 @@ function openArticle(id){
   $("#a-later").style.color = S.later[a.id] ? "var(--accent)" : "";
 
   var h = [];
-  if(a.image) h.push('<img class="aimg" src="' + esc(a.image) + '" alt="" referrerpolicy="no-referrer" onerror="this.remove()">');
+  if(a.image) h.push('<img class="aimg" src="' + esc(heroUrl(a.image)) + '" alt="" referrerpolicy="no-referrer" onerror="this.remove()">');
   h.push('<h1 class="atitle">' + esc(a.title) + "</h1>");
   if(a.subtitle) h.push('<p class="asub">' + esc(a.subtitle) + "</p>");
   h.push('<div class="ameta">' +
@@ -533,13 +566,14 @@ document.addEventListener("click", function(ev){
   if(card){ openArticle(card.dataset.id); return; }
 
   var chip = t.closest && t.closest(".chip");
-  if(chip){ view.src = chip.dataset.src; render(); return; }
+  if(chip){ view.src = chip.dataset.src; shown = PAGE; window.scrollTo(0,0); render(); return; }
 
   var tab = t.closest && t.closest(".tab");
   if(tab){
     view.tab = tab.dataset.tab;
+    shown = PAGE;
     $$(".tab").forEach(function(b){ b.classList.toggle("on", b === tab); });
-    render(); return;
+    window.scrollTo(0,0); render(); return;
   }
 
   if(t.closest && t.closest("[data-close]")){ closeAll(); return; }

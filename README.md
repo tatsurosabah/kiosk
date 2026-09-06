@@ -99,3 +99,15 @@ KIOSK_INSECURE_SSL=1 python3 fetch.py --inbox   # inbox.json だけ処理
   末尾が `Read more` で切れる。これを見て「ここまで」を出している
 - `slowinternet.jp` は WordPress だがフィードが無効。購読には足せない
   （記事URLを1本ずつ「この記事だけ」で入れることはできる）
+
+## 画像まわり
+
+- 一覧は **24件ずつの段階描画**（scroll 監視で追い読み）。note の画像は一度に
+  何十枚も要求すると返ってこなくなるので、まとめて出さない
+- サムネイルは 320px、記事のヒーローは 1000px に縮めて読み込む。
+  note は `?width=`、Substack は `substackcdn.com/image/fetch/w_.../<encoded url>`。
+  **Substack の元画像は1枚1MB超**あるので、縮めないとスクロールで数十MB落ちる
+  （実測 1,167KB → 20KB）
+- `loading="lazy"` は実機では効くが、検証に使ったヘッドレスブラウザでは
+  ビューポート判定が働かず永久に pending になる。画像が出ないときはこれを疑う前に
+  `loading` を `eager` にして切り分ける
