@@ -12,9 +12,11 @@ import zlib
 import struct
 import math
 
-BG = (0x12, 0x14, 0x1a)
-AWNING = (0xe8, 0xb0, 0x4b)
-BARS = [(14, 0.92), (268, 0.78), (196, 0.86)]     # (hue, 明るさ係数)
+# Tide / 词 と同じ和紙のパレット
+BG = (0xF4, 0xF1, 0xEA)        # 和紙
+FRAME = (0x1C, 0x1A, 0x17)     # 墨
+AWNING = (0xA8, 0x56, 0x3C)    # 朱
+BARS = [14, 88, 196]          # 各ソースの hue。アプリ内の色と揃える
 
 
 def hsl(h, s, l):
@@ -72,25 +74,25 @@ def draw(n):
     u = n / 100.0                                   # 1% を単位に置く
 
     # 軒（オーニング）
-    c.rrect(14 * u, 17 * u, 86 * u, 27 * u, 4 * u, AWNING)
+    c.rrect(14 * u, 17 * u, 86 * u, 25 * u, 3 * u, AWNING)
     # 支柱
-    c.rrect(17 * u, 27 * u, 21 * u, 84 * u, 2 * u, (0x33, 0x38, 0x46))
-    c.rrect(79 * u, 27 * u, 83 * u, 84 * u, 2 * u, (0x33, 0x38, 0x46))
+    c.rrect(17.5 * u, 25 * u, 20 * u, 84 * u, 1.2 * u, FRAME)
+    c.rrect(80 * u, 25 * u, 82.5 * u, 84 * u, 1.2 * u, FRAME)
     # 台
-    c.rrect(14 * u, 80 * u, 86 * u, 86 * u, 3 * u, (0x33, 0x38, 0x46))
+    c.rrect(14 * u, 81 * u, 86 * u, 85 * u, 2 * u, FRAME)
 
     # 並んだ3紙
     w, gap = 15.0, 4.0
     left = 50 - (3 * w + 2 * gap) / 2
-    for i, (hue, lf) in enumerate(BARS):
+    for i, hue in enumerate(BARS):
         x = left + i * (w + gap)
         top = 36 + (i % 2) * 3                      # 少しずらして「並べてある」感じに
-        c.rrect(x * u, top * u, (x + w) * u, 80 * u, 1.6 * u, hsl(hue, 0.60, 0.62))
+        c.rrect(x * u, top * u, (x + w) * u, 81 * u, 1.4 * u, hsl(hue, 0.34, 0.44))
         # 見出しの線
         for k in range(3):
             y = top + 5 + k * 5
-            c.rrect((x + 3) * u, y * u, (x + w - 3) * u, (y + 1.6) * u, 0.8 * u,
-                    hsl(hue, 0.55, 0.24))
+            c.rrect((x + 3) * u, y * u, (x + w - 3) * u, (y + 1.4) * u, 0.7 * u,
+                    (0xF4, 0xF1, 0xEA))
     return c
 
 
