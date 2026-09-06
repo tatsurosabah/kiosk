@@ -1,0 +1,44 @@
+name: 新着の取り込み
+
+on:
+  schedule:
+    # UTC 表記。日本時間の 7:00 / 12:00 / 18:00 / 22:00 にあたる
+    - cron: '0 22,3,9,13 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'sources.json'   # 購読先を編集したらすぐ反映
+      - 'inbox.json'     # アプリから URL を送ったらすぐ処理
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kiosk-fetch
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 収集
+        run: python3 fetch.py
+
+      - name: 変更があればコミット
+        run: |
+          if git diff --quiet -- articles.json sources.json inbox.json; then
+            echo "変更なし"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add articles.json sources.json inbox.json
+          git commit -m "新着の取り込み $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push

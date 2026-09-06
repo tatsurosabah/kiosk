@@ -1,0 +1,43 @@
+{
+  "_comment": "購読元の設定。ここを編集して git push すれば次回の自動更新から反映されます。アプリの「追加」からURLを入れた場合も、GitHub Actions がここに追記します。",
+  "_fields": {
+    "id": "英数字の識別子。articles.json から参照される。変えると既読が引き継がれない",
+    "name": "アプリに出す表示名",
+    "url": "フィードのURL（RSS / Atom）",
+    "site": "人間が開くトップページ",
+    "hue": "0-360。アプリ内でこのソースに割り当てる色",
+    "excerpt_chars": "保存する本文の上限文字数。省略時は 1500",
+    "enabled": "false にすると収集を止める（記事は残る）"
+  },
+
+  "excerpt_chars_default": 1500,
+  "keep_per_source": 60,
+
+  "sources": [
+    {
+      "id": "uno",
+      "name": "宇野常寛",
+      "url": "https://note.com/wakusei2nduno/rss",
+      "site": "https://note.com/wakusei2nduno",
+      "hue": 14,
+      "enabled": true
+    },
+    {
+      "id": "planets",
+      "name": "PLANETS",
+      "url": "https://note.com/wakusei2nd/rss",
+      "site": "https://note.com/wakusei2nd",
+      "hue": 268,
+      "enabled": true
+    },
+    {
+      "id": "slowtimes",
+      "name": "Slow Times",
+      "url": "https://slowtimesjp.substack.com/feed",
+      "site": "https://slowtimesjp.substack.com",
+      "hue": 196,
+      "excerpt_chars": 2500,
+      "enabled": true
+    }
+  ]
+}

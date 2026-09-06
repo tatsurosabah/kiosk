@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kiosk</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#12141a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-icon" href="icon-180.png">
+<style>
+  :root{
+    --bg:#12141a; --bg2:#181b23; --line:#262a35; --line2:#333846;
+    --fg:#e7e9ef; --dim:#9aa1b2; --dim2:#6c7386; --accent:#e8b04b;
+    --shadow:0 1px 2px rgba(0,0,0,.4);
+    --safe-t:env(safe-area-inset-top,0px); --safe-b:env(safe-area-inset-bottom,0px);
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--fg)}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif;
+    font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased;
+    padding-bottom:calc(72px + var(--safe-b));
+  }
+  button,input,textarea,select{font:inherit;color:inherit}
+  a{color:inherit}
+
+  /* ---------- ヘッダー ---------- */
+  header{
+    position:sticky;top:0;z-index:30;background:rgba(18,20,26,.94);
+    backdrop-filter:saturate(160%) blur(12px);border-bottom:1px solid var(--line);
+    padding:calc(var(--safe-t) + 10px) 14px 0;
+  }
+  .htop{display:flex;align-items:baseline;gap:10px}
+  .brand{font-size:19px;font-weight:700;letter-spacing:.06em;margin:0}
+  .brand span{color:var(--accent)}
+  .updated{font-size:11px;color:var(--dim2);margin-left:auto;white-space:nowrap}
+  .iconbtn{
+    background:none;border:0;color:var(--dim);font-size:19px;line-height:1;
+    padding:4px 6px;cursor:pointer;border-radius:8px
+  }
+  .iconbtn:active{background:var(--bg2)}
+
+  .tabs{display:flex;gap:2px;margin-top:8px}
+  .tab{
+    flex:0 0 auto;background:none;border:0;padding:8px 12px 10px;color:var(--dim2);
+    font-size:13.5px;font-weight:600;cursor:pointer;border-bottom:2px solid transparent
+  }
+  .tab.on{color:var(--fg);border-bottom-color:var(--accent)}
+  .tab b{font-weight:700;font-size:11px;margin-left:4px;color:var(--dim2)}
+  .tab.on b{color:var(--accent)}
+
+  .chips{display:flex;gap:6px;overflow-x:auto;padding:9px 0 10px;scrollbar-width:none}
+  .chips::-webkit-scrollbar{display:none}
+  .chip{
+    flex:0 0 auto;border:1px solid var(--line2);background:transparent;color:var(--dim);
+    border-radius:999px;padding:5px 11px;font-size:12.5px;cursor:pointer;
+    display:flex;align-items:center;gap:6px;white-space:nowrap
+  }
+  .chip .dot{width:7px;height:7px;border-radius:50%;background:currentColor;flex:0 0 auto}
+  .chip.on{background:var(--fg);color:#12141a;border-color:var(--fg);font-weight:600}
+  .chip.on .dot{opacity:.75}
+
+  /* ---------- 一覧 ---------- */
+  main{max-width:720px;margin:0 auto;padding:4px 14px}
+  .day{
+    font-size:11.5px;color:var(--dim2);letter-spacing:.08em;font-weight:700;
+    margin:20px 0 8px;text-transform:uppercase
+  }
+  .card{
+    display:flex;gap:12px;padding:13px 0;border-bottom:1px solid var(--line);
+    cursor:pointer;align-items:flex-start
+  }
+  .card:active{opacity:.6}
+  .card.read .ctitle{color:var(--dim)}
+  .card.read .cthumb{opacity:.4}
+  .cbody{flex:1 1 auto;min-width:0}
+  .cmeta{display:flex;align-items:center;gap:7px;font-size:11.5px;color:var(--dim2);margin-bottom:4px}
+  .cmeta .dot{width:7px;height:7px;border-radius:50%;flex:0 0 auto}
+  .cmeta .src{color:var(--dim);font-weight:600}
+  .ctitle{font-size:15.5px;font-weight:700;line-height:1.45;margin:0 0 5px;
+    display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .cexcerpt{font-size:12.5px;color:var(--dim2);line-height:1.55;
+    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .cthumb{
+    width:104px;height:70px;flex:0 0 auto;border-radius:9px;object-fit:cover;
+    background:var(--bg2);border:1px solid var(--line)
+  }
+  .badge{
+    font-size:10px;border:1px solid var(--line2);border-radius:4px;padding:0 4px;
+    color:var(--dim2);font-weight:600
+  }
+  .badge.local{border-color:#3c5a46;color:#79b98f}
+  .badge.later{border-color:#5a4a2a;color:var(--accent)}
+
+  .empty{text-align:center;color:var(--dim2);padding:64px 20px;font-size:13.5px;line-height:2}
+
+  /* ---------- 下部バー ---------- */
+  .bottom{
+    position:fixed;left:0;right:0;bottom:0;z-index:40;
+    background:rgba(18,20,26,.94);backdrop-filter:blur(12px);
+    border-top:1px solid var(--line);
+    padding:9px 14px calc(9px + var(--safe-b));display:flex;gap:10px;justify-content:center
+  }
+  .btn{
+    border:1px solid var(--line2);background:var(--bg2);color:var(--fg);border-radius:10px;
+    padding:10px 16px;font-size:14px;font-weight:600;cursor:pointer
+  }
+  .btn:active{opacity:.6}
+  .btn.primary{background:var(--accent);color:#20180a;border-color:var(--accent)}
+  .btn.ghost{background:none}
+  .btn:disabled{opacity:.45}
+
+  /* ---------- オーバーレイ ---------- */
+  .sheet{
+    position:fixed;inset:0;z-index:50;background:var(--bg);overflow-y:auto;
+    -webkit-overflow-scrolling:touch;display:none
+  }
+  .sheet.on{display:block}
+  .sheethead{
+    position:sticky;top:0;background:rgba(18,20,26,.95);backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--line);padding:calc(var(--safe-t) + 10px) 14px 10px;
+    display:flex;align-items:center;gap:10px;z-index:2
+  }
+  .sheethead h2{font-size:15px;margin:0;font-weight:700}
+  .sheetbody{max-width:700px;margin:0 auto;padding:18px 18px calc(48px + var(--safe-b))}
+
+  /* ---------- 記事 ---------- */
+  .aimg{width:100%;border-radius:12px;margin:0 0 18px;display:block;background:var(--bg2)}
+  .atitle{font-size:23px;line-height:1.4;font-weight:700;margin:0 0 10px;letter-spacing:.01em}
+  .asub{font-size:14.5px;color:var(--dim);margin:0 0 14px;line-height:1.7}
+  .ameta{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--dim2);
+    margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+  .atext{
+    font-family:"Hiragino Mincho ProN","Noto Serif JP",Georgia,serif;
+    font-size:17px;line-height:2;letter-spacing:.02em
+  }
+  .atext p{margin:0 0 1.35em;word-break:break-word;overflow-wrap:anywhere}
+  .cut{
+    margin:26px 0 0;padding:18px;border:1px solid var(--line2);border-radius:12px;
+    background:var(--bg2);text-align:center
+  }
+  .cut p{margin:0 0 14px;font-size:13px;color:var(--dim);line-height:1.8}
+  .arow{display:flex;gap:10px;margin-top:26px;flex-wrap:wrap}
+
+  /* ---------- フォーム ---------- */
+  label.f{display:block;font-size:12px;color:var(--dim);font-weight:600;margin:18px 0 6px}
+  input[type=text],input[type=url],input[type=password],textarea{
+    width:100%;background:var(--bg2);border:1px solid var(--line2);border-radius:10px;
+    padding:11px 12px;font-size:15px;outline:none
+  }
+  input:focus,textarea:focus{border-color:var(--accent)}
+  textarea{min-height:180px;resize:vertical;line-height:1.7;font-size:14px}
+  .hint{font-size:11.5px;color:var(--dim2);line-height:1.75;margin:7px 0 0}
+  .seg{display:flex;gap:0;border:1px solid var(--line2);border-radius:10px;overflow:hidden;margin-bottom:4px}
+  .seg button{flex:1;background:none;border:0;padding:10px;font-size:13.5px;color:var(--dim);cursor:pointer}
+  .seg button.on{background:var(--bg2);color:var(--fg);font-weight:700}
+  .msg{margin:16px 0 0;padding:12px 14px;border-radius:10px;font-size:13px;line-height:1.7}
+  .msg.ok{background:#14261b;border:1px solid #2f5a3d;color:#9ad6ae}
+  .msg.ng{background:#2a1618;border:1px solid #5c2e33;color:#e79aa2}
+  .msg.info{background:var(--bg2);border:1px solid var(--line2);color:var(--dim)}
+  .note{font-size:12px;color:var(--dim2);line-height:1.85;border-left:2px solid var(--line2);
+    padding-left:12px;margin:22px 0 0}
+  hr.sep{border:0;border-top:1px solid var(--line);margin:28px 0}
+  .srcrow{display:flex;align-items:center;gap:10px;padding:11px 0;border-bottom:1px solid var(--line)}
+  .srcrow .dot{width:9px;height:9px;border-radius:50%;flex:0 0 auto}
+  .srcrow .nm{flex:1;font-size:14px;font-weight:600}
+  .srcrow .ct{font-size:11.5px;color:var(--dim2)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="htop">
+    <h1 class="brand">KIOSK<span>.</span></h1>
+    <span class="updated" id="updated"></span>
+    <button class="iconbtn" id="btn-reload" title="読み込み直す">⟳</button>
+    <button class="iconbtn" id="btn-settings" title="設定">⚙</button>
+  </div>
+  <div class="tabs">
+    <button class="tab on" data-tab="unread">未読<b id="n-unread"></b></button>
+    <button class="tab" data-tab="all">すべて<b id="n-all"></b></button>
+    <button class="tab" data-tab="later">あとで<b id="n-later"></b></button>
+  </div>
+  <div class="chips" id="chips"></div>
+</header>
+
+<main id="list"></main>
+
+<div class="bottom">
+  <button class="btn primary" id="btn-add">＋ 記事・購読を追加</button>
+  <button class="btn ghost" id="btn-readall">既読にする</button>
+</div>
+
+<!-- ============ 記事 ============ -->
+<div class="sheet" id="sheet-article">
+  <div class="sheethead">
+    <button class="iconbtn" data-close>‹</button>
+    <h2 id="a-src"></h2>
+    <button class="iconbtn" id="a-later" style="margin-left:auto" title="あとで読む">☆</button>
+  </div>
+  <div class="sheetbody" id="a-body"></div>
+</div>
+
+<!-- ============ 追加 ============ -->
+<div class="sheet" id="sheet-add">
+  <div class="sheethead">
+    <button class="iconbtn" data-close>‹</button>
+    <h2>追加する</h2>
+  </div>
+  <div class="sheetbody">
+    <div class="seg">
+      <button class="on" data-add="url">URLから</button>
+      <button data-add="paste">本文を貼り付け</button>
+    </div>
+
+    <div id="pane-url">
+      <label class="f">記事またはサイトのURL</label>
+      <input type="url" id="in-url" placeholder="https://note.com/... / https://....substack.com/p/..."
+             autocapitalize="off" autocorrect="off" spellcheck="false">
+      <label class="f">どう扱うか</label>
+      <div class="seg" id="seg-as">
+        <button class="on" data-as="auto">おまかせ</button>
+        <button data-as="feed">購読に足す</button>
+        <button data-as="article">この記事だけ</button>
+      </div>
+      <p class="hint">
+        「おまかせ」は、そのURLからフィードが見つかれば<b>購読に足し</b>（以後は自動で新着が届く）、
+        見つからなければ<b>その1本だけ</b>取り込みます。
+        Substack や note は記事URLでもフィードが見つかるので、1本だけ欲しいときは「この記事だけ」を選んでください。<br>
+        処理は GitHub 側で走るので、反映は次の収集（数分）を待ちます。
+      </p>
+      <div class="arow">
+        <button class="btn primary" id="btn-send-url">送る</button>
+        <button class="btn" id="btn-check">結果を見る</button>
+      </div>
+      <div id="url-msg"></div>
+    </div>
+
+    <div id="pane-paste" style="display:none">
+      <label class="f">見出し</label>
+      <input type="text" id="in-ptitle" placeholder="例：〇〇メルマガ 第123号">
+      <label class="f">差出人・媒体名（任意）</label>
+      <input type="text" id="in-pfrom" placeholder="例：まぐまぐ／〇〇">
+      <label class="f">元のURL（任意）</label>
+      <input type="url" id="in-purl" placeholder="https://..." autocapitalize="off" spellcheck="false">
+      <label class="f">本文</label>
+      <textarea id="in-pbody" placeholder="メールの本文をそのまま貼り付け"></textarea>
+      <p class="hint">
+        貼り付けた本文は<b>この端末の中だけ</b>に保存されます。GitHub にも外部にも送られません。
+        有料メルマガを公開リポジトリに残さないための作りです。
+      </p>
+      <div class="arow">
+        <button class="btn primary" id="btn-save-paste">保存する</button>
+      </div>
+      <div id="paste-msg"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 設定 ============ -->
+<div class="sheet" id="sheet-settings">
+  <div class="sheethead">
+    <button class="iconbtn" data-close>‹</button>
+    <h2>設定</h2>
+  </div>
+  <div class="sheetbody">
+    <h3 style="font-size:14px;margin:0 0 4px">購読しているもの</h3>
+    <div id="srclist"></div>
+
+    <hr class="sep">
+    <h3 style="font-size:14px;margin:0 0 4px">URL追加をこの端末から使う</h3>
+    <p class="hint" style="margin-top:8px">
+      「URLから追加」は GitHub のリポジトリにURLを書き込みます。そのためのトークンをこの端末に保存します。
+      GitHub の <b>Settings → Developer settings → Fine-grained tokens</b> で、
+      このリポジトリだけを対象に <b>Contents: Read and write</b> を付けたトークンを作ってください。
+      トークンはこの端末の中だけに置かれます。使わない場合は空のままで構いません（貼り付け追加は不要）。
+    </p>
+    <label class="f">リポジトリ（owner/name）</label>
+    <input type="text" id="in-repo" placeholder="tatsurosabah/kiosk" autocapitalize="off" spellcheck="false">
+    <label class="f">アクセストークン</label>
+    <input type="password" id="in-token" placeholder="github_pat_..." autocapitalize="off" spellcheck="false">
+    <div class="arow">
+      <button class="btn primary" id="btn-save-token">保存</button>
+      <button class="btn" id="btn-clear-token">消す</button>
+    </div>
+    <div id="set-msg"></div>
+
+    <hr class="sep">
+    <h3 style="font-size:14px;margin:0 0 4px">この端末のデータ</h3>
+    <p class="hint" style="margin-top:8px">
+      既読・あとで読む・貼り付けた本文は、この端末の中だけにあります。機種変更のときは書き出してください。
+    </p>
+    <div class="arow">
+      <button class="btn" id="btn-export">書き出す</button>
+      <button class="btn" id="btn-import">読み込む</button>
+    </div>
+    <input type="file" id="file-import" accept="application/json" style="display:none">
+    <div id="data-msg"></div>
+
+    <p class="note">
+      保存しているのは、公開フィードに載っている見出しと冒頭までです。有料記事の本文はフィードに入っていないので取得しません。
+      続きは各媒体で読んでください。
+    </p>
+  </div>
+</div>
+
+<script>
+(function(){
+"use strict";
+
+// ---------------------------------------------------------------- 状態
+var KEY = "kiosk_state";
+var S = { read:{}, later:{}, pasted:[], repo:"", token:"", src:"" };
+try { Object.assign(S, JSON.parse(localStorage.getItem(KEY) || "{}")); } catch(e){}
+function save(){ try{ localStorage.setItem(KEY, JSON.stringify(S)); }catch(e){} }
+
+var DATA = { articles:[], sources:[], updated:"" };
+var SRC = {};              // id -> source
+var view = { tab:"unread", src:"" };
+var current = null;
+
+var $  = function(s,r){ return (r||document).querySelector(s); };
+var $$ = function(s,r){ return Array.prototype.slice.call((r||document).querySelectorAll(s)); };
+function esc(s){ return String(s==null?"":s).replace(/[&<>"']/g, function(c){
+  return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+
+// ---------------------------------------------------------------- 読み込み
+function load(cb){
+  fetch("articles.json?t=" + Date.now(), {cache:"no-store"})
+    .then(function(r){ return r.json(); })
+    .then(function(d){
+      DATA = d;
+      SRC = {};
+      (d.sources||[]).forEach(function(s){ SRC[s.id] = s; });
+      SRC.inbox = SRC.inbox || {id:"inbox", name:"追加したもの", hue:150};
+      SRC.paste = {id:"paste", name:"貼り付け", hue:120, local:true};
+      render(); if(cb) cb();
+    })
+    .catch(function(){
+      DATA = {articles:[], sources:[], updated:""};
+      SRC.paste = {id:"paste", name:"貼り付け", hue:120, local:true};
+      render();
+    });
+}
+
+function allItems(){
+  var out = DATA.articles.slice();
+  (S.pasted||[]).forEach(function(p){ out.push(p); });
+  out.sort(function(a,b){ return (b.date||"").localeCompare(a.date||""); });
+  return out;
+}
+
+// ---------------------------------------------------------------- 表示
+function hueColor(s, l){ return "hsl(" + ((s && s.hue) || 220) + " 62% " + (l||62) + "%)"; }
+
+function fmtDay(iso){
+  if(!iso) return "";
+  var d = new Date(iso), n = new Date();
+  var day = new Date(d.getFullYear(), d.getMonth(), d.getDate());
+  var today = new Date(n.getFullYear(), n.getMonth(), n.getDate());
+  var diff = Math.round((today - day) / 86400000);
+  if(diff === 0) return "きょう";
+  if(diff === 1) return "きのう";
+  var w = "日月火水木金土"[d.getDay()];
+  return (d.getFullYear() === n.getFullYear() ? "" : d.getFullYear() + "年 ")
+       + (d.getMonth()+1) + "月" + d.getDate() + "日（" + w + "）";
+}
+function fmtTime(iso){
+  if(!iso) return "";
+  var d = new Date(iso);
+  return ("0"+d.getHours()).slice(-2) + ":" + ("0"+d.getMinutes()).slice(-2);
+}
+
+function filtered(){
+  var xs = allItems();
+  if(view.src) xs = xs.filter(function(a){ return a.source === view.src; });
+  if(view.tab === "unread") xs = xs.filter(function(a){ return !S.read[a.id]; });
+  if(view.tab === "later")  xs = xs.filter(function(a){ return S.later[a.id]; });
+  return xs;
+}
+
+function render(){
+  // 更新時刻
+  $("#updated").textContent = DATA.updated
+    ? fmtDay(DATA.updated).replace("きょう","今日") + " " + fmtTime(DATA.updated) + " 更新" : "";
+
+  // 件数
+  var all = allItems();
+  $("#n-all").textContent = all.length;
+  $("#n-unread").textContent = all.filter(function(a){ return !S.read[a.id]; }).length;
+  $("#n-later").textContent = all.filter(function(a){ return S.later[a.id]; }).length;
+
+  // ソースチップ
+  var counts = {};
+  all.forEach(function(a){ counts[a.source] = (counts[a.source]||0) + 1; });
+  var ids = Object.keys(SRC).filter(function(id){ return counts[id]; });
+  ids.sort(function(a,b){ return counts[b]-counts[a]; });
+  var chips = ['<button class="chip' + (view.src?"":" on") + '" data-src="">すべて</button>'];
+  ids.forEach(function(id){
+    var s = SRC[id];
+    chips.push('<button class="chip' + (view.src===id?" on":"") + '" data-src="' + esc(id) + '" '
+      + 'style="color:' + hueColor(s) + '"><i class="dot"></i>' + esc(s.name) + '</button>');
+  });
+  $("#chips").innerHTML = chips.join("");
+
+  // 一覧
+  var xs = filtered(), html = [], lastDay = "";
+  if(!xs.length){
+    html.push('<div class="empty">' + (view.tab === "unread"
+      ? "未読はありません。<br>下の「＋」から記事やメルマガを足せます。"
+      : view.tab === "later" ? "「あとで」に入れた記事がここに並びます。"
+      : "まだ記事がありません。") + "</div>");
+  }
+  xs.forEach(function(a){
+    var day = fmtDay(a.date);
+    if(day !== lastDay){ html.push('<div class="day">' + esc(day) + "</div>"); lastDay = day; }
+    var s = SRC[a.source] || {name:a.source, hue:220};
+    var ex = (a.subtitle || (a.body && a.body[0]) || "");
+    html.push(
+      '<article class="card' + (S.read[a.id] ? " read" : "") + '" data-id="' + esc(a.id) + '">' +
+        '<div class="cbody">' +
+          '<div class="cmeta">' +
+            '<i class="dot" style="background:' + hueColor(s) + '"></i>' +
+            '<span class="src">' + esc(s.name) + "</span>" +
+            "<span>" + fmtTime(a.date) + "</span>" +
+            (s.local ? '<span class="badge local">端末内</span>' : "") +
+            (S.later[a.id] ? '<span class="badge later">あとで</span>' : "") +
+          "</div>" +
+          '<h3 class="ctitle">' + esc(a.title) + "</h3>" +
+          '<p class="cexcerpt">' + esc(ex) + "</p>" +
+        "</div>" +
+        (a.image ? '<img class="cthumb" src="' + esc(a.image) + '" alt="" loading="lazy" '
+                 + 'referrerpolicy="no-referrer" onerror="this.remove()">' : "") +
+      "</article>");
+  });
+  $("#list").innerHTML = html.join("");
+}
+
+// ---------------------------------------------------------------- 記事
+function openArticle(id){
+  var a = allItems().filter(function(x){ return x.id === id; })[0];
+  if(!a) return;
+  current = a;
+  var s = SRC[a.source] || {name:a.source, hue:220};
+  S.read[a.id] = 1; save();
+
+  $("#a-src").textContent = s.name;
+  $("#a-later").textContent = S.later[a.id] ? "★" : "☆";
+  $("#a-later").style.color = S.later[a.id] ? "var(--accent)" : "";
+
+  var h = [];
+  if(a.image) h.push('<img class="aimg" src="' + esc(a.image) + '" alt="" referrerpolicy="no-referrer" onerror="this.remove()">');
+  h.push('<h1 class="atitle">' + esc(a.title) + "</h1>");
+  if(a.subtitle) h.push('<p class="asub">' + esc(a.subtitle) + "</p>");
+  h.push('<div class="ameta">' +
+    '<i class="dot" style="width:8px;height:8px;border-radius:50%;background:' + hueColor(s) + '"></i>' +
+    esc(s.name) + (a.author && a.author !== s.name ? " ・ " + esc(a.author) : "") +
+    " ・ " + esc(fmtDay(a.date)) + (s.local ? ' ・ <span class="badge local">端末内</span>' : "") +
+    "</div>");
+  h.push('<div class="atext">' + (a.body||[]).map(function(p){
+    return "<p>" + esc(p) + "</p>"; }).join("") + "</div>");
+
+  if(a.truncated){
+    h.push('<div class="cut"><p>公開されている範囲はここまでです。<br>続きは元の媒体で読めます。</p>' +
+      (a.url ? '<a class="btn primary" href="' + esc(a.url) + '" target="_blank" rel="noopener">原文を開く</a>' : "") +
+      "</div>");
+  }
+  h.push('<div class="arow">' +
+    (a.url && !a.truncated
+      ? '<a class="btn" href="' + esc(a.url) + '" target="_blank" rel="noopener">原文を開く</a>' : "") +
+    '<button class="btn ghost" id="a-unread">未読に戻す</button>' +
+    (s.local ? '<button class="btn ghost" id="a-del">削除</button>' : "") +
+    "</div>");
+  $("#a-body").innerHTML = h.join("");
+  $("#a-body").scrollTop = 0;
+  open("#sheet-article");
+  render();
+}
+
+// ---------------------------------------------------------------- シート
+function open(sel){ $(sel).classList.add("on"); document.body.style.overflow = "hidden"; }
+function closeAll(){
+  $$(".sheet").forEach(function(s){ s.classList.remove("on"); });
+  document.body.style.overflow = "";
+}
+
+// ---------------------------------------------------------------- GitHub
+function api(path, opts){
+  opts = opts || {};
+  opts.headers = Object.assign({
+    "Authorization": "Bearer " + S.token,
+    "Accept": "application/vnd.github+json",
+    "X-GitHub-Api-Version": "2022-11-28"
+  }, opts.headers || {});
+  return fetch("https://api.github.com/repos/" + S.repo + path, opts).then(function(r){
+    return r.json().then(function(j){
+      if(!r.ok) throw new Error(j.message || ("HTTP " + r.status));
+      return j;
+    });
+  });
+}
+function b64enc(s){ return btoa(String.fromCharCode.apply(null, new TextEncoder().encode(s))); }
+function b64dec(s){ return new TextDecoder().decode(Uint8Array.from(atob(s.replace(/\s/g,"")), function(c){ return c.charCodeAt(0); })); }
+
+function pushUrl(url, how){
+  return api("/contents/inbox.json").then(function(f){
+    var box;
+    try { box = JSON.parse(b64dec(f.content)); } catch(e){ box = {queue:[]}; }
+    box.queue = box.queue || [];
+    box.queue.push({url:url, as:how || "auto", at:new Date().toISOString()});
+    return api("/contents/inbox.json", {
+      method:"PUT",
+      body: JSON.stringify({
+        message: "追加: " + url.slice(0,72),
+        content: b64enc(JSON.stringify(box, null, 2) + "\n"),
+        sha: f.sha
+      })
+    });
+  });
+}
+
+function msg(sel, kind, text){
+  $(sel).innerHTML = '<div class="msg ' + kind + '">' + text + "</div>";
+}
+
+// ---------------------------------------------------------------- イベント
+document.addEventListener("click", function(ev){
+  var t = ev.target;
+
+  var card = t.closest && t.closest(".card");
+  if(card){ openArticle(card.dataset.id); return; }
+
+  var chip = t.closest && t.closest(".chip");
+  if(chip){ view.src = chip.dataset.src; render(); return; }
+
+  var tab = t.closest && t.closest(".tab");
+  if(tab){
+    view.tab = tab.dataset.tab;
+    $$(".tab").forEach(function(b){ b.classList.toggle("on", b === tab); });
+    render(); return;
+  }
+
+  if(t.closest && t.closest("[data-close]")){ closeAll(); return; }
+
+  var seg = t.closest && t.closest(".seg button");
+  if(seg){
+    $$("button", seg.parentNode).forEach(function(b){ b.classList.toggle("on", b === seg); });
+    if(seg.dataset.add){
+      $("#pane-url").style.display   = seg.dataset.add === "url" ? "" : "none";
+      $("#pane-paste").style.display = seg.dataset.add === "paste" ? "" : "none";
+    }
+    return;
+  }
+
+  if(t.id === "a-unread" && current){ delete S.read[current.id]; save(); closeAll(); render(); return; }
+  if(t.id === "a-del" && current){
+    if(confirm("この端末から削除します。よろしいですか？")){
+      S.pasted = (S.pasted||[]).filter(function(p){ return p.id !== current.id; });
+      save(); closeAll(); render();
+    }
+    return;
+  }
+});
+
+$("#a-later").onclick = function(){
+  if(!current) return;
+  if(S.later[current.id]) delete S.later[current.id]; else S.later[current.id] = 1;
+  save();
+  this.textContent = S.later[current.id] ? "★" : "☆";
+  this.style.color = S.later[current.id] ? "var(--accent)" : "";
+  render();
+};
+
+$("#btn-reload").onclick = function(){ this.textContent = "…"; var b = this; load(function(){ b.textContent = "⟳"; }); };
+$("#btn-add").onclick = function(){ $("#url-msg").innerHTML = ""; $("#paste-msg").innerHTML = ""; open("#sheet-add"); };
+$("#btn-settings").onclick = function(){
+  $("#in-repo").value = S.repo || "";
+  $("#in-token").value = S.token || "";
+  var counts = {};
+  allItems().forEach(function(a){ counts[a.source] = (counts[a.source]||0)+1; });
+  $("#srclist").innerHTML = Object.keys(SRC).map(function(id){
+    var s = SRC[id];
+    return '<div class="srcrow"><i class="dot" style="background:' + hueColor(s) + '"></i>' +
+      '<span class="nm">' + esc(s.name) + (s.local ? ' <span class="badge local">端末内</span>' : "") + "</span>" +
+      '<span class="ct">' + (counts[id]||0) + "件</span></div>";
+  }).join("");
+  open("#sheet-settings");
+};
+
+$("#btn-readall").onclick = function(){
+  var xs = filtered();
+  if(!xs.length) return;
+  if(!confirm("表示中の " + xs.length + " 件を既読にします。")) return;
+  xs.forEach(function(a){ S.read[a.id] = 1; });
+  save(); render();
+};
+
+$("#btn-send-url").onclick = function(){
+  var url = $("#in-url").value.trim();
+  if(!url){ return; }
+  if(!S.token || !S.repo){
+    msg("#url-msg","info","先に設定でリポジトリとトークンを登録してください。<br>"
+      + "本文の貼り付けだけならトークンは要りません。");
+    return;
+  }
+  var how = ($("#seg-as button.on") || {}).dataset ? $("#seg-as button.on").dataset.as : "auto";
+  var b = this; b.disabled = true; b.textContent = "送信中…";
+  pushUrl(url, how).then(function(){
+    msg("#url-msg","ok","GitHub に送りました。次の収集で取り込まれます（数分）。<br>「結果を見る」で確認できます。");
+    $("#in-url").value = "";
+  }).catch(function(e){
+    msg("#url-msg","ng","送れませんでした: " + esc(e.message));
+  }).then(function(){ b.disabled = false; b.textContent = "送る"; });
+};
+
+$("#btn-check").onclick = function(){
+  fetch("inbox.json?t=" + Date.now(), {cache:"no-store"}).then(function(r){ return r.json(); })
+    .then(function(box){
+      var q = box.queue || [], res = box.last_result || [];
+      var h = "";
+      if(q.length) h += "<b>処理待ち " + q.length + " 件</b><br>";
+      if(!res.length && !q.length) h += "まだ結果がありません。";
+      res.slice(-5).forEach(function(r){
+        h += (r.ok ? "✓ " : "✕ ") + esc(r.message) + "<br>";
+      });
+      msg("#url-msg", q.length ? "info" : (res.length && res[res.length-1].ok ? "ok" : "info"), h);
+    })
+    .catch(function(){ msg("#url-msg","ng","確認できませんでした。"); });
+};
+
+$("#btn-save-paste").onclick = function(){
+  var body = $("#in-pbody").value.trim();
+  if(!body){ msg("#paste-msg","ng","本文が空です。"); return; }
+  var title = $("#in-ptitle").value.trim() || body.split("\n")[0].slice(0,60);
+  var paras = body.split(/\n\s*\n|\n/).map(function(s){ return s.trim(); })
+                  .filter(function(s){ return s; });
+  var item = {
+    id: "p" + Date.now().toString(36),
+    source: "paste",
+    title: title,
+    url: $("#in-purl").value.trim(),
+    date: new Date().toISOString(),
+    image: "",
+    author: $("#in-pfrom").value.trim(),
+    subtitle: "",
+    body: paras,
+    truncated: false
+  };
+  S.pasted = S.pasted || [];
+  S.pasted.unshift(item);
+  save();
+  ["#in-ptitle","#in-purl","#in-pbody"].forEach(function(s){ $(s).value = ""; });
+  msg("#paste-msg","ok","保存しました（この端末の中だけ）。");
+  render();
+};
+
+$("#btn-save-token").onclick = function(){
+  S.repo = $("#in-repo").value.trim().replace(/^https?:\/\/github\.com\//,"").replace(/\/$/,"");
+  S.token = $("#in-token").value.trim();
+  save();
+  if(!S.repo || !S.token){ msg("#set-msg","info","保存しました（未設定の項目があります）。"); return; }
+  api("/contents/inbox.json").then(function(){
+    msg("#set-msg","ok","つながりました。URLからの追加が使えます。");
+  }).catch(function(e){
+    msg("#set-msg","ng","つながりませんでした: " + esc(e.message));
+  });
+};
+$("#btn-clear-token").onclick = function(){
+  S.token = ""; save(); $("#in-token").value = "";
+  msg("#set-msg","info","トークンを消しました。");
+};
+
+$("#btn-export").onclick = function(){
+  var blob = new Blob([JSON.stringify(S, null, 2)], {type:"application/json"});
+  var a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "kiosk-backup-" + new Date().toISOString().slice(0,10) + ".json";
+  a.click();
+  msg("#data-msg","ok","書き出しました。");
+};
+$("#btn-import").onclick = function(){ $("#file-import").click(); };
+$("#file-import").onchange = function(){
+  var f = this.files[0]; if(!f) return;
+  var rd = new FileReader();
+  rd.onload = function(){
+    try {
+      var d = JSON.parse(rd.result);
+      S.read = Object.assign(S.read||{}, d.read||{});
+      S.later = Object.assign(S.later||{}, d.later||{});
+      var have = {}; (S.pasted||[]).forEach(function(p){ have[p.id]=1; });
+      (d.pasted||[]).forEach(function(p){ if(!have[p.id]) S.pasted.push(p); });
+      save(); render();
+      msg("#data-msg","ok","読み込みました。");
+    } catch(e){ msg("#data-msg","ng","読み込めませんでした。"); }
+  };
+  rd.readAsText(f);
+};
+
+document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeAll(); });
+
+// ---------------------------------------------------------------- 起動
+load();
+if("serviceWorker" in navigator && location.protocol === "https:"){
+  navigator.serviceWorker.register("sw.js").catch(function(){});
+}
+})();
+</script>
+</body>
+</html>
