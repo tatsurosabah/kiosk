@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T07:57:48.301603+00:00",
+  "updated": "2026-09-09T13:34:12.185732+00:00",
   "sources": [
     {
       "id": "uno",
@@ -25,6 +25,21 @@
     }
   ],
   "articles": [
+    {
+      "id": "707440336d83",
+      "source": "uno",
+      "title": "3年前に小説を書いたときに考えていたこと",
+      "url": "https://note.com/wakusei2nduno/n/nd5d5f4875021",
+      "date": "2026-09-09T12:00:34+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/311987709/rectangle_large_type_2_c7cad8a757664b76a4e0a3b7b6043d9d.png?width=800",
+      "author": "宇野常寛",
+      "subtitle": "",
+      "body": [
+        "さて、たまには自作について振り返りみたいなことをしてみたい。今日気がついたのだが、3年前に僕が初めて書いた長編小説『チーム・オルタナティブの冒険』がKindle Unlimitedで読めるようになっていた。僕の批評は読んでいるけれど、小説は未読という読者は結構いると思うのだけど、このサービスを利用している人なら実質0円で読めるので、ぜひとも読んでみて欲しい（期間限定らしいので、お早めに）。",
+        "チーム・オルタナティブの冒険 (ホーム社)amzn.asia 2,090円(2026年09月09日 20:58時点詳しくはこちら) Amazon.co.jpで購入する"
+      ],
+      "truncated": true
+    },
     {
       "id": "2817fa0cdd52",
       "source": "uno",
