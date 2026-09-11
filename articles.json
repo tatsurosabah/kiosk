@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T07:53:30.911281+00:00",
+  "updated": "2026-09-11T13:22:47.135641+00:00",
   "sources": [
     {
       "id": "uno",
@@ -25,6 +25,20 @@
     }
   ],
   "articles": [
+    {
+      "id": "87a5dca24be3",
+      "source": "uno",
+      "title": "これからの「集合住宅」のクリティカル・ポイント",
+      "url": "https://note.com/wakusei2nduno/n/n698aa5824738",
+      "date": "2026-09-11T09:29:46+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/312610706/rectangle_large_type_2_57f11e1cd35a38ee04b3300ac1628638.png?width=800",
+      "author": "宇野常寛",
+      "subtitle": "",
+      "body": [
+        "この度、建築コンペの審査員をすることになった。"
+      ],
+      "truncated": true
+    },
     {
       "id": "195a20f3da7f",
       "source": "uno",
