@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T14:14:18.996692+00:00",
+  "updated": "2026-09-13T23:57:14.934569+00:00",
   "sources": [
     {
       "id": "uno",
@@ -39,6 +39,39 @@
     }
   ],
   "articles": [
+    {
+      "id": "a4d878edd6dc",
+      "source": "kazobara",
+      "title": "GPT6時代に大事なのは「びびらず、ゆだねること」",
+      "url": "https://note.com/kazobara/n/n5f9e6ba72cbf",
+      "date": "2026-09-13T23:56:39+00:00",
+      "image": "",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "GPT-6がAIが難解な数学を美麗な数式で説いたり、思考力でAIに人は勝てなくなった時代は、【月3000円位でいつでも賢者をよびだせる】時代になったのに「使い方がわからない」といって動かない人がいるというのは、もったいないことだ。",
+        "そんな使い方として　深津さんが２つのいいプロンプトをあげていた",
+        "１．自分より賢いAIに、目的も解法も考え直してもらう",
+        "https://x.com/fladdict/status/2098634834893754741"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "01f19fdde6d2",
+      "source": "planets",
+      "title": "現役官僚のニューヨーク駐在日記：With Japanに見出す日本の生存戦略｜橘宏樹",
+      "url": "https://note.com/wakusei2nd/n/na574524bec80",
+      "date": "2026-09-13T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/311933122/rectangle_large_type_2_940092d63f08a3486927331b6c532f11.jpeg?width=800",
+      "author": "PLANETS",
+      "subtitle": "",
+      "body": [
+        "橘宏樹　現役官僚のニューヨーク駐在日記",
+        "第18回　With Japanに見出す日本の生存戦略｜橘宏樹",
+        "橘宏樹さんが、「中の人」ならではの視点で日米の行政・社会構造を比較分析していく連載「現役官僚のNY駐在日記」の最終回です。日本はNYから何を学ぶべきなのか。日本とNY、日本と世界は共に栄える関係をいかに築けるのかを論じます。"
+      ],
+      "truncated": true
+    },
     {
       "id": "4c3758724331",
       "source": "kazobara",
