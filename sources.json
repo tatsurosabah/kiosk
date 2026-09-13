@@ -38,6 +38,22 @@
       "hue": 196,
       "excerpt_chars": 2500,
       "enabled": true
+    },
+    {
+      "id": "kazobara",
+      "name": "尾原和啓",
+      "url": "https://note.com/kazobara/rss",
+      "site": "https://note.com/kazobara",
+      "hue": 232,
+      "enabled": true
+    },
+    {
+      "id": "lifeisbeautiful",
+      "name": "中島聡",
+      "url": "https://note.com/lifeisbeautiful/rss",
+      "site": "https://note.com/lifeisbeautiful",
+      "hue": 330,
+      "enabled": true
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13T13:43:05.594506+00:00",
+  "updated": "2026-09-13T14:03:32.551249+00:00",
   "sources": [
     {
       "id": "uno",
@@ -22,9 +22,38 @@
       "hue": 196,
       "excerpt_chars": 2500,
       "enabled": true
+    },
+    {
+      "id": "kazobara",
+      "name": "尾原和啓",
+      "site": "https://note.com/kazobara",
+      "hue": 232,
+      "enabled": true
+    },
+    {
+      "id": "lifeisbeautiful",
+      "name": "中島聡",
+      "site": "https://note.com/lifeisbeautiful",
+      "hue": 330,
+      "enabled": true
     }
   ],
   "articles": [
+    {
+      "id": "4c3758724331",
+      "source": "kazobara",
+      "title": "AIスタートアップが年商100億円を軽々超える理由——「インテリジェンス」と「ジャッジメント」を正しく理解する",
+      "url": "https://note.com/kazobara/n/n8522dcc1494c",
+      "date": "2026-09-13T02:07:55+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/313166326/rectangle_large_type_2_8a279569bc8688305defaab999ea5f3e.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "AIスタートアップやAI事業が、年間売上100億円を軽々と超える急成長期に入っている。この現象を理解する上で「インテリジェンス」と「ジャッジメント」という概念は避けて通れない基礎になっているが、日本ではやや単純化されて伝わっている印象がある。今回はその補足をしたい。",
+        "発火点はセコイアのブログ"
+      ],
+      "truncated": true
+    },
     {
       "id": "87a5dca24be3",
       "source": "uno",
@@ -36,6 +65,21 @@
       "subtitle": "",
       "body": [
         "この度、建築コンペの審査員をすることになった。"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "cf8149b83841",
+      "source": "kazobara",
+      "title": "「出力＝入力ｘ価値基準」──修正主義時代の新しい自分を見つける方程式-515号-",
+      "url": "https://note.com/kazobara/n/ne448caeeff42",
+      "date": "2026-09-10T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/309614789/rectangle_large_type_2_a50a13d264e6af9778a79948c984fa68.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "（2021年09月11日の解説動画を記事化しました）",
+        "──────"
       ],
       "truncated": true
     },
@@ -52,6 +96,30 @@
       "truncated": true
     },
     {
+      "id": "577688053ec2",
+      "source": "slowtimes",
+      "title": "群れる資本、群れる野心。シリコンバレーの新しいステータスゲーム",
+      "url": "https://slowtimesjp.substack.com/p/26-the-herd-of-silicon-valley",
+      "date": "2026-09-09T22:05:43+00:00",
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/2ae37099-4251-4bff-ad25-14739bd7d1af_1732x908.png",
+      "author": "Tetsuro Miyatake",
+      "subtitle": "逆張りの聖地が、なぜ横並びになるのか",
+      "body": [
+        "いよいよOff Topicとしての最後の仕事である、本の出版が再来週に迫ってきた。なんと紀伊國屋梅田本店さんで、既にテスト販売が開始されているという！新刊話題書、業界の2カ所に展開いただいている。近くに行かれる際には足を運んでみてもらえると嬉しい。",
+        "ポップもご作成いただきありがとうございます！",
+        "またこちらから予約いただくことも可能になっている。”未来検索” をよろしくお願いします！(上記リンクはAmazon アソシエイトに紐づいたリンクになっています)",
+        "皆さんの周りの方に今回のポストをシェアしていただけると嬉しいです",
+        "目次",
+        "シリコンバレーという集団",
+        "私たちはどうすればいいのか",
+        "結びに",
+        "#Appendix - Glossary",
+        "シリコンバレーという集団",
+        "シリコンバレーは地球上で最も稀有な場所の一つである。"
+      ],
+      "truncated": true
+    },
+    {
       "id": "707440336d83",
       "source": "uno",
       "title": "3年前に小説を書いたときに考えていたこと",
@@ -63,6 +131,21 @@
       "body": [
         "さて、たまには自作について振り返りみたいなことをしてみたい。今日気がついたのだが、3年前に僕が初めて書いた長編小説『チーム・オルタナティブの冒険』がKindle Unlimitedで読めるようになっていた。僕の批評は読んでいるけれど、小説は未読という読者は結構いると思うのだけど、このサービスを利用している人なら実質0円で読めるので、ぜひとも読んでみて欲しい（期間限定らしいので、お早めに）。",
         "チーム・オルタナティブの冒険 (ホーム社)amzn.asia 2,090円(2026年09月09日 20:58時点詳しくはこちら) Amazon.co.jpで購入する"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "87c01d45e469",
+      "source": "kazobara",
+      "title": "noteCSO深津さんのX投稿から効率良く「AI活用法」を学ぶ - Xから叡智だけを抜き出すプロンプト術と即実践に変換術",
+      "url": "https://note.com/kazobara/n/ncc0a3d38921a",
+      "date": "2026-09-09T02:41:18+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/311827615/rectangle_large_type_2_d162b0ab224692ddff3f8de29f614ea5.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "昨日ギルド代表でnote CSOの深津さんと対談を某所でして相変わらず最高だったのですが、その事前勉強のために実行したプロンプトがシンプルで良かったので共有です。　プロンプトはシンプルで",
+        "深津さんのXの発言 @fladdict から　ここ２ヶ月で、あたらしいAI活用の試み、あたらしいプロンプトの使い方などを　できるだけ網羅的にあつめた上で　経営者にとってインパクトある順にならべなおしてください。"
       ],
       "truncated": true
     },
@@ -82,6 +165,45 @@
       "truncated": true
     },
     {
+      "id": "9b4377da344a",
+      "source": "kazobara",
+      "title": "GPT-6新技術を誰よりも早く、自分の事業の天井をあげることに活用する４つのプロンプト",
+      "url": "https://note.com/kazobara/n/n6f5f2d9aa93a",
+      "date": "2026-09-08T02:45:38+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/311483695/rectangle_large_type_2_3b3a022235d6e3be644a83512ac20e72.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "AIで自動化はやって当たり前になった現在",
+        "「AIが自動化・コスト削減と誰もが【底上げ】をしてくれる時代に、知性によって【自分の天井を高く】していってますか？」です。",
+        "ICC京都でのシバタさんの問いかけがわかりやすく、AIネイティブ経営と皆聞きますが、質問はシンプルで",
+        "『３ヶ月で売上げを倍するにはどうしますか？』",
+        "です。　なぜならば、GPT6はAGIに近づき【人がPCでやれることをほぼなんでも話すだけでできる時代】に我々はきている、今までは",
+        "「やりたいがあっても　→　出来るようにする人材や能力が調達できない」から「AIが何でも出来る（or 直に出来るようになる）なら　　→あなたがやりたいことの天井をあげる何があなたにある？」に変わっているのです。",
+        "とはいえ、この実行には３つの壁があります。",
+        "１．【技術の壁】とはいえ、AIの革新はまだ限定的、次々おきる技術＝できることの上限があがっていく、何の【出来ることの壁】が突破されたかを把握するのが大変",
+        "２．【理解の壁】毎年100-200兆円と国家予算レベルの投資の中天才がうみだす新しい【出来ることの壁の突破】は難解で、自分の何に応用できるか？の手前の何ができるのか？という理解の壁が高すぎてあきらめてしまう",
+        "３．【適用の壁】出来ることの天井を高くするといっても、自分の何に適応すればいいのか？さらには出来ることを増やすためには、入力と出力を非連続に拡張する必要があり、何を拡張すればいいのか？",
+        "https://aismiley.co.jp/ai_news/ai-models/"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "44de568bc7ce",
+      "source": "kazobara",
+      "title": "何者かになるルールの変化:円の外側で自分になるには自分の内側に深く潜れの巻-514号-",
+      "url": "https://note.com/kazobara/n/n09279fc2cceb",
+      "date": "2026-09-07T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/309613634/rectangle_large_type_2_1ab4942c2ec4cd0c2e94cd5a4938a50e.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "（2021年9月10日の解説動画を記事化しました）",
+        "今日はですね、新しい自分の作り方、何者かへのなり方をやりたいと思うんですよ。"
+      ],
+      "truncated": true
+    },
+    {
       "id": "f0f9280aa167",
       "source": "uno",
       "title": "『ちいかわ』化する社会の「解決策」としての『マタギドライヴ』",
@@ -92,6 +214,68 @@
       "subtitle": "",
       "body": [
         "さて、先月『ちいかわ』について取り上げてから、行く先々でこの話を振られて、ちょっとビックリしている。しかし、これは、結果的にそうなっただけかもしれないが、同作が「よくできている」証拠なのだろう。身も蓋もないことを言えば、これは、身分化しつつある日本社会の寓話であり、同時に、かつて戦後中流と呼ばれていた階級の出身者の多くがアンダークラスにジワジワと転落していったこの「失われた30年」のなかで、「身分」に納得し、余計なことを考えず、搾取される側のままでいることを正当化する物語ーー麻薬としての「小さな幸せ」ーーへの需要がある、ということに尽きる。"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "faf98f463508",
+      "source": "slowtimes",
+      "title": "#25 AIがメールを飲み込むとき、働き方はどう変わるか",
+      "url": "https://slowtimesjp.substack.com/p/25-emails-in-the-age-of-ai",
+      "date": "2026-09-06T22:05:48+00:00",
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/b55cea53-23d1-4b45-ab8f-b862273a134c_1733x907.png",
+      "author": "Tetsuro Miyatake",
+      "subtitle": "AIエージェント時代における『速さ』の意味",
+      "body": [
+        "今年も気づけば2/3が終わり、徐々に年末の足音が聞こえてきた。巷では風邪もコロナもインフルエンザも流行り始めているようで、自分もこのうちに含まれることとなってしまった。皆さんも風邪には気をつけてくださいね。",
+        "Slow Timesは皆さんのご支援によって運営されています。",
+        "登録、有料会員への更新は以下から可能です。",
+        "この世界におけるメールの量は年々増加し続けている。2025年のRadical Groupによる調査では、オフィスワーカー1人当たりが1日に受信するメールの数は平均で約121通であり、経営幹部の場合は、より多く150通から200通の間であることが示された。一方オフィスワーカー1人当たりが1日に送信するメールの数の平均は、40通であった。Microsoftのデータによれば、従業員は現在、1日当たり平均117通のメールと153件のTeamsメッセージを受信している。またナレッジワーカーが1日にメールを確認する平均回数は15回、つまり約37分に1回であると言われている。",
+        "会議やチャット通知を含めると、従業員は約2分ごとに作業を中断されている。",
+        "https://news.microsoft.com/de-ch/2025/06/17/new-microsoft-study-reveals-the-rise-of-the-infinite-workday-40-of-employees-check-email-before-6-a-m-evening-meetings-up-16/",
+        "ますます多くの仕事がデジタルの世界へと移行するにつれて、従業員は良い一層連絡を取りやすく、アクセス可能な存在となり、その結果メッセージの集中砲火を浴びることになっている。",
+        "そして私はAIによってメールの作成と送信が容易になったことで、このトレンドが近いうちに衰えるとも考えていない。",
+        "これが、今日の市場に多数のAIメールアシスタントが存在する理由であり、その大半はメールの仕分けを助けること、そしてあなたの語調でメールを書くのを補助することを目的としている。これらはすべてあなたの作業を高速化する手助けをするために設計されている。",
+        "AIメールの波の次の段階は、システムに組み込まれたより積極的なAIである。単にメールを分類し仕分けするのではなく、AIが行動を起こすのだ。領収書が届いた場合、AIはあなたがそれを目にする前に、そのメールを自動的に経費精算プラットフォームへ転送すべきである。インバウンドの見込み客は、CRMにコピーされるべきである。ワークフローは、メールが受信箱に届いたその瞬間に始まるべきなのだ。",
+        "これによって我々人類が本当に興味深く考えるべきことはなんだろうか。この現象が職場における私たちの振る舞い方をどのように変えるかということである。",
+        "私たちがこれまでずっと前提として、仕事において人間は常にそのループの中に留まり続けると考えてきた。だからこそ、AIモデルがより高速な出力にこれほど注力することには意味があった。人間が関与するアプリケーションにおいては、レイテンシー、つまり遅延時間であり待ち時間の長さが重要だからである。",
+        "しかし将来、AIが私たちのワークフローに真に浸透する時代においては、少なくとも初期の段階において、速度がどの程度重要になるのか、興味深いと思っている。人間がまったくループの中に入らない領域では、レイテンシーをめぐる緊急性は実のところ消え始める。",
+        "昨今、多くの人々が眠りにつく前に複数のエージェントを稼働させているが、それはエージェントが今や一晩中働くことができるからである。これが意味するところとして、遅いコンピューターであっても対応できるということがある。なぜならそこにはコストが存在しないからである。一方で人間には、待たされている間、1秒ごとにコスト（給与）が発生する。",
+        "しかし、人間がまったくループに入らない、真にエージェント的なより先の未来の話をするなら、エージェントはただ仕事をこなしており、何かが起きればそれはイベント駆動型かもしれないし、長期的な性質のものかもしれないが、これらのエージェントはただ、いつ実行するか、いつ実行しないかを決めているだけであり、そのレイテンシーの問題はなくなっている。人々はエージェントについて、「ああ、これで決して眠らない100万人の労働者を手に入れたわけだ」というように語る。しかし決して眠らないことが意味するのは、遅いコンピューターであっても対応できるということだ。なぜならそこにはコストが存在しないからである。エージェントがどれだけ速く仕事を終わらせるかは、あなたにとって何の違いも生まない。",
+        "もし優先事項が、速度よりも仕事を終わらせることそのものにあるのだとすれば、そもそも人間がメールを確認する必要は果たしてあるのだろうか？それともこの先の未来ではメールの確認、レビュー、行動を起こすことのすべてがエージェントによって行われ、最も重要な意思決定だけが通知を通じて人間によって行われるという構造に、より近いものになるのだろうか？1日に121通のメッセージを受信する代わりに、人間は1日に500通以上のメッセージを「受信」するが、実際にはエージェントがそのうち490通を処理し、意思決定を必要とする10通の扱い方について人間と話し合う、という形になるのかもしれない。",
+        "皆さんの周りの方に今回のポストをシェアしていただけると嬉しいです！",
+        "#Current Things",
+        "Y Combinatorの次のバッチのカオスマップ。相変わらずAI、フィジカルAI、防衛テック周りが人気。個人的にはY Combinatorの過去のバッチは「これからのスタートアップトレンド」を示していたと思うが、今は「今のスタートアップのトレンド」を示している気がする。",
+        "脳をモニタリングしてどれだけ「今この瞬間」に心を向けているのかを測るデバイス「Atlas」がローンチした。AIの発展によってC向けハードウェアデバイスが再熱しているのは嬉しい。"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "ae66c993a001",
+      "source": "kazobara",
+      "title": "なぜ「1円も使わない再建」は美術館を黒字化できたのか——西野亮廣の4ヶ月間から読み解く全社会人応用できる構造+最新AIで加速化させる上級編",
+      "url": "https://note.com/kazobara/n/n6789fd855f48",
+      "date": "2026-09-05T01:46:06+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/310428956/rectangle_large_type_2_61831674279fc3933935cbee3e4b075e.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "キングコング西野亮廣氏が公開した「美術館の赤字を潰すまでの4ヶ月の記録」は、一見すると事業再生のサクセスストーリーだ。だが中身を分解していくと、これは特殊な才能の物語ではなく、誰でも再現可能な意思決定の型の物語であることが見えてくる。"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "358ccc8ec14c",
+      "source": "kazobara",
+      "title": "数字からおりるときに一番怖い？お金の奴隷にならないステップ-513号-",
+      "url": "https://note.com/kazobara/n/n7e4f12caf6a6",
+      "date": "2026-09-03T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/309020730/rectangle_large_type_2_eb9365ae4a136e8882ebba5a944de93e.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "（2020年7月20日の動画解説を記事化しました）ㅤㅤ",
+        "今日は何を語りたいっていうと、あえて数字からおりるの数字の中でも、最強のお金の奴隷にどうやってならずに済むのか。お金の奴隷にならずに済む方法を教えてくれたらってあったので、そのあたりを解説していきたいと思います。"
       ],
       "truncated": true
     },
@@ -128,6 +312,29 @@
       "truncated": true
     },
     {
+      "id": "dfd59c286e39",
+      "source": "kazobara",
+      "title": "「深く考察して」——たった一言でAIをあなた専属の参謀に変える3ステップ",
+      "url": "https://note.com/kazobara/n/n2e81d99bb730",
+      "date": "2026-09-02T13:56:43+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/309649244/rectangle_large_type_2_6a475a99f25ce5fd69baf685cb5c9212.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "この記事で得られること",
+        "自分よりも賢いAIが月3,000円で手に入る時代に、その力を最大限引き出す方法を解説する。鍵となるのは「深く考察して」というたった一つのプロンプトと、それを軸にした3つの習慣だ。",
+        "「深く考察して」という魔法の一言",
+        "AIの知性の上限は引き上げられ続けている。ChatGPT5.6の「Sol」をはじめ、月3,000円ほどで自分よりずっと賢いAIが手に入る時代が来た。そこで提案したいのが、たった一つのシンプルなプロンプトである。",
+        "気になるニュースや、次の商談のアジェンダをコピペして、「深く考察して」と頼む。それだけでいい。",
+        "このひと言によってAIは、ユーザーが何を求めているのかを推論し始める。外部の情報やユーザー自身の過去のAI利用履歴を調査し、意向に沿った結果をどう出せるか仮説を立てる。その仮説に基づいてさらに調査し、シナリオを提示する——これを何周も繰り返すことで、使えば使うほど「あなた流」で「あなたを超えた」考察をAIが提供してくれるようになる。",
+        "たとえば新しいガンダムについて「深く考察して」と依頼した実例もあるので、参考にしてほしい",
+        "ChatGPT5.6Sol オタク考察エグい、、もう俺いらないや... この画像から「この布陣から読み解けることを深く考察して」だけで下記のレベルよ.....",
+        "## 結論… pic.twitter.com/NSsTPHvN3v",
+        "— 尾原＠メタスキル発即三刷2.4万部！ (@kazobara) July 24, 2026"
+      ],
+      "truncated": true
+    },
+    {
       "id": "a8caa10bce40",
       "source": "uno",
       "title": "『劇場版 魔法少女まどか☆マギカ〈ワルプルギスの廻天〉』と「時代」の問題",
@@ -153,6 +360,36 @@
       "body": [
         "今日は少し大きな話をしてみたい。いま起きているのは、「格差」の「身分」化だ。たとえば、日本の場合、「失われた30年」の間に世代が一回りしつつあるので、格差が「親ガチャ」によって固定され、身分化しはじめている。これはどう考えてもまずい。",
         "しかし、脳みそが2010年代前半で止まっている新自由主義系というか、初期ニューズピックス系はいまだに露悪的に「俺様は有能＆意識高いから格差OK」みたいなキャラで語るのがカッコいいみたいなことを言っているし、偽善系の権威ビジネスをやめられない学者先生や社会起業家とかは、左右の立場を問わずビニールハウスの中から無責任に「これからは共同体の相互扶助で何とかしよう」的なバカなことをウットリと語る。この人たちは、共同体の下位カーストに置かれる人々のことや、共同性を維持するために発生する「いじめ」のリスクを、まったく考えられていない。僕は、繰り返し述べているように、結局「再分配」しかないと思う。"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "46388f097dee",
+      "source": "kazobara",
+      "title": "物語思考の面白さ解説-512号-",
+      "url": "https://note.com/kazobara/n/n75ea1e828141",
+      "date": "2026-08-31T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/309018801/rectangle_large_type_2_9727682ade7d0bf6c305cb74b8366d06.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "（2020年5月25日の10分解説動画を記事化しました）",
+        "今日はですね、二つお話したいと思います。一つは、あえて数字からおりるって言ってる割に、めっちゃ数字こだわってる。それは矛盾してない？ってツッコミが入ったので、その話。"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "5d7525139970",
+      "source": "kazobara",
+      "title": "昭和100年の激変期で何がおきてる？日本の一等地——錦市場に学ぶ非連続のビジネスチャンス",
+      "url": "https://note.com/kazobara/n/nf75f722eebe3",
+      "date": "2026-08-31T03:27:31+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/308783229/rectangle_large_type_2_d3f4158dfcb80f48ceb438ac11dd03f4.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "この記事で得られること",
+        "昭和100年、戦後80年という節目で、日本の各地で相続による所有権の非連続な移転が起きている。この記事では、京都・錦市場の変貌を手がかりに、その背景にある構造と、そこに眠るビジネスチャンスの捉え方を整理する。"
       ],
       "truncated": true
     },
@@ -212,6 +449,21 @@
       "truncated": true
     },
     {
+      "id": "c086df9493b0",
+      "source": "kazobara",
+      "title": "その「保存したチャート図」、実はAI時代良質なプロンプトになる",
+      "url": "https://note.com/kazobara/n/nde4448ef4b66",
+      "date": "2026-08-29T03:38:08+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/308091579/rectangle_large_type_2_4c309936e1a6b3355bb88bebf6da6fb9.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "SNSや本を読んでいて、「この図、すごく分かりやすい」とスクリーンショットしたことはないだろうか。",
+        "仕事の優先順位を決める図。人間関係を整理するフレームワーク。キャリアを考えるためのチャート。企画のつくり方を一枚にしたスライド。"
+      ],
+      "truncated": true
+    },
+    {
       "id": "4916b4b94a71",
       "source": "uno",
       "title": "「死の終焉」について：文化系のための『マタギドライヴ』の読み方 #2 序章",
@@ -222,6 +474,21 @@
       "subtitle": "",
       "body": [
         "さて、落合陽一『マタギドライヴ』読解の2回目を始めよう。僕は編集長の最終確認を兼ねてこの解説を書くために、改めて1ページ目から読んでいるが、この本は1ページあたりの理論の圧縮度が凄まじい（90年代の柄谷行人を思わせる）。自社の本ながら、なんて勉強になる本なんだと感動している。歯ごたえのある本だけれど、食らいついて読めば得るものは計り知れないと思う。僕も粘り強く解説していくので、着いてきて欲しい。"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "cf960c4c9e9a",
+      "source": "kazobara",
+      "title": "SNSに僕等はどう変容されてて、でも、僕等の承認欲求はしたたかなのか-511号-",
+      "url": "https://note.com/kazobara/n/n238ac6cdf580",
+      "date": "2026-08-27T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/306859209/rectangle_large_type_2_f063db3d8db269c80de1c18c5a8f1923.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "（2020年12月9日 解説動画を記事化しました）",
+        "インスタグラムとかツイッターが、最近ユーザーインターフェースをものすごく変えていて。"
       ],
       "truncated": true
     },
@@ -273,6 +540,184 @@
       "truncated": true
     },
     {
+      "id": "1800eef40e5f",
+      "source": "kazobara",
+      "title": "日本人は、なぜ「ダメな人間」を見捨てないのか - 落語、太宰、小津、成瀬から『ちいかわ』まで―「非矯正型エンタメ」の日本文化史",
+      "url": "https://note.com/kazobara/n/n9abe030f19fd",
+      "date": "2026-08-25T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/306155831/rectangle_large_type_2_a4d2d98ea4fa75c209004f1c514ecf79.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "落語、太宰、小津、成瀬から『ちいかわ』まで――「非矯正型エンタメ」の日本文化史",
+        "『ヤニねこ』『地元最高！』『みいちゃんと山田さん』。",
+        "そして『ちいかわ』『ラヴ上等』。",
+        "これらの作品に共通しているのは、社会にうまく適応できない人、自分を正しく管理できない人、成長物語に乗れない人を、矯正してから愛するのではなく、その状態のまま物語の中心に置くことだ。",
+        "前回、僕はこれを「非矯正型エンタメ」と呼んだ。",
+        "しかし、この感性は本当に新しいものなのだろうか。",
+        "考えてみれば、日本の文学や映画は、昔から妙に「立派でない人間」に優しい。",
+        "酒をやめられない。",
+        "働けない。",
+        "恋愛で同じ失敗を繰り返す。",
+        "社会に適応できない。",
+        "努力しても、どうにもならない。",
+        "普通の物語なら、途中で成長させられるか、罰を受けるか、退場させられる人物だ。",
+        "ところが日本の物語は、そんな人物の横に座り、季節が変わるまで一緒にいる。"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "c8e2cb976653",
+      "source": "lifeisbeautiful",
+      "title": "AIは、口に出さずに何を考えているのか？",
+      "url": "https://note.com/lifeisbeautiful/n/nc9e429a69340",
+      "date": "2026-08-25T17:17:02+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "A Global Workspace in Language Models"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "daca4a93cb15",
+      "source": "lifeisbeautiful",
+      "title": "そのAIは名医なのか、テストが得意なだけなのか？",
+      "url": "https://note.com/lifeisbeautiful/n/nd716edd10e4c",
+      "date": "2026-08-25T17:15:01+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "The Oracle Problem: an invisible bottleneck to AI and medicine"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "4a9a6f1d54cf",
+      "source": "lifeisbeautiful",
+      "title": "AIチップの競争は「賢さ」から「待たせない速さ」へ移るのか？",
+      "url": "https://note.com/lifeisbeautiful/n/n3b528f5fd322",
+      "date": "2026-08-25T17:00:41+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "NVIDIA Groq 3 LPX Now in Full Production With World-Class Speed for Agentic AI"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "443f3b1ef7c7",
+      "source": "lifeisbeautiful",
+      "title": "AIバブルが「崩壊しない」としたら、何が起こるのか？",
+      "url": "https://note.com/lifeisbeautiful/n/ne918642a6cd4",
+      "date": "2026-08-25T01:55:56+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "What if everything goes right for AI? Learnings from the Aluminium trade."
+      ],
+      "truncated": true
+    },
+    {
+      "id": "b4f06bc1672d",
+      "source": "kazobara",
+      "title": "プロセスが自分の心のOSを書き換えてくれる理由-510号-",
+      "url": "https://note.com/kazobara/n/n506689aa8f70",
+      "date": "2026-08-24T23:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/306761940/rectangle_large_type_2_36a0aa6ea95b2c9c1e020b03aba31679.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "（2021年1月11日の動画を記事化しました）",
+        "はい！",
+        "どうもこんにちは！今日は、何でプロセスエコノミーが大事になってくるのか？という話をしていきます。"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "e8929a34e255",
+      "source": "lifeisbeautiful",
+      "title": "ロボットは「労働力」ではなく「人口」なのか？",
+      "url": "https://note.com/lifeisbeautiful/n/n9eba2fa38af1",
+      "date": "2026-08-24T16:06:29+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "Intelligence is Growing Legs"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "2402c497cee6",
+      "source": "lifeisbeautiful",
+      "title": "TeslaのAIは、人間が運転を覚えるのと同じやり方で訓練されているのか？",
+      "url": "https://note.com/lifeisbeautiful/n/ne0ae5597c2aa",
+      "date": "2026-08-24T15:55:55+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "New Tesla FSD technical talk"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "094e110406e7",
+      "source": "lifeisbeautiful",
+      "title": "お金と仕事は、今どこに流れているのか？",
+      "url": "https://note.com/lifeisbeautiful/n/n2521a16ef5bc",
+      "date": "2026-08-24T15:53:07+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "Charts of the Week: Winds of Thematic Change"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "17da4d04f3af",
+      "source": "lifeisbeautiful",
+      "title": "AIの次のボトルネックは、半導体でも電力でもなく「お金」なのか？",
+      "url": "https://note.com/lifeisbeautiful/n/na4da7f0dbc42",
+      "date": "2026-08-24T15:52:33+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "The Financialization Opportunity in Compute"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "2067aee41932",
+      "source": "lifeisbeautiful",
+      "title": "レーザーを捨てた光通信に、なぜ三大メモリメーカーが揃って出資したのか？",
+      "url": "https://note.com/lifeisbeautiful/n/n51473ede7d19",
+      "date": "2026-08-24T15:51:23+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "MicroLED: The Optical Technology All Three Memory Makers Are Watching"
+      ],
+      "truncated": true
+    },
+    {
       "id": "3c30ee7fef28",
       "source": "uno",
       "title": "『ちいかわ』的幸福と「身分制高齢社会」",
@@ -283,6 +728,36 @@
       "subtitle": "",
       "body": [
         "先週末、箕輪厚介さんと『ちいかわ』について語った対談動画をアップしたところ、今回も予想外に反響が大きかった。『ちいかわ』については、別の面子とも話した動画があるので、そちらも観ておいてほしいのだけれど、今日はその続き、というか、もう少し踏み込んだことを書いておきたい。"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "1e0cd06a590e",
+      "source": "lifeisbeautiful",
+      "title": "Nvidiaが$6Bで買ったのは、AIモデルではなく「AIの作り方」だった",
+      "url": "https://note.com/lifeisbeautiful/n/n0f7dc184938f",
+      "date": "2026-08-23T23:36:37+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "Nvidia reportedly agreed to pay $6B for a non-exclusive license to Poolside's model-building system"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "6f2e336a0628",
+      "source": "lifeisbeautiful",
+      "title": "AIエージェントを一番使い始めたのは、エンジニアではなく法務部門なのか？",
+      "url": "https://note.com/lifeisbeautiful/n/na912b05eb3cc",
+      "date": "2026-08-23T23:36:13+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "AI power users are showing up outside tech"
       ],
       "truncated": true
     },
@@ -320,6 +795,215 @@
       "truncated": true
     },
     {
+      "id": "a162f05546dc",
+      "source": "kazobara",
+      "title": "『ちいかわ』も『ラヴ上等』も、同じ地層から生まれている - いま愛される「非矯正型エンタメ」の正体",
+      "url": "https://note.com/kazobara/n/n40f7721256f6",
+      "date": "2026-08-23T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/306155760/rectangle_large_type_2_6c8ca3bc0bd5e3b74c6b8467006ba4ce.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "前回、『ヤニねこ』『地元最高！』『みいちゃんと山田さん』のアニメ化を、単なる過激作品の流行ではなく、",
+        "「最適化されない人間」が、物語の中心へ戻ってきた現象"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "69a6cb831dac",
+      "source": "kazobara",
+      "title": "なぜ今、『ヤニねこ』『地元最高！』『みいちゃんと山田さん』がアニメになるのか - 「最適化されない人間」が、物語の中心へ戻ってきた",
+      "url": "https://note.com/kazobara/n/n1af3dbbff377",
+      "date": "2026-08-23T02:12:58+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/306154795/rectangle_large_type_2_0cfd499a475a0d0c0616f36f531b3c23.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "「最適化されない人間」が、物語の中心へ戻ってきた"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "9d11843763c9",
+      "source": "lifeisbeautiful",
+      "title": "ロボットに「ChatGPTの瞬間」は来るのか？",
+      "url": "https://note.com/lifeisbeautiful/n/n92663a62bbfb",
+      "date": "2026-08-22T13:29:04+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "From Demo to Business: The Race in Physical AI"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "2f9eff6b414b",
+      "source": "lifeisbeautiful",
+      "title": "30点のAIが満点を取る──賢いのはモデルなのか、その周りの仕組みなのか？",
+      "url": "https://note.com/lifeisbeautiful/n/n7b7eedffc7c7",
+      "date": "2026-08-22T13:26:30+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "NVIDIA AVO Reaches 100% on ARC-AGI-3, Demonstrating a Frontier-Level General-Purpose Architecture for Long-Horizon Autonomous Agents"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "eb43b46df0ac",
+      "source": "lifeisbeautiful",
+      "title": "AIの「速さ」は、贅沢品から土台に変わるのか？",
+      "url": "https://note.com/lifeisbeautiful/n/n57b766158a57",
+      "date": "2026-08-22T13:23:49+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "Cerebras、Supernova 2026でCS-4を発表"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "fcade5ad0019",
+      "source": "lifeisbeautiful",
+      "title": "誰も中身を理解していないコードの上で、世界は動いていていいのか？",
+      "url": "https://note.com/lifeisbeautiful/n/n917554ad760f",
+      "date": "2026-08-22T13:22:08+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "What Happens When the World is Run on Code No One Understands?"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "b87ad58a6a92",
+      "source": "lifeisbeautiful",
+      "title": "AIは、細胞まるごとをシミュレーションできるのか？",
+      "url": "https://note.com/lifeisbeautiful/n/n09c9e36eab30",
+      "date": "2026-08-21T23:22:27+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "AIDO Cell: A General-Purpose Simulator for Cell Biology"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "830c7331f729",
+      "source": "lifeisbeautiful",
+      "title": "ロボティクスの「バブル」は、どこにあるのか？",
+      "url": "https://note.com/lifeisbeautiful/n/na7c07dadd81d",
+      "date": "2026-08-21T15:49:50+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "What 10 months in production taught us about the robotics \"bubble\""
+      ],
+      "truncated": true
+    },
+    {
+      "id": "6478cde32c0c",
+      "source": "lifeisbeautiful",
+      "title": "AIが賢くなるほど強くなり、AIに奪われない事業とは何か？",
+      "url": "https://note.com/lifeisbeautiful/n/n385e18fab235",
+      "date": "2026-08-21T15:47:15+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "Be AI-Native and AI-Proof"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "6984b1cb49da",
+      "source": "lifeisbeautiful",
+      "title": "自動運転のコストは、なぜ半分以下になったのか？",
+      "url": "https://note.com/lifeisbeautiful/n/n58faa61cc4b1",
+      "date": "2026-08-21T13:49:41+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "Waymo begins fully autonomous ops with 6th-gen Driver, targets 1M weekly rides"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "382957a08204",
+      "source": "lifeisbeautiful",
+      "title": "ロボットは「人口統計」なのか？——すでに工場で働き始めた人間型ロボットの経済学",
+      "url": "https://note.com/lifeisbeautiful/n/n18c74b630f6b",
+      "date": "2026-08-21T13:48:46+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "Intelligence is Growing Legs"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "ef6f64ff5339",
+      "source": "lifeisbeautiful",
+      "title": "法律事務所は、自分たちの「知能」を所有できるのか？",
+      "url": "https://note.com/lifeisbeautiful/n/n2718a1ab5299",
+      "date": "2026-08-21T13:48:21+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "Update on our post-training effort"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "6d3e1e6c92ef",
+      "source": "lifeisbeautiful",
+      "title": "NVIDIAはHBM依存から逃げられるのか？ 光でつなぐ「外付けメモリ」がNAND需要を押し上げる",
+      "url": "https://note.com/lifeisbeautiful/n/nde8a4b93ee14",
+      "date": "2026-08-21T13:42:12+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "Kim Jung-ho says NVIDIA's eSSD-over-optical approach to work around Korean HBM dependence is driving NAND demand higher"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "2a12a6eeb4fe",
+      "source": "lifeisbeautiful",
+      "title": "次のAI競争は「推論の効率」になるのか？ — メモリのボトルネックを解く二つの解法",
+      "url": "https://note.com/lifeisbeautiful/n/n29657af2f306",
+      "date": "2026-08-21T13:39:00+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "다음 AI 경쟁은 추론 효율이다 - 메모리 병목을 푸는 두 가지 해법"
+      ],
+      "truncated": true
+    },
+    {
       "id": "5bdf37d6930f",
       "source": "uno",
       "title": "〈制作〉と〈公共性〉と二人の作家",
@@ -331,6 +1015,51 @@
       "body": [
         "今日は、2020年代に入ってから僕が考えてきたことーー『遅いインターネット』から『庭の話』へ、そして『第四の主体のためのノート』へーーに大きな影響を与えた二人の作家について、簡単に触れたい。",
         "【期間限定無料公開】『遅いインターネット』序章／第１章｜宇野常寛 | 遅いインターネット期間限定で『遅いインターネット』（幻冬舎）の序章と第1章を無料公開します。 世界中が「速いインターネット」に侵食されつつあslowinternet.jp"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "95086bdbad2c",
+      "source": "lifeisbeautiful",
+      "title": "「トークンは新しいドル」——StripeによるOpenRouter買収は何を意味するのか？",
+      "url": "https://note.com/lifeisbeautiful/n/n64a140ce31c6",
+      "date": "2026-08-21T04:20:58+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "OpenRouter & Stripe: The Intelligence Network"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "694f9c4750d8",
+      "source": "lifeisbeautiful",
+      "title": "Teslaのロボタクシーは、いつ「実験」から「商売」になるのか？",
+      "url": "https://note.com/lifeisbeautiful/n/n944c08c791fb",
+      "date": "2026-08-21T04:20:31+00:00",
+      "image": "",
+      "author": "中島聡",
+      "subtitle": "",
+      "body": [
+        "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
+        "EXCLUSIVE: Tesla has just officially received approval for its full Autonomous Vehicle Network Company permit in Nevada"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "ad621425f1c1",
+      "source": "kazobara",
+      "title": "意味が増幅される理由と、コラボができる秘訣-509号-",
+      "url": "https://note.com/kazobara/n/n73e5fbd2401a",
+      "date": "2026-08-20T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/304536405/rectangle_large_type_2_da8264c3c76837dfe9b5bf9435c84d1d.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "（2019年10月11日の10分解説動画を記事化しました）",
+        "こんにちは。尾原のオンラインサロンハックのお時間です。"
       ],
       "truncated": true
     },
@@ -371,6 +1100,24 @@
       "truncated": true
     },
     {
+      "id": "e78b8c9c0e6a",
+      "source": "kazobara",
+      "title": "テレ朝・日テレ・TBS、なぜ同じテレビ離れでも踏みとどまれたのか——5局の「経営OS」比較",
+      "url": "https://note.com/kazobara/n/n0fbce0617b18",
+      "date": "2026-08-18T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/303985605/rectangle_large_type_2_4de6cafee1a251cc044fb3c543bdc2c7.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "フジテレビの視聴率低迷を単体で見ても、本質は見えてこない。",
+        "「同じ逆風の中で、なぜテレ朝・日テレ・TBSは耐えている、あるいは伸ばしているのか」",
+        "を見たほうが構造が明確になる。",
+        "特に「テレ朝＝習慣視聴、TBS＝大型IPとイベント化、日テレ＝全日帯の生活導線」という違いに注目すると、フジだけが落ちている理由がくっきり浮かび上がる。(尾原個人の分析・仮説です。念のため）",
+        "「何をもって好調とするか」で勝者が変わる"
+      ],
+      "truncated": true
+    },
+    {
       "id": "a86c03126c8c",
       "source": "uno",
       "title": "『ちいかわ』化する社会を「どうすればいいのか」",
@@ -381,6 +1128,21 @@
       "subtitle": "",
       "body": [
         "今日は箕輪厚介さんと対談してきた。内容は『ちいかわ』問題を枕にした「格差」についてのものだ。昨日書いたように、『ちいかわ』の社会現象化が示しているのは、端的に言って、アンダークラスの「諦め」を肯定するヒーリングだろう。鎧さん（人間）の管理下で、ブラックバイト（毒草とモンスターの駆除）によって日銭を稼ぎ、貧しい暮らしの中で「友だち」と食べるインスタントラーメンを至上の喜びにする「幸福」を提示する……。"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "b438b782165c",
+      "source": "kazobara",
+      "title": "役に立つより意味がある時代の意味の見出し方-508号-",
+      "url": "https://note.com/kazobara/n/n789f1957eb4c",
+      "date": "2026-08-17T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/304535314/rectangle_large_type_2_5895cb4256f45a269f833c6c98b324b8.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "（2019年10月10日の10分解説動画を記事化しました）",
+        "─────────────"
       ],
       "truncated": true
     },
@@ -443,6 +1205,43 @@
       "truncated": true
     },
     {
+      "id": "aebd13482a1c",
+      "source": "kazobara",
+      "title": "フジテレビはなぜテレ東以下になったのか——7つの層で読み解く凋落の構造",
+      "url": "https://note.com/kazobara/n/n38a5b79e53fe",
+      "date": "2026-08-16T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/303983205/rectangle_large_type_2_21bfb67229f09ae033b507e85ed07768.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "フジテレビの視聴率低迷が「テレ東以下」とまで語られるようになった。だがこれは単なる不祥事の後遺症ではない。",
+        "「テレビ局からコンテンツ/IP企業へ移行する際、フジが最も大きな“既存資産の呪い”を抱えていた」と、",
+        "フジが1980〜2000年代に最適化した「勝ち方そのもの」が、現在のメディア環境では逆に弱点になっている——これが最も腑に落ちる説明である。",
+        "この記事では、最新データをもとに凋落の実態を確認し、原因を7つの層に分けて整理する。"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "33033ee38649",
+      "source": "kazobara",
+      "title": "【脳汁ゲスト】けんすう・尾原のAI未来会議ー 言語化しすぎないほうが、AIはうまく動く - 半年で起きたAI５つの構造転換",
+      "url": "https://note.com/kazobara/n/n7932fdb5e87e",
+      "date": "2026-08-15T04:52:29+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/303677679/rectangle_large_type_2_368398eb75a90799ce09074409035499.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "【月１ゲスト】けんすうとのAI話　脳汁！",
+        "この半年で見えた「AI活用の変曲点」一実務・プロダクト・マーケティング・SaaSの再定義",
+        "流石のけんすう、ヒトよりすごいAIをレバレッジするための新しい軸見えたよ。脳汁回！（動画、AI記事化、本対談後に参照すべきリンクなどはメンバーシップ（文末）から）",
+        "AIの勝ち筋、言語化しすぎないほうが、AIはうまく動く",
+        "AIは“個別機能の自動化”を超え、“意図推定”“連関性の理解”“主観の学習”によって、",
+        "仕事の設計・ブランド・プロダクト運営そのものを書き換え始めている。",
+        "この半年で、AI活用の重心がかなり変わった。けんすうさんと約90分話して見えてきたのは、AIが「作業の自動化」から「その人・その会社が大事にするものを理解するシステム」へ移り始めたこと。"
+      ],
+      "truncated": true
+    },
+    {
       "id": "35874919af41",
       "source": "uno",
       "title": "人間が「場所」に自由を感じる条件（カフェとコワーキングスペース、そして宇野書店）",
@@ -469,6 +1268,21 @@
       "body": [
         "批評家の濱野智史さんによる連載「リハビリテーション・ジャーナル」です。指定難病「特発性大腿骨頭壊死症」にかかり、人工股関節を入れる手術を受けるため、約1ヶ月間の入院生活を送ることとなった濱野さん。人生初の経験となる長期にわたる入院生活、そしてその後のリハビリ生活の中で見えてきたノウハウやメソッドを紹介しながら、「健康」と「身体」を見つめ直していきます。",
         "第6回は、あえて「プールを休む」ことで気づいたプール・ウォーキングの効果や身体の変化ついて論じます。"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "288a034775e1",
+      "source": "kazobara",
+      "title": "ワクワクが行動につながりやすくなるためには-507号-",
+      "url": "https://note.com/kazobara/n/n2a9f82c3e966",
+      "date": "2026-08-13T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/302280263/rectangle_large_type_2_dc26dd6da12b6aeaf92b548724aa4d6d.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "（2020年10月8日の動画を記事化しました）",
+        "今日お話しするのは、”ワクワク”っていう話です。"
       ],
       "truncated": true
     },
@@ -507,6 +1321,34 @@
       "truncated": true
     },
     {
+      "id": "e98a62752783",
+      "source": "kazobara",
+      "title": "8月ゲストけんすうとの未来会議は 8/14(金）21時位から",
+      "url": "https://note.com/kazobara/n/na633a6e93b69",
+      "date": "2026-08-12T07:46:58+00:00",
+      "image": "",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "お待たせしました"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "50edb2c13db1",
+      "source": "kazobara",
+      "title": "AIに仕事をさせるな。仕事そのものを疑わせろ。- AI自動化の前に自分も進化するシンプルなプロンプト術",
+      "url": "https://note.com/kazobara/n/n868633c1ab0e",
+      "date": "2026-08-12T03:49:29+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/302732237/rectangle_large_type_2_6b3fda1c3c2df9d3498f77fd00c8a06d.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "この記事で得られること 議事録AIを「時短ツール」から「組織の鏡」へ引き上げる具体的なプロンプト群。 そして、AI活用の問いを「どうやる？」から「なぜやってる？」へ反転させる思考の型。"
+      ],
+      "truncated": true
+    },
+    {
       "id": "af4c779f8e52",
       "source": "uno",
       "title": "都市の「緑」の問題と公共空間としての「寺社」の再定義",
@@ -517,6 +1359,24 @@
       "subtitle": "",
       "body": [
         "今日は、先週の京都視察で考えたことの続きだ。"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "3bbea22f8724",
+      "source": "kazobara",
+      "title": "人間の良心は信じる。でも、根性は信じない。AIがすべてのUXに埋め込まれる時代に、僕たちが設計すべきもの",
+      "url": "https://note.com/kazobara/n/n038e3fc45990",
+      "date": "2026-08-11T03:08:43+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/302408369/rectangle_large_type_2_944e5dd9e13b17a5d05ac1715c974c8d.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "私は、人間の良心をかなり信じている。",
+        "困っている人がいれば、助けたい。",
+        "約束したことは、できれば守りたい。",
+        "相手を傷つけたら、謝りたい。",
+        "自分が知っていることで誰かが助かるなら、教えてあげたい。"
       ],
       "truncated": true
     },

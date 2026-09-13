@@ -103,7 +103,11 @@
     color:var(--muted);font-weight:600;letter-spacing:.04em
   }
   .badge.local{border-color:#BFC7B2;color:var(--green)}
-  .badge.later{border-color:#DEBCAF;color:var(--warm)}
+  .star{
+    margin-left:auto;background:none;border:0;padding:0 0 0 12px;font-size:16px;line-height:1;
+    color:var(--faint);cursor:pointer;flex:0 0 auto
+  }
+  .star.on{color:var(--warm)}
 
   .empty{text-align:center;color:var(--faint);padding:64px 20px;font-size:13px;line-height:2;
     letter-spacing:.04em}
@@ -205,7 +209,7 @@
   <div class="tabs">
     <button class="tab on" data-tab="unread">未読<b id="n-unread"></b></button>
     <button class="tab" data-tab="all">すべて<b id="n-all"></b></button>
-    <button class="tab" data-tab="later">あとで<b id="n-later"></b></button>
+    <button class="tab" data-tab="later">見たい<b id="n-later"></b></button>
   </div>
   <div class="chips" id="chips"></div>
 </header>
@@ -222,7 +226,7 @@
   <div class="sheethead">
     <button class="iconbtn" data-close>‹</button>
     <h2 id="a-src"></h2>
-    <button class="iconbtn" id="a-later" style="margin-left:auto" title="あとで読む">☆</button>
+    <button class="iconbtn" id="a-later" style="margin-left:auto" title="見たい">☆</button>
   </div>
   <div class="sheetbody" id="a-body"></div>
 </div>
@@ -361,6 +365,7 @@ function load(cb){
       (d.sources||[]).forEach(function(s){ SRC[s.id] = s; });
       SRC.inbox = SRC.inbox || {id:"inbox", name:"追加したもの", hue:40};
       SRC.paste = {id:"paste", name:"貼り付け", hue:150, local:true};
+      autoPick();
       render(); if(cb) cb();
     })
     .catch(function(){
@@ -368,6 +373,21 @@ function load(cb){
       SRC.paste = {id:"paste", name:"貼り付け", hue:150, local:true};
       render();
     });
+}
+
+// URLで足したものと貼り付けたものは「わざわざ入れた＝特に見たい」なので自動で☆を付ける。
+// 一度でも自動で付けたIDは覚えておき、ユーザーが外したあとに復活させない。
+function autoPick(){
+  S.autoseen = S.autoseen || {};
+  var changed = false;
+  allItems().forEach(function(a){
+    if(a.source !== "inbox" && a.source !== "paste") return;
+    if(S.autoseen[a.id]) return;
+    S.autoseen[a.id] = 1;
+    S.later[a.id] = 1;
+    changed = true;
+  });
+  if(changed) save();
 }
 
 function allItems(){
@@ -424,16 +444,20 @@ function filtered(){
   return xs;
 }
 
+function updateCounts(){
+  var all = allItems();
+  $("#n-all").textContent = all.length;
+  $("#n-unread").textContent = all.filter(function(a){ return !S.read[a.id]; }).length;
+  $("#n-later").textContent = all.filter(function(a){ return S.later[a.id]; }).length;
+  return all;
+}
+
 function render(){
   // 更新時刻
   $("#updated").textContent = DATA.updated
     ? fmtDay(DATA.updated).replace("きょう","今日") + " " + fmtTime(DATA.updated) + " 更新" : "";
 
-  // 件数
-  var all = allItems();
-  $("#n-all").textContent = all.length;
-  $("#n-unread").textContent = all.filter(function(a){ return !S.read[a.id]; }).length;
-  $("#n-later").textContent = all.filter(function(a){ return S.later[a.id]; }).length;
+  var all = updateCounts();
 
   // ソースチップ
   var counts = {};
@@ -454,7 +478,7 @@ function render(){
   if(!xs.length){
     html.push('<div class="empty">' + (view.tab === "unread"
       ? "未読はありません。<br>下の「＋」から記事やメルマガを足せます。"
-      : view.tab === "later" ? "「あとで」に入れた記事がここに並びます。"
+      : view.tab === "later" ? "☆を付けた記事がここに並びます。<br>URLで追加した記事は自動でここに入ります。"
       : "まだ記事がありません。") + "</div>");
   }
   page.forEach(function(a){
@@ -470,7 +494,8 @@ function render(){
             '<span class="src">' + esc(s.name) + "</span>" +
             "<span>" + fmtTime(a.date) + "</span>" +
             (s.local ? '<span class="badge local">端末内</span>' : "") +
-            (S.later[a.id] ? '<span class="badge later">あとで</span>' : "") +
+            '<button class="star' + (S.later[a.id] ? " on" : "") + '" data-star="' +
+              esc(a.id) + '" aria-label="見たい">' + (S.later[a.id] ? "★" : "☆") + "</button>" +
           "</div>" +
           '<h3 class="ctitle">' + esc(a.title) + "</h3>" +
           '<p class="cexcerpt">' + esc(ex) + "</p>" +
@@ -585,6 +610,23 @@ function msg(sel, kind, text){
 // ---------------------------------------------------------------- イベント
 document.addEventListener("click", function(ev){
   var t = ev.target;
+
+  var star = t.closest && t.closest("[data-star]");
+  if(star){
+    ev.stopPropagation();
+    var sid = star.dataset.star;
+    if(S.later[sid]) delete S.later[sid]; else S.later[sid] = 1;
+    save();
+    if(view.tab === "later"){
+      render();                       // 「見たい」タブでは外した記事が消える
+    } else {
+      // 一覧を作り直すと画像を読み直してちらつくので、その場で書き換える
+      star.textContent = S.later[sid] ? "★" : "☆";
+      star.classList.toggle("on", !!S.later[sid]);
+      updateCounts();
+    }
+    return;
+  }
 
   var card = t.closest && t.closest(".card");
   if(card){ openArticle(card.dataset.id); return; }
@@ -708,6 +750,9 @@ $("#btn-save-paste").onclick = function(){
   };
   S.pasted = S.pasted || [];
   S.pasted.unshift(item);
+  S.autoseen = S.autoseen || {};
+  S.autoseen[item.id] = 1;
+  S.later[item.id] = 1;          // 貼り付けたものは「特に見たい」扱い
   save();
   ["#in-ptitle","#in-purl","#in-pbody"].forEach(function(s){ $(s).value = ""; });
   msg("#paste-msg","ok","保存しました（この端末の中だけ）。");
