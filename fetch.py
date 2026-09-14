@@ -18,6 +18,7 @@ import ssl
 import sys
 import time
 import hashlib
+import random
 import gzip
 import io
 from datetime import datetime, timezone, timedelta
@@ -47,7 +48,7 @@ _SSL = ssl._create_unverified_context() if os.environ.get("KIOSK_INSECURE_SSL") 
 
 # YouTube の feeds.xml は同じIPから連続で叩くと 404 / 500 を返す。
 # 中身が消えたわけではないので、間を大きく空けて retry する。
-BACKOFF = (5, 15, 40)
+BACKOFF = (6, 18, 45)
 
 
 def http_get(url, timeout=30, tries=None):
@@ -60,7 +61,7 @@ def http_get(url, timeout=30, tries=None):
         except Exception as e:
             last = e
             if i < len(waits):
-                time.sleep(waits[i])
+                time.sleep(waits[i] + random.uniform(0, 4))   # 揃って叩かないよう散らす
     raise last
 
 
@@ -593,9 +594,14 @@ def main():
         save(SOURCES, cfg)
 
     if not inbox_only:
-        for s in cfg["sources"]:
-            if s.get("enabled") is False:
-                continue
+        # YouTube の feeds.xml は毎回ランダムに一部が 404 になる。
+        # 何度か走らせれば埋まるので、**まだ取れていないソースから先に**試す。
+        have = {}
+        for a in articles:
+            have[a["source"]] = have.get(a["source"], 0) + 1
+        todo = [x for x in cfg["sources"] if x.get("enabled") is not False]
+        todo.sort(key=lambda x: have.get(x["id"], 0))
+        for s in todo:
             limit = int(s.get("excerpt_chars", limit_default))
             kind = s.get("kind", "article")
             s_url = s["url"]
