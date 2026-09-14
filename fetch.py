@@ -45,7 +45,26 @@ _SSL = ssl._create_unverified_context() if os.environ.get("KIOSK_INSECURE_SSL") 
 # HTTP
 # --------------------------------------------------------------------------
 
-def http_get(url, timeout=30):
+# YouTube の feeds.xml は同じIPから連続で叩くと 404 / 500 を返す。
+# 中身が消えたわけではないので、間を大きく空けて retry する。
+BACKOFF = (5, 15, 40)
+
+
+def http_get(url, timeout=30, tries=None):
+    yt = "youtube.com" in url
+    waits = BACKOFF if yt else (2, 5)
+    last = None
+    for i in range(len(waits) + 1):
+        try:
+            return _http_get_once(url, timeout)
+        except Exception as e:
+            last = e
+            if i < len(waits):
+                time.sleep(waits[i])
+    raise last
+
+
+def _http_get_once(url, timeout=30):
     req = Request(url, headers={
         "User-Agent": UA,
         "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, text/html;q=0.8, */*;q=0.5",
@@ -220,10 +239,23 @@ def parse_feed(xml_text, feed_url):
             summary_html = text_of(e, "description")
             content_html = text_of(e, "encoded")   # content:encoded
 
+        # YouTube は本文も画像も <media:group> の中に入れるので、そこも探す
+        mg = child(e, "group")
+        if mg is not None:
+            if not summary_html and not content_html:
+                summary_html = text_of(mg, "description")
+            if not title:
+                title = text_of(mg, "title")
+
         # media:thumbnail は note のように「URLを要素の中身に書く」流儀もある
         image = ""
-        for name, attr in (("thumbnail", "url"), ("content", "url"),
-                           ("enclosure", "url"), ("image", "href")):
+        for holder in ([mg] if mg is not None else []):
+            c = child(holder, "thumbnail")
+            if c is not None and (c.get("url") or "").startswith("http"):
+                image = c.get("url")
+                break
+        for name, attr in (() if image else (("thumbnail", "url"), ("content", "url"),
+                           ("enclosure", "url"), ("image", "href"))):
             c = child(e, name)
             if c is None:
                 continue
@@ -244,8 +276,11 @@ def parse_feed(xml_text, feed_url):
             if a is not None:
                 author = text_of(a, "name") or ("".join(a.itertext()).strip())
 
+        video = text_of(e, "videoId")          # yt:videoId。YouTube のときだけ入る
+
         dt = parse_date(date_raw)
         items.append({
+            "video": video,
             "title": unescape(title).strip(),
             "url": urljoin(feed_url, link.strip()) if link else "",
             "date": dt.astimezone(timezone.utc).isoformat() if dt else "",
@@ -261,7 +296,7 @@ def make_id(url, title=""):
     return hashlib.sha1((url or title).encode("utf-8")).hexdigest()[:12]
 
 
-def build_article(raw, source_id, limit):
+def build_article(raw, source_id, limit, kind="article"):
     body_html = raw["_content_html"] if len(raw["_content_html"]) > len(raw["_summary_html"]) \
         else raw["_summary_html"]
     paras = html_to_paragraphs(body_html)
@@ -277,7 +312,7 @@ def build_article(raw, source_id, limit):
         subtitle = ""
     if subtitle and body and body[0].startswith(subtitle[:20]):
         subtitle = ""
-    return {
+    art = {
         "id": make_id(raw["url"], raw["title"]),
         "source": source_id,
         "title": raw["title"],
@@ -289,6 +324,11 @@ def build_article(raw, source_id, limit):
         "body": body,
         "truncated": truncated,
     }
+    if kind == "video":
+        art["kind"] = "video"
+        art["video"] = raw.get("video") or ""
+        art["truncated"] = False      # 動画に「続きは媒体で」は要らない
+    return art
 
 
 # --------------------------------------------------------------------------
@@ -318,6 +358,14 @@ def guess_feed_urls(url):
         m = re.match(r"^/(@[^/]+)", path)
         if m:
             out.append(f"https://medium.com/feed/{m.group(1)}")
+    if "youtube.com" in host:
+        # プレイリストURL（/playlist?list=PL… や watch?v=…&list=PL…）→ そのフィード
+        m = re.search(r"[?&]list=([\w-]{12,})", p.query and "?" + p.query or "")
+        if m and m.group(1).startswith("PL"):
+            out.append("https://www.youtube.com/feeds/videos.xml?playlist_id=" + m.group(1))
+        m = re.match(r"^/channel/(UC[\w-]{10,})", path)
+        if m:
+            out.append("https://www.youtube.com/feeds/videos.xml?channel_id=" + m.group(1))
     return out
 
 
@@ -404,6 +452,11 @@ def article_from_html(html, url, limit):
         "body": body,
         "truncated": truncated,
     }
+    if kind == "video":
+        art["kind"] = "video"
+        art["video"] = raw.get("video") or ""
+        art["truncated"] = False      # 動画に「続きは媒体で」は要らない
+    return art
 
 
 # --------------------------------------------------------------------------
@@ -544,6 +597,8 @@ def main():
             if s.get("enabled") is False:
                 continue
             limit = int(s.get("excerpt_chars", limit_default))
+            kind = s.get("kind", "article")
+            s_url = s["url"]
             try:
                 txt, final = http_get(s["url"])
                 _, items = parse_feed(txt, final)
@@ -554,7 +609,7 @@ def main():
             for raw in items:
                 if not raw["url"] or not raw["title"]:
                     continue
-                art = build_article(raw, s["id"], limit)
+                art = build_article(raw, s["id"], limit, kind)
                 if art["id"] in by_id:
                     old = by_id[art["id"]]
                     old.update({k: v for k, v in art.items() if v or k in ("truncated",)})
@@ -563,7 +618,7 @@ def main():
                     by_id[art["id"]] = art
                     fresh += 1
             print(f"  {s['name']}: {len(items)}件（新着 {fresh}）")
-            time.sleep(0.6)
+            time.sleep(2.5 if 'youtube.com' in s_url else 0.6)
 
     # 日付の新しい順、ソースごとに keep 件まで
     articles.sort(key=lambda a: a.get("date") or "", reverse=True)
@@ -578,6 +633,7 @@ def main():
     out = {
         "updated": datetime.now(timezone.utc).isoformat(),
         "sources": [{k: v for k, v in s.items() if k != "url"} for s in cfg["sources"]],
+        "generated_by": "fetch.py",
         "articles": kept,
     }
     print(f"合計 {len(kept)} 件 / ソース {len(cfg['sources'])}")

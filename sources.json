@@ -7,12 +7,11 @@
     "site": "人間が開くトップページ",
     "hue": "0-360。アプリ内でこのソースに割り当てる色",
     "excerpt_chars": "保存する本文の上限文字数。省略時は 1500",
-    "enabled": "false にすると収集を止める（記事は残る）"
+    "enabled": "false にすると収集を止める（記事は残る）",
+    "kind": "\"video\" にすると動画として扱う（観るタブに入る）。省略時は記事"
   },
-
   "excerpt_chars_default": 1500,
   "keep_per_source": 60,
-
   "sources": [
     {
       "id": "uno",
@@ -53,6 +52,96 @@
       "url": "https://note.com/lifeisbeautiful/rss",
       "site": "https://note.com/lifeisbeautiful",
       "hue": 330,
+      "enabled": true
+    },
+    {
+      "id": "gaia",
+      "name": "ガイアの夜明け",
+      "kind": "video",
+      "url": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLirT2ByBZWrNxQLgagSv8ouZuFB90QMS2",
+      "site": "https://www.youtube.com/playlist?list=PLirT2ByBZWrNxQLgagSv8ouZuFB90QMS2",
+      "hue": 25,
+      "enabled": true
+    },
+    {
+      "id": "cambria",
+      "name": "カンブリア宮殿",
+      "kind": "video",
+      "url": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLirT2ByBZWrPF8LTWzubFaRo5aCeHvfoJ",
+      "site": "https://www.youtube.com/playlist?list=PLirT2ByBZWrPF8LTWzubFaRo5aCeHvfoJ",
+      "hue": 0,
+      "enabled": true
+    },
+    {
+      "id": "breakthrough",
+      "name": "ブレイクスルー",
+      "kind": "video",
+      "url": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLirT2ByBZWrP3S_16WyL2fU0TzkH9rWzs",
+      "site": "https://www.youtube.com/playlist?list=PLirT2ByBZWrP3S_16WyL2fU0TzkH9rWzs",
+      "hue": 120,
+      "enabled": true
+    },
+    {
+      "id": "joho",
+      "name": "週刊ジョーホー",
+      "kind": "video",
+      "url": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLDxonNcxMgrsll_OKFrV_ZezWe6AGz0Fp",
+      "site": "https://www.youtube.com/playlist?list=PLDxonNcxMgrsll_OKFrV_ZezWe6AGz0Fp",
+      "hue": 280,
+      "enabled": true
+    },
+    {
+      "id": "nikkei",
+      "name": "NIKKEI Film＆ドキュメント",
+      "kind": "video",
+      "url": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLAIxU7IL_MnAfLo2JDi_zmFQAkI9DAS2H",
+      "site": "https://www.youtube.com/playlist?list=PLAIxU7IL_MnAfLo2JDi_zmFQAkI9DAS2H",
+      "hue": 45,
+      "enabled": true
+    },
+    {
+      "id": "itokan",
+      "name": "伊藤貫の真剣な雑談",
+      "kind": "video",
+      "url": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLMDQWLoaJzxOSBIGEiDR7Qotu-5s51fAd",
+      "site": "https://www.youtube.com/playlist?list=PLMDQWLoaJzxOSBIGEiDR7Qotu-5s51fAd",
+      "hue": 60,
+      "enabled": true
+    },
+    {
+      "id": "rikei",
+      "name": "橋本幸治の理系通信",
+      "kind": "video",
+      "url": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLirT2ByBZWrNT1tlKZy2uAFRsaEc9KEEe",
+      "site": "https://www.youtube.com/playlist?list=PLirT2ByBZWrNT1tlKZy2uAFRsaEc9KEEe",
+      "hue": 175,
+      "enabled": true
+    },
+    {
+      "id": "crossdig",
+      "name": "CROSS DIG DOCUMENT",
+      "kind": "video",
+      "url": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLXqW0TzOy8Ag8uT0rPs08t79KrqFc_Yb3",
+      "site": "https://www.youtube.com/playlist?list=PLXqW0TzOy8Ag8uT0rPs08t79KrqFc_Yb3",
+      "hue": 210,
+      "enabled": true
+    },
+    {
+      "id": "ochiai",
+      "name": "WEEKLY OCHIAI",
+      "kind": "video",
+      "url": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLDxonNcxMgrtONxErEWf2ZUlVJAoqDh9R",
+      "site": "https://www.youtube.com/playlist?list=PLDxonNcxMgrtONxErEWf2ZUlVJAoqDh9R",
+      "hue": 260,
+      "enabled": true
+    },
+    {
+      "id": "nishiguchi",
+      "name": "西口さん、マーケティングって本当に必要ですか？",
+      "kind": "video",
+      "url": "https://www.youtube.com/feeds/videos.xml?playlist_id=PLirT2ByBZWrM0Qeu3GRT7z_OYgyv3OauJ",
+      "site": "https://www.youtube.com/playlist?list=PLirT2ByBZWrM0Qeu3GRT7z_OYgyv3OauJ",
+      "hue": 310,
       "enabled": true
     }
   ]
