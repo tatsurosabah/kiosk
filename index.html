@@ -51,16 +51,25 @@
   }
   .iconbtn:active{background:var(--accent-soft)}
 
-  .tabs{display:flex;gap:2px;margin-top:10px}
-  .tab{
-    flex:0 0 auto;background:none;border:0;padding:7px 12px 9px;color:var(--faint);
-    font-size:13px;font-weight:600;letter-spacing:.06em;cursor:pointer;
+  /* 記事と動画は別世界。まずここで切り替える */
+  .modes{display:flex;align-items:flex-end;margin-top:10px}
+  .mode{
+    flex:0 0 auto;background:none;border:0;padding:6px 2px 9px;margin-right:16px;
+    color:var(--faint);font-size:15px;font-weight:700;letter-spacing:.1em;cursor:pointer;
     border-bottom:2px solid transparent
   }
-  .tab.on{color:var(--ink);border-bottom-color:var(--ink)}
-  .tab b{font-weight:600;font-size:11px;margin-left:5px;color:var(--faint);
+  .mode.on{color:var(--ink);border-bottom-color:var(--ink)}
+  .mode b{font-weight:600;font-size:11px;margin-left:6px;color:var(--faint);
     font-variant-numeric:tabular-nums}
-  .tab.on b{color:var(--warm)}
+  .mode.on b{color:var(--warm)}
+  /* その中での絞り込み */
+  .filters{margin-left:auto;display:flex;gap:3px;padding-bottom:7px}
+  .filt{
+    background:none;border:0;padding:4px 8px;border-radius:999px;color:var(--faint);
+    font-size:11.5px;letter-spacing:.04em;cursor:pointer;white-space:nowrap
+  }
+  .filt.on{background:var(--accent-soft);color:var(--ink);font-weight:600}
+  .filt b{font-weight:600;font-size:10.5px;margin-left:4px;font-variant-numeric:tabular-nums}
 
   .chips{display:flex;gap:7px;overflow-x:auto;padding:10px 0 11px;scrollbar-width:none}
   .chips::-webkit-scrollbar{display:none}
@@ -220,11 +229,14 @@
     <button class="iconbtn" id="btn-reload" title="読み込み直す">⟳</button>
     <button class="iconbtn" id="btn-settings" title="設定">⚙</button>
   </div>
-  <div class="tabs">
-    <button class="tab on" data-tab="article">読む<b id="n-article"></b></button>
-    <button class="tab" data-tab="video">観る<b id="n-video"></b></button>
-    <button class="tab" data-tab="later">見たい<b id="n-later"></b></button>
-    <button class="tab" data-tab="all">すべて<b id="n-all"></b></button>
+  <div class="modes">
+    <button class="mode on" data-mode="article">読む<b id="n-article"></b></button>
+    <button class="mode" data-mode="video">観る<b id="n-video"></b></button>
+    <div class="filters">
+      <button class="filt on" data-tab="unread" id="f-unread">未読</button>
+      <button class="filt" data-tab="later">見たい<b id="n-later"></b></button>
+      <button class="filt" data-tab="all">すべて</button>
+    </div>
   </div>
   <div class="chips" id="chips"></div>
 </header>
@@ -361,7 +373,7 @@ function save(){ try{ localStorage.setItem(KEY, JSON.stringify(S)); }catch(e){} 
 
 var DATA = { articles:[], sources:[], updated:"" };
 var SRC = {};              // id -> source
-var view = { tab:"article", src:"" };
+var view = { mode:(S.mode || "article"), tab:(S.tab || "unread"), src:"" };
 var current = null;
 var PAGE = 24, shown = PAGE;      // note の画像は一度に何十枚も頼むと弾かれるので少しずつ出す
 
@@ -454,12 +466,17 @@ function fmtTime(iso){
   return ("0"+d.getHours()).slice(-2) + ":" + ("0"+d.getMinutes()).slice(-2);
 }
 
-// タブだけで絞ったもの（チップの出し分けに使う）
+// 記事と動画は必ず分ける。混ぜて出す画面は作らない
+function inMode(){
+  var wantVideo = view.mode === "video";
+  return allItems().filter(function(a){ return isVideo(a) === wantVideo; });
+}
+
+// そのうえでの絞り込み（チップの出し分けにも使う）
 function inTab(){
-  var xs = allItems();
-  if(view.tab === "article") return xs.filter(function(a){ return !isVideo(a) && !S.read[a.id]; });
-  if(view.tab === "video")   return xs.filter(function(a){ return  isVideo(a) && !S.read[a.id]; });
-  if(view.tab === "later")   return xs.filter(function(a){ return S.later[a.id]; });
+  var xs = inMode();
+  if(view.tab === "unread") return xs.filter(function(a){ return !S.read[a.id]; });
+  if(view.tab === "later")  return xs.filter(function(a){ return S.later[a.id]; });
   return xs;                                            // すべて
 }
 
@@ -471,10 +488,11 @@ function filtered(){
 
 function updateCounts(){
   var all = allItems();
-  $("#n-all").textContent = all.length;
   $("#n-article").textContent = all.filter(function(a){ return !isVideo(a) && !S.read[a.id]; }).length;
   $("#n-video").textContent   = all.filter(function(a){ return  isVideo(a) && !S.read[a.id]; }).length;
-  $("#n-later").textContent   = all.filter(function(a){ return S.later[a.id]; }).length;
+  // 「見たい」は今いる側（記事 or 動画）の分だけ数える
+  $("#n-later").textContent   = inMode().filter(function(a){ return S.later[a.id]; }).length;
+  $("#f-unread").textContent  = view.mode === "video" ? "未視聴" : "未読";
   return all;
 }
 
@@ -504,10 +522,9 @@ function render(){
   var page = xs.slice(0, shown);
   if(!xs.length){
     html.push('<div class="empty">' + (
-        view.tab === "article" ? "読むものはありません。<br>下の「＋」から記事やメルマガを足せます。"
-      : view.tab === "video"   ? "観るものはありません。<br>新しい回が出たらここに溜まります。"
-      : view.tab === "later"   ? "☆を付けたものがここに並びます。<br>URLで追加したものは自動でここに入ります。"
-      : "まだ何もありません。") + "</div>");
+        view.tab === "later"  ? "☆を付けたものがここに並びます。<br>URLで追加したものは自動でここに入ります。"
+      : view.mode === "video" ? "観るものはありません。<br>新しい回が出たらここに溜まります。"
+      : "読むものはありません。<br>下の「＋」から記事やメルマガを足せます。") + "</div>");
   }
   page.forEach(function(a){
     var day = fmtDay(a.date);
@@ -740,11 +757,22 @@ document.addEventListener("click", function(ev){
   var chip = t.closest && t.closest(".chip");
   if(chip){ view.src = chip.dataset.src; shown = PAGE; window.scrollTo(0,0); render(); return; }
 
-  var tab = t.closest && t.closest(".tab");
-  if(tab){
-    view.tab = tab.dataset.tab;
+  var mode = t.closest && t.closest(".mode");
+  if(mode){
+    view.mode = mode.dataset.mode;
+    view.src = "";                 // 記事と動画でソースが違うので絞り込みは外す
+    S.mode = view.mode; save();
     shown = PAGE;
-    $$(".tab").forEach(function(b){ b.classList.toggle("on", b === tab); });
+    $$(".mode").forEach(function(b){ b.classList.toggle("on", b === mode); });
+    window.scrollTo(0,0); render(); return;
+  }
+
+  var filt = t.closest && t.closest(".filt");
+  if(filt){
+    view.tab = filt.dataset.tab;
+    S.tab = view.tab; save();
+    shown = PAGE;
+    $$(".filt").forEach(function(b){ b.classList.toggle("on", b === filt); });
     window.scrollTo(0,0); render(); return;
   }
 
@@ -823,7 +851,7 @@ $("#btn-readall").onclick = function(){
   var xs = filtered();
   if(!xs.length) return;
   if(!confirm("表示中の " + xs.length + " 件を"
-      + (view.tab === "video" ? "観たことに" : "既読に") + "します。")) return;
+      + (view.mode === "video" ? "観たことに" : "既読に") + "します。")) return;
   xs.forEach(function(a){ S.read[a.id] = 1; });
   save(); render();
 };
@@ -935,6 +963,8 @@ $("#file-import").onchange = function(){
 document.addEventListener("keydown", function(e){ if(e.key === "Escape") closeAll(); });
 
 // ---------------------------------------------------------------- 起動
+$$(".mode").forEach(function(b){ b.classList.toggle("on", b.dataset.mode === view.mode); });
+$$(".filt").forEach(function(b){ b.classList.toggle("on", b.dataset.tab === view.tab); });
 load();
 if("serviceWorker" in navigator && location.protocol === "https:"){
   navigator.serviceWorker.register("sw.js").catch(function(){});
