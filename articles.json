@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T15:46:42.371429+00:00",
+  "updated": "2026-09-15T00:24:18.335024+00:00",
   "sources": [
     {
       "id": "uno",
@@ -120,6 +120,21 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "1b8018e9dd6b",
+      "source": "kazobara",
+      "title": "論破とコントラバーシャルの違い：バズる言葉の作り方-516号-",
+      "url": "https://note.com/kazobara/n/n63502a3ece3b",
+      "date": "2026-09-14T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/312069927/rectangle_large_type_2_87a9fca1e05aa7df50dba797bb670c34.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "（2021年10月21日の動画解説を記事化しました）",
+        "はい。こんにちは。本日は『論破と、コントラバーシャル（議論を引き起こす）の違いと大事さ』っていう話をしていきたいと思います。"
+      ],
+      "truncated": true
+    },
     {
       "id": "abf406d51b95",
       "source": "gaia",
