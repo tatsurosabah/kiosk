@@ -218,6 +218,17 @@
   .srcrow .dot{width:8px;height:8px;border-radius:50%;flex:0 0 auto}
   .srcrow .nm{flex:1;font-size:14px;font-weight:600}
   .srcrow .ct{font-size:11.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+  .scope{font-size:12px;color:var(--muted);letter-spacing:.04em;margin:0 0 14px;line-height:1.7}
+  .scope b{color:var(--ink2)}
+  .readopt{
+    width:100%;display:flex;align-items:center;gap:10px;text-align:left;
+    background:none;border:0;border-bottom:1px solid var(--hair);
+    padding:15px 2px;font-size:15px;color:var(--ink);cursor:pointer
+  }
+  .readopt:active{background:var(--surface)}
+  .readopt em{margin-left:auto;font-style:normal;font-size:12.5px;color:var(--muted);
+    font-variant-numeric:tabular-nums}
+  .readopt.all{color:var(--warm);font-weight:600}
 </style>
 </head>
 <body>
@@ -256,6 +267,22 @@
     <button class="iconbtn" id="a-later" style="margin-left:auto" title="見たい">☆</button>
   </div>
   <div class="sheetbody" id="a-body"></div>
+</div>
+
+<!-- ============ まとめて既読 ============ -->
+<div class="sheet" id="sheet-read">
+  <div class="sheethead">
+    <button class="iconbtn" data-close>‹</button>
+    <h2 id="read-title">まとめて既読に</h2>
+  </div>
+  <div class="sheetbody">
+    <p class="scope" id="read-scope"></p>
+    <div id="read-opts"></div>
+    <p class="note">
+      既読にしたものは消えません。「すべて」から読み直せます。<br>
+      1件だけ戻すときは、開いて「未読に戻す」を押してください。
+    </p>
+  </div>
 </div>
 
 <!-- ============ 追加 ============ -->
@@ -610,9 +637,11 @@ function openArticle(id){
     h.push('<div class="arow">' +
       (a.url && !a.truncated
         ? '<a class="btn" href="' + esc(a.url) + '" target="_blank" rel="noopener">原文を開く</a>' : "") +
+      '<button class="btn" id="a-upto">ここまで既読</button>' +
       '<button class="btn ghost" id="a-unread">未読に戻す</button>' +
       (s.local ? '<button class="btn ghost" id="a-del">削除</button>' : "") +
-      "</div>");
+      "</div>" +
+      '<p class="hint">「ここまで既読」を押すと、<b>' + esc(s.name) + '</b> のこれより古い記事をまとめて既読にします。</p>');
   }
   killPlayer();
   $("#a-body").innerHTML = h.join("");
@@ -799,16 +828,29 @@ document.addEventListener("click", function(ev){
     return;
   }
 
+  var opt = t.closest && t.closest("[data-days]");
+  if(opt){
+    var days = parseInt(opt.dataset.days, 10);
+    var target = olderThan(filtered(), days);
+    if(!target.length) return;
+    var v = view.mode === "video" ? "観たことに" : "既読に";
+    if(!confirm(target.length + " 件を" + v + "します。よろしいですか？")) return;
+    target.forEach(function(a){ S.read[a.id] = 1; });
+    save(); closeAll(); render();
+    return;
+  }
+
   if(t.id === "a-unread" && current){ delete S.read[current.id]; save(); closeAll(); render(); return; }
 
   if(t.id === "a-upto" && current){
     var cut = current.date || "", srcId = current.source;
+    var vid = isVideo(current);
     var older = allItems().filter(function(x){
       return x.source === srcId && (x.date || "") <= cut && !S.read[x.id];
     });
-    if(!older.length){ alert("これより古い未視聴はありません。"); return; }
-    if(!confirm("「" + (SRC[srcId] || {}).name + "」の、この回を含むこれより古い "
-                + older.length + " 本を観たことにします。")) return;
+    if(!older.length){ alert(vid ? "これより古い未視聴はありません。" : "これより古い未読はありません。"); return; }
+    if(!confirm("「" + (SRC[srcId] || {}).name + "」の、これを含むこれより古い "
+                + older.length + (vid ? " 本を観たことに" : " 件を既読に") + "します。")) return;
     older.forEach(function(x){ S.read[x.id] = 1; });
     save(); closeAll(); render();
     return;
@@ -847,13 +889,43 @@ $("#btn-settings").onclick = function(){
   open("#sheet-settings");
 };
 
+// 「全部か何もしないか」だと使えないので、古いものから段階的に消せるようにする
+var PERIODS = [[3, "3日より前"], [7, "1週間より前"], [30, "1か月より前"], [90, "3か月より前"]];
+
+function olderThan(xs, days){
+  if(!days) return xs.slice();
+  var cut = Date.now() - days * 86400000;
+  return xs.filter(function(a){ return new Date(a.date || 0).getTime() < cut; });
+}
+
 $("#btn-readall").onclick = function(){
   var xs = filtered();
-  if(!xs.length) return;
-  if(!confirm("表示中の " + xs.length + " 件を"
-      + (view.mode === "video" ? "観たことに" : "既読に") + "します。")) return;
-  xs.forEach(function(a){ S.read[a.id] = 1; });
-  save(); render();
+  var verb = view.mode === "video" ? "観たことに" : "既読に";
+  $("#read-title").textContent = view.mode === "video" ? "まとめて視聴済みに" : "まとめて既読に";
+
+  var src = view.src ? (SRC[view.src] || {}).name : "";
+  $("#read-scope").innerHTML =
+    "いま出しているのは <b>" + esc(view.mode === "video" ? "観る" : "読む") + "</b> の <b>" +
+    esc({unread:(view.mode === "video" ? "未視聴" : "未読"), later:"見たい", all:"すべて"}[view.tab]) +
+    "</b>" + (src ? "、<b>" + esc(src) + "</b> だけ" : "") + "。ここから選んだぶんを" + verb + "します。" +
+    (src ? "" : "<br>ソースを1つ選んでから開くと、その媒体だけにできます。");
+
+  if(!xs.length){
+    $("#read-opts").innerHTML = '<div class="empty" style="padding:30px 0">対象がありません。</div>';
+    open("#sheet-read");
+    return;
+  }
+
+  var rows = [], seen = {};
+  PERIODS.forEach(function(p){
+    var n = olderThan(xs, p[0]).length;
+    if(!n || seen[n]) return;              // 同じ件数になる期間は出さない
+    seen[n] = 1;
+    rows.push('<button class="readopt" data-days="' + p[0] + '">' + p[1] + "<em>" + n + "件</em></button>");
+  });
+  rows.push('<button class="readopt all" data-days="0">表示中すべて<em>' + xs.length + "件</em></button>");
+  $("#read-opts").innerHTML = rows.join("");
+  open("#sheet-read");
 };
 
 $("#btn-send-url").onclick = function(){
