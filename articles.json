@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T00:03:22.754917+00:00",
+  "updated": "2026-09-16T08:24:33.537018+00:00",
   "sources": [
     {
       "id": "uno",
@@ -120,6 +120,21 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "39d5f9abe58f",
+      "source": "kazobara",
+      "title": "AI時代だから「アナログのチカラ」に光をあてる - TEDxMelbourneいってきたよ",
+      "url": "https://note.com/kazobara/n/ne2f6ceb201bf",
+      "date": "2026-09-16T00:40:07+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/314173537/rectangle_large_type_2_96b62569312db13328891626fa92530e.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "スマホを紙袋に封印した夜、僕らは「人間」の再起動ボタンを押した",
+        "画面の通知に1日何十回も追いかけられ、生成AIが数秒で「最適解」を出してくれる現代。僕たちは歴史上、最も便利で摩擦のない世界を生きています。けれど、ふと胸の奥がスカスカするような、奇妙な孤立感や疲れを感じることはありませんか？"
+      ],
+      "truncated": true
+    },
     {
       "id": "4eec6996401d",
       "source": "breakthrough",
