@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T08:30:01.059958+00:00",
+  "updated": "2026-09-17T14:12:19.436102+00:00",
   "sources": [
     {
       "id": "uno",
@@ -120,6 +120,60 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "5831d193621c",
+      "source": "ochiai",
+      "title": "【globe、TRF、安室奈美恵、この３つは大きい】小室哲哉が今語る名曲、プロデュース秘話「最高傑作だと思う」TMNETWORK新アルバムへの想い、篠原涼子Mステ裏話に宇多田ヒカルの存在【落合陽一】",
+      "url": "https://www.youtube.com/watch?v=rBG2IAGGKk8",
+      "date": "2026-09-17T11:00:13+00:00",
+      "image": "https://i3.ytimg.com/vi/rBG2IAGGKk8/hqdefault.jpg",
+      "author": "NewsPicks /ニューズピックス",
+      "subtitle": "",
+      "body": [
+        "番組のフル視聴（87分）はこちらから",
+        "https://npx.me/s/TQ5Cl4tV",
+        "10日間無料トライアル実施中",
+        "https://s.npx.me/ySXyEJt8",
+        "_____",
+        "「TMNETWORKの最高傑作だと思います」",
+        "TRF、篠原涼子、華原朋美、globe、安室奈美恵などをプロデュースし、時代を作ってきた小室哲哉氏がいま、自らの新たな音楽をそう評する。9月23日に「TMNETWORK」のニューアルバム『QUANTUM』がリリースされる。",
+        "WEEKLY OCHIAIに初登場した4年前のあの日、まだまだ語りきれなかった数々の名曲誕生秘話、プロデュースの苦悩とは？進化し続ける“小室サウンド”とは何か？",
+        "小室哲哉の音楽人生、その“核心”に落合陽一が再び迫る。",
+        "ゲスト：小室哲哉（音楽家・音楽プロデューサー）",
+        "《目次》",
+        "02:04 My Revolution秘話",
+        "08:21 今語るTKプロデュース",
+        "14:15 阪神淡路大震災と地下鉄サリン事件",
+        "17:02 今語るglobe",
+        "#小室哲哉 #TMNETWORK #落合陽一 #globe #安室奈美恵 #TRF #NewsPicks #WEEKLYOCHIAI"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "rBG2IAGGKk8"
+    },
+    {
+      "id": "6ebac25bda5d",
+      "source": "gaia",
+      "title": "いすゞ自動車「自動運転」に立ちはだかる“思わぬ壁”は…AIトラック原則無人で運行できる「レベル4」を2027年度中に社会実装できるのか【ガイアの夜明け】",
+      "url": "https://www.youtube.com/watch?v=nWQbtlzfDHc",
+      "date": "2026-09-17T10:00:02+00:00",
+      "image": "https://i3.ytimg.com/vi/nWQbtlzfDHc/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "▼番組のフル視聴（43分）はこちらから▼",
+        "https://txbiz.tv-tokyo.co.jp/gaia/vod/post_347692?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_3min_260904_yt_nWQbtlzfDHc",
+        "▼本編では伝えきれなかったエピソード「経営危機で見えた“生き残る道”」▼",
+        "https://txbiz.tv-tokyo.co.jp/gaia/vod/post_348012?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_3min_260904_yt_nWQbtlzfDHc",
+        "▼「テレ東BIZ」会員登録はこちら▼",
+        "https://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_3min_260904_yt_nWQbtlzfDHc",
+        "2030年に日本は現在の物流の約25％の荷物が運べなくなるとの予測がある。ドライバー不足などでスーパーやコンビニの棚に商品が揃わず、ネットで注文した荷物も予定どおり届かない…こうした「物流危機」が現実味を帯び始めている。この状況を乗り越えるため、国内シェアトップの商用自動車メーカー「いすゞ自動車(ISUZU)」が開発を進めるのが自動運転。目指すのは、特定の条件下でドライバーなしでも運転が可能な「自動運転レベル4」の2027年度中の社会実装だ。自動運転は、グーグルやアマゾン、エヌビディアなど世界の巨大テック企業が開発競争を繰り広げる成長市場で、日本も官民一体で存在感を高めようとしている。いすゞは、自動運転の実用化へ向けて、どのような戦略で開発を進めているのか。そして、その前に立ちはだかる壁は…物流の未来を変える使命感を背負った開発現場に独占密着した。",
+        "#ガイアの夜明け #自動運転 #いすゞ #AIトラック #開発 #物流 #テレビ東京 #テレ東BIZ"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "nWQbtlzfDHc"
+    },
     {
       "id": "b78f40ef51af",
       "source": "uno",
