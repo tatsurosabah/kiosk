@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T14:12:19.436102+00:00",
+  "updated": "2026-09-18T00:00:08.087424+00:00",
   "sources": [
     {
       "id": "uno",
@@ -120,6 +120,48 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "9b81c7f8f54c",
+      "source": "kazobara",
+      "title": "加減乗除(+－×÷)の法則と2種類の成長パターン-517号-",
+      "url": "https://note.com/kazobara/n/n27ae76046268",
+      "date": "2026-09-17T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/312070643/rectangle_large_type_2_8879841b28d2276ef9f9ef66ee49160c.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "（2020年11月16日の解説動画を記事化しました）",
+        "──────"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "d60e125f8d5d",
+      "source": "cambria",
+      "title": "カンブリア宮殿【“飲食店の救世主”驚き再生術】予告",
+      "url": "https://www.youtube.com/watch?v=ydOsUSAPIgA",
+      "date": "2026-09-17T15:00:33+00:00",
+      "image": "https://i2.ytimg.com/vi/ydOsUSAPIgA/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "【9月24日(木)夜11時21分放送】",
+        "※9月24日（木）の放送は、放送時間を変更して放送いたします。",
+        "肉汁溢れるハンバーグで大人気のチェーン「ステーキのあさくま」。実はかつて、深刻な経営危機に直面していた。いかにして飲食店を蘇らせるのか…驚きの再生術に迫る！",
+        "https://txbiz.tv-tokyo.co.jp/cambria?utm_source=youtube&utm_medium=video&utm_campaign=cambria",
+        "【ゲスト】テンポスホールディングス　社長　森下篤史",
+        "【ＭＣ】金原ひとみ　ヒャダイン",
+        "「カンブリア宮殿」最新回や過去の放送、TV番組未公開が見放題！",
+        "■テレ東BIZ",
+        "https://txbiz.tv-tokyo.co.jp/cambria?utm_source=youtube&utm_medium=video&utm_campaign=cambria",
+        "■番組HP",
+        "https://www.tv-tokyo.co.jp/cambria/",
+        "#カンブリア宮殿 #金原ひとみ #ヒャダイン #テンポス"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "ydOsUSAPIgA"
+    },
     {
       "id": "5831d193621c",
       "source": "ochiai",
