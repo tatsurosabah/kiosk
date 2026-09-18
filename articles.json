@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T08:04:43.641089+00:00",
+  "updated": "2026-09-18T13:30:22.035652+00:00",
   "sources": [
     {
       "id": "uno",
@@ -121,6 +121,74 @@
   "generated_by": "fetch.py",
   "articles": [
     {
+      "id": "08c6b0cb1d4b",
+      "source": "nishiguchi",
+      "title": "【限定公開中】番組特製“西口マーケAI”の活用法！精度の高い「壁打ち」を実現するプロンプト4つの要素／仕事で活用するための使い方を徹底検証【西口さん、マーケティングって本当に必要ですか？#27】",
+      "url": "https://www.youtube.com/watch?v=4C9byllzLgE",
+      "date": "2026-09-18T12:00:13+00:00",
+      "image": "https://i1.ytimg.com/vi/4C9byllzLgE/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "▼西口マーケAI（ベータ版）を使ってみる▼",
+        "https://txbiz.tv-tokyo.co.jp/mktg?utm_source=youtube&utm_medium=video&utm_campaign=nishiguchi_260909_yt_D_4C9byllzLgE",
+        "本サービスは番組が期間限定（2026年11月まで）で提供するベータ版です。テレ東BIZの有料会員限定で、番組ページまたは各エピソードの視聴ページに掲載のバナーからご利用いただけます。",
+        "▼関連動画こちら▼",
+        "https://txbiz.tv-tokyo.co.jp/mktg/vod/post_348318?utm_source=youtube&utm_medium=video&utm_campaign=nishiguchi_260909_yt_D_4C9byllzLgE",
+        "西口一希氏の膨大な知識とP&G流マーケティングの知見を詰め込んだAIツール「番組特製・西口マーケAI」。今回は、その具体的な使い方と実践的な「壁打ち」の様子を公開します。実際の事業課題に対する戦略立案をどのような思考で行うべきか、AIから本質的なアドバイスを引き出すためのコツを西口氏自らが解説。事業成長や利益の最大化を目指すマーケター・経営者にとって、一般的な生成AIとは一線を画す「優秀な相棒」としてどう活用すべきか？高機能電動歯ブラシの架空事例を使って徹底検証します。",
+        "「なぜ今P&Gなのか」回とあわせてご覧いただくと、このAIの背景にある思考がより深く理解できます。",
+        "この番組は、テレビ東京アナウンサーの古旗笑佳が著名マーケターの西口一希さんに、マーケティングに関する疑問を次々とぶつける「壁打ち」番組。",
+        "あらゆるビジネスパーソンにとって必要なマーケティングについて、基本から実践まで楽しく学んでいきます。テレ東BIZと日経クロストレンドのコラボ企画です。",
+        "・西口 一希（Strategy PartnersおよびWisdom Evolution Company社長）",
+        "P＆Gをはじめ、ロート製薬、ロクシタンジャポンなどの事業会社で活躍し、300社を超える企業のマーケティング支援で実績を積み重ねてきた日本を代表するマーケターの一人。1人の顧客を深く理解し、そこから得られた洞察を基に商品やサービスの開発・改善につなげる「N=1分析」の提唱者。マーケティングに関する著書も多数。",
+        "・古旗 笑佳（テレビ東京アナウンサー）",
+        "#ＰアンドＧ　#マーケティング　#N1分析　#西口一希　#グーグル　#AI　#テレ東BIZ"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "4C9byllzLgE"
+    },
+    {
+      "id": "15ad4586c01e",
+      "source": "cambria",
+      "title": "なぜ”熱狂的ファン”を生み出すのか？異色の経歴を持つ代表・山口絵理子が途上国発ブランドをつくったワケ【カンブリア宮殿】",
+      "url": "https://www.youtube.com/watch?v=uMMqhZCFcNk",
+      "date": "2026-09-18T11:00:09+00:00",
+      "image": "https://i2.ytimg.com/vi/uMMqhZCFcNk/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "▼番組のフル視聴（37分）はこちらから▼",
+        "https://txbiz.tv-tokyo.co.jp/cambria/vod/post_348616?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_260917_yt_uMMqhZCFcNk",
+        "▼不登校・非行・柔道・途上国でブランド作り...苦闘の中挑戦してきた女性起業家の素顔とは？【カンブリア宮殿／スタジオ完全版】▼",
+        "https://txbiz.tv-tokyo.co.jp/cambria/vod/post_348849?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_260917_yt_uMMqhZCFcNk",
+        "▼「テレ東BIZ」会員登録はこちら▼",
+        "https://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_260917_yt_uMMqhZCFcNk",
+        "今やすっかり｢通勤の定番｣となったバックパック。中でも人気を集めているのがマザーハウスのレザーリュックだ。テレビドラマでも引っ張りだこで、いくつもの作品で登場人物が背負っている。手掛けたのは、代表の山口絵理子だ。",
+        "実は、このバッグがつくられているのはバングラデシュ。マザーハウスは｢途上国から世界に通用するブランドをつくる｣という理念のもと自社工場を設立し、現地の素材と職人技を活かしたモノづくりを貫いている。",
+        "いまや国内50店舗、海外8店舗を展開するまでに成長。熱狂的ファンを生み出すヒットの裏側に迫る！",
+        "#マザーハウス #途上国 #レザー #バングラデシュ #リュック #金原ひとみ #ヒャダイン #カンブリア宮殿 #テレビ東京 #テレ東BIZ"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "uMMqhZCFcNk"
+    },
+    {
+      "id": "22ba838f3f5f",
+      "source": "uno",
+      "title": "「自分たちは我慢して未来の子供たちに賭けよう」という論理を受け入れやすい人とそうではない人がいるという話",
+      "url": "https://note.com/wakusei2nduno/n/nd22ea6d79c73",
+      "date": "2026-09-18T09:36:37+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/314966304/rectangle_large_type_2_a7138fad72962c172593a9dff440469d.png?width=800",
+      "author": "宇野常寛",
+      "subtitle": "",
+      "body": [
+        "昨日は、橋本努さんがPLANETS Schoolで講義をしてくれた。",
+        "【9/17（木）19:00-】橋本努　新しい資本主義は可能か　（PLANETS SCHOOL 教養講座 第六期） by PLANETS SCHOOL2026年4月から9月にかけて、「PLANETS SCHOOL 教養講座」の第六期を開催します！「PLANETS SCHOcommunity.camp-fire.jp"
+      ],
+      "truncated": true
+    },
+    {
       "id": "9b81c7f8f54c",
       "source": "kazobara",
       "title": "加減乗除(+－×÷)の法則と2種類の成長パターン-517号-",
@@ -165,7 +233,7 @@
     {
       "id": "5831d193621c",
       "source": "ochiai",
-      "title": "【globe、TRF、安室奈美恵、この３つは大きい】小室哲哉が今語る名曲、プロデュース秘話「最高傑作だと思う」TMNETWORK新アルバムへの想い、篠原涼子Mステ裏話に宇多田ヒカルの存在【落合陽一】",
+      "title": "【この３つのアーティストは大きい】小室哲哉が今語るプロデュース秘話…TMNETWORK新アルバム『QUANTUM』、安室奈美恵、TRF、篠原涼子Mステ裏話、globeの秘話、宇多田ヒカル【落合陽一】",
       "url": "https://www.youtube.com/watch?v=rBG2IAGGKk8",
       "date": "2026-09-17T11:00:13+00:00",
       "image": "https://i3.ytimg.com/vi/rBG2IAGGKk8/hqdefault.jpg",
