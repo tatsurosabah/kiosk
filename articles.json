@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T00:07:37.236847+00:00",
+  "updated": "2026-09-19T07:54:42.955298+00:00",
   "sources": [
     {
       "id": "uno",
@@ -121,6 +121,48 @@
   "generated_by": "fetch.py",
   "articles": [
     {
+      "id": "28f4a5f6a7f6",
+      "source": "joho",
+      "title": "【疑心暗鬼】みんなで「AI開発のスローダウン」が怪しすぎる（Anthropic/OpenAI/Google/ダリオ・アモデイ/サム・アルトマン/イーロン・マスク/解説:後藤直義、森川潤）",
+      "url": "https://www.youtube.com/watch?v=7TlkoFAv_9w",
+      "date": "2026-09-19T03:00:34+00:00",
+      "image": "https://i4.ytimg.com/vi/7TlkoFAv_9w/hqdefault.jpg",
+      "author": "NewsPicks /ニューズピックス",
+      "subtitle": "",
+      "body": [
+        "▼番組のフル視聴はこちらから",
+        "https://npx.me/s/tJbzH6db",
+        "▼10日間無料トライアル実施中",
+        "https://s.npx.me/ySXyEJt8",
+        "-------------------------------------------------------------",
+        "AI開発に、本当にブレーキはかかるのでしょうか。Anthropic、OpenAI、Googleなど業界をリードする5社が、「人類滅亡リスク」を理由にスローダウンで合意。2023年には一時停止の呼びかけに動かなかった彼らが、なぜ今、足並みをそろえたのか。上場を控えるAnthropicとOpenAIの思惑とは。AI競争の最前線で起きている異変をひも解きます。",
+        "▼お知らせ",
+        "👉公式Xはじめました。フォローお願いします！",
+        "https://x.com/shukanjoho_SNS",
+        "▼目次",
+        "00:00 オープニング",
+        "06:07 世界中でバズった、AIの人類滅亡説",
+        "10:13 AI界の重鎮たちが次々反応",
+        "15:47 みんなが恐れる「AIの暴走」って？",
+        "▶フル版では…",
+        "👉みんなで「開発ストップ」が腹黒すぎた",
+        "👉AI開発が止まって嬉しい人たち",
+        "👉5人が急接近した本当の理由は…",
+        "…などなど",
+        "▼出演",
+        "後藤直義（NewsPicks 編集委員／NY支局）",
+        "https://bit.ly/3CW2TOT",
+        "森川潤（NewsPicks NY支局長）",
+        "https://bit.ly/3X4Z5ln",
+        "#AI",
+        "#Anthropic",
+        "#OpenAI"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "7TlkoFAv_9w"
+    },
+    {
       "id": "9cd0064f3e9f",
       "source": "kazobara",
       "title": "1億ダウンロード突破のポッドキャスターが語る「今ゼロから発信を始めるなら絶対にやるべき8つの非常識な戦略」",
@@ -134,6 +176,33 @@
         "そんな悩みを抱えるすべてのクリエイターやビジネスパーソンに向けて、5年間でポッドキャスト1億回ダウンロード、YouTube登録者100万人を達成した『My First Million』のホスト、サム・パー（Sam Parr）が「今ゼロから再スタートするならこうやる」という8つの非常識な戦略（Non-obvious Advice）を明かしました。この内容がよかったので今日は皆さんにシェア"
       ],
       "truncated": true
+    },
+    {
+      "id": "d021fa744582",
+      "source": "gaia",
+      "title": "ガイアの夜明け【脱・“串カツ田中”で勝つ！～成功体験を捨て、大改装に大幅値下げ～】予告",
+      "url": "https://www.youtube.com/watch?v=H_rsWhL2qwE",
+      "date": "2026-09-18T13:53:12+00:00",
+      "image": "https://i1.ytimg.com/vi/H_rsWhL2qwE/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "【9月25日(金)夜10時15分放送】",
+        "※9月25日（金）の放送は、放送時間を変更して放送いたします。",
+        "「串カツ田中」始まって以来のリブランディングや商品開発、さらに物価高に逆行する値下げ戦略など、大改革の舞台裏に密着。串カツ田中の挑戦を追った。",
+        "https://txbiz.tv-tokyo.co.jp/gaia?utm_source=youtube&utm_medium=video&utm_campaign=gaia",
+        "【案内人】長谷川博己",
+        "【ナレーター】田中哲司",
+        "「ガイアの夜明け」最新回や過去の放送、TV番組未公開が見放題！",
+        "■テレ東BIZ",
+        "https://txbiz.tv-tokyo.co.jp/gaia?utm_source=youtube&utm_medium=video&utm_campaign=gaia",
+        "■番組HP",
+        "https://www.tv-tokyo.co.jp/gaia/",
+        "#ガイアの夜明け"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "H_rsWhL2qwE"
     },
     {
       "id": "08c6b0cb1d4b",
@@ -248,7 +317,7 @@
     {
       "id": "5831d193621c",
       "source": "ochiai",
-      "title": "【この３つのアーティストは大きい】小室哲哉が今語るプロデュース秘話…TMNETWORK新アルバム『QUANTUM』、安室奈美恵、TRF、篠原涼子Mステ裏話、globeの秘話、宇多田ヒカル【落合陽一】",
+      "title": "【すごい辛かった】小室哲哉が今語る名曲秘話と苦悩…TMNETWORK新アルバム『QUANTUM』への想い、安室奈美恵、TRFに篠原涼子Mステ裏話、globeの秘話、宇多田ヒカルの存在とは【落合陽一】",
       "url": "https://www.youtube.com/watch?v=rBG2IAGGKk8",
       "date": "2026-09-17T11:00:13+00:00",
       "image": "https://i3.ytimg.com/vi/rBG2IAGGKk8/hqdefault.jpg",
