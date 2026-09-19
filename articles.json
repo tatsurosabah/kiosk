@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T16:22:37.259007+00:00",
+  "updated": "2026-09-19T23:58:24.186956+00:00",
   "sources": [
     {
       "id": "uno",
@@ -120,6 +120,36 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "e076b18b9dc0",
+      "source": "crossdig",
+      "title": "【中国ニッケル支配の代償】子どもの結核が急増…広がる大気汚染／20歳で事故死…劣悪な労働環境／生活を破壊も…「ここで働くしかない」／「クリーンなEV」の汚れた一面",
+      "url": "https://www.youtube.com/watch?v=83pZmlYkcek",
+      "date": "2026-09-19T23:00:13+00:00",
+      "image": "https://i1.ytimg.com/vi/83pZmlYkcek/hqdefault.jpg",
+      "author": "TBS CROSS DIG with Bloomberg",
+      "subtitle": "",
+      "body": [
+        "https://youtube.com/@tbs_bloomberg",
+        "👆チャンネル登録・高評価をよろしくお願いします",
+        "EVに不可欠なレアメタル「ニッケル」。インドネシアは世界有数のニッケルの生産地ですが、中国企業がその採掘・加工産業を実質的に支配している実情があります。そして、その影響で子どもの結核患者の増加や死亡事故の発生といった影響も。クリーンなはずのEVによる、汚れた実情とは。",
+        "（ブルームバーグ　2024年6月17日 配信）",
+        "※本動画は2024年に配信されました。インドネシアのニッケル生産に関する進捗については以下の記事もご覧ください",
+        "・Chinese Nickel Firms in Indonesia Mull Output Cuts on Low Prices（2026年8月28日）",
+        "https://www.bloomberg.com/news/articles/2026-08-28/chinese-nickel-firms-in-indonesia-mull-output-cuts-on-low-prices#:~:text=Chinese%20Nickel%20Firms%20in%20Indonesia%20Mull%20Output%20Cuts%20on%20Low%20Prices",
+        "・インドネシア、ニッケル増産を計画－供給拡大観測で価格下落（2026年6月24日）",
+        "https://www.bloomberg.com/jp/news/articles/2026-06-24/TH4R99T9NJLS00#gsc.tab=0",
+        "サムネイルデザイン：天笠広規",
+        "▼TBS CROSS DIG with Bloomberg",
+        "https://newsdig.tbs.co.jp/list/withbloomberg",
+        "▼公式Xアカウント",
+        "https://x.com/tbs_bloomberg",
+        "#tbs #crossdig #indonesia #asean"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "83pZmlYkcek"
+    },
     {
       "id": "7a505c5774a6",
       "source": "gaia",
