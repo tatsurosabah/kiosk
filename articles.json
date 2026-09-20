@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T08:24:58.770888+00:00",
+  "updated": "2026-09-20T13:30:51.654706+00:00",
   "sources": [
     {
       "id": "uno",
@@ -120,6 +120,54 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "1b4976338136",
+      "source": "breakthrough",
+      "title": "夢を技術で実現する　成田流ビジネス術に迫る【ブレイクスルー未公開版】",
+      "url": "https://www.youtube.com/watch?v=yyfADlJTqM4",
+      "date": "2026-09-20T11:00:22+00:00",
+      "image": "https://i2.ytimg.com/vi/yyfADlJTqM4/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "▼フルバージョン（12分）はこちらから▼",
+        "https://txbiz.tv-tokyo.co.jp/breakthrough/vod/post_348619?utm_source=youtube&utm_medium=video&utm_campaign=break_260919_yt_yyfADlJTqM4",
+        "▼家事を完全自動化！？　“人生を豊かにする”フィジカルAIとは▼",
+        "https://youtu.be/K9MLrxYm_fA",
+        "▼「テレ東BIZ」会員登録はこちら▼",
+        "https://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video&utm_campaign=break_260919_yt_yyfADlJTqM4",
+        "2026年9月19日(土)に放送した「フィジカルAIで“家事ゼロ”人生を豊かに」では、最新フィジカルAIとスマートハウスを組み合わせ“家事ゼロ”を目指す、MWの成田修造CEOに話を聞いた。配信オリジナルのロングバージョンでは、起業家としての発想や人材獲得戦略について作家・相場英雄がさらに深掘りする。",
+        "開拓者：MW　 成田修造CEO",
+        "#フィジカルAI #ロボット #スマートハウス #MW #相場英雄 #ブレイクスルー #テレビ東京 #テレ東BIZ"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "yyfADlJTqM4"
+    },
+    {
+      "id": "c6d79ae9a064",
+      "source": "breakthrough",
+      "title": "家事を完全自動化！？　“人生を豊かにする”フィジカルAIとは【ブレイクスルー】",
+      "url": "https://www.youtube.com/watch?v=K9MLrxYm_fA",
+      "date": "2026-09-20T10:00:34+00:00",
+      "image": "https://i4.ytimg.com/vi/K9MLrxYm_fA/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "▼番組のフル視聴（27分）はこちらから▼",
+        "https://txbiz.tv-tokyo.co.jp/breakthrough/vod/post_348618?utm_source=youtube&utm_medium=video&utm_campaign=break_260919_yt_K9MLrxYm_fA",
+        "▼過去回はこちら▼",
+        "https://www.youtube.com/playlist?list=PLirT2ByBZWrP3S_16WyL2fU0TzkH9rWzs",
+        "▼「テレ東BIZ」会員登録はこちら▼",
+        "https://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video&utm_campaign=break_260919_yt_K9MLrxYm_fA",
+        "「フィジカルAI」の開発競争が世界中で巻き起こる中、新たな視点でAIロボットを開発しているのが今回の開拓者、MWの成田修造CEOだ。成田が開発するのは、“家事”を代行してくれるロボット。天井から吊り下げたロボットアームで、洗濯物をたたみ、食後の食器を片付けるなどの作業を行えるようにする。1日およそ4時間ともいわれる家事の時間から解放されることで、仕事や趣味の時間を増やし、人生をより豊かにしようという狙いだ。実は成田、学生時代から母の介護などに追われ、自分の時間を取りづらかった経験から、こうした自動化に取り組むことを決意したのだという。さらに将来的にはAIが生活習慣を学習し自動で家事をこなすスマートハウスとロボットアームの融合を目指す。AIの力で人生に豊かな時間をもたらそうとする開拓者に作家・相場英雄が迫る。",
+        "開拓者：MW　 成田修造CEO",
+        "#フィジカルAI #ロボット #スマートハウス #MW #相場英雄 #ブレイクスルー #テレビ東京 #テレ東BIZ"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "K9MLrxYm_fA"
+    },
     {
       "id": "c9490cec9f16",
       "source": "crossdig",
