@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T23:58:24.186956+00:00",
+  "updated": "2026-09-20T08:24:58.770888+00:00",
   "sources": [
     {
       "id": "uno",
@@ -120,6 +120,30 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "c9490cec9f16",
+      "source": "crossdig",
+      "title": "【ベッセント介入を紐解く】圧力の裏に40兆ドル超の債務／避けたい米国債売り／高市総理も「円高」が必要？／問われる日本の利上げペース",
+      "url": "https://www.youtube.com/watch?v=lbD2FyBlSfI",
+      "date": "2026-09-20T08:00:37+00:00",
+      "image": "https://i1.ytimg.com/vi/lbD2FyBlSfI/hqdefault.jpg",
+      "author": "TBS CROSS DIG with Bloomberg",
+      "subtitle": "",
+      "body": [
+        "https://youtube.com/@tbs_bloomberg",
+        "👆チャンネル登録・高評価をよろしくお願いします",
+        "今年、39年半ぶりの水準まで円安が進行しました。その中で、なぜ米ベッセント財務長官はこれほど日本円に執着するのか？ブルームバーグ記者らの解説です。",
+        "（ブルームバーグ 2026年9月17日 配信）",
+        "▼TBS CROSS DIG with Bloomberg",
+        "https://newsdig.tbs.co.jp/list/withbloomberg",
+        "▼公式Xアカウント",
+        "https://x.com/tbs_bloomberg",
+        "#tbs #crossdig #円安"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "lbD2FyBlSfI"
+    },
     {
       "id": "e076b18b9dc0",
       "source": "crossdig",
