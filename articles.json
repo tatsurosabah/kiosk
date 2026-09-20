@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20T13:30:51.654706+00:00",
+  "updated": "2026-09-20T23:58:10.645063+00:00",
   "sources": [
     {
       "id": "uno",
@@ -120,6 +120,33 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "ff5bc13a3609",
+      "source": "crossdig",
+      "title": "【AIはあなたの友人になれない】巨大テックは簡単に自由を奪う／プライバシー軽視の代償は人権侵害／シグナル代表：メレディス・ウィテカー",
+      "url": "https://www.youtube.com/watch?v=rZTGqT6vsWA",
+      "date": "2026-09-20T23:00:38+00:00",
+      "image": "https://i3.ytimg.com/vi/rZTGqT6vsWA/hqdefault.jpg",
+      "author": "TBS CROSS DIG with Bloomberg",
+      "subtitle": "",
+      "body": [
+        "https://youtube.com/@tbs_bloomberg",
+        "👆チャンネル登録・高評価をよろしくお願いします",
+        "グーグルを退職し、現在は暗号化メッセージアプリ「シグナル(Signal)」代表を務めるメレディス・ウィテカー氏。彼女は巨大テック企業が運営するAIエージェントが、人々の人生をも乗っ取る恐れがあると警鐘を鳴らします。その真意とは？",
+        "（ブルームバーグ 2026年6月18日 配信）",
+        "※動画内で言及した「AIクリスマス」について詳しくは以下をご覧ください",
+        "https://youtu.be/MUEKVoeeRoA?si=cE3EnMER41hUuV_Q",
+        "サムネイルデザイン：天笠広規",
+        "▼TBS CROSS DIG with Bloomberg",
+        "https://newsdig.tbs.co.jp/list/withbloomberg",
+        "▼公式Xアカウント",
+        "https://x.com/tbs_bloomberg",
+        "#tbs #crossdig #ai #signal"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "rZTGqT6vsWA"
+    },
     {
       "id": "1b4976338136",
       "source": "breakthrough",
