@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T15:46:13.530768+00:00",
+  "updated": "2026-09-22T00:39:39.440279+00:00",
   "sources": [
     {
       "id": "uno",
@@ -120,6 +120,36 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "4a811029d10a",
+      "source": "uno",
+      "title": "落合陽一『マタギドライヴ』を読むためのヒント集",
+      "url": "https://note.com/wakusei2nduno/n/n27191b0c7495",
+      "date": "2026-09-21T23:24:13+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/316176202/rectangle_large_type_2_24d348fc3fd1665d6abafda921f6898d.jpeg?width=800",
+      "author": "宇野常寛",
+      "subtitle": "",
+      "body": [
+        "9/23に弊社PLANETSから、落合陽一『マタギドライヴ:計算機自然の辺縁における脱人間知性的文明論』がついに発売になる。前作『デジタルネイチャー』からなんと8年ぶりの主著になる。間違いなく、落合陽一の30代までの集大成と言える一冊だろう。",
+        "マタギドライヴ:計算機自然の辺縁における脱人間知性的文明論www.amazon.co.jp 4,180円(2026年09月22日 07:58時点詳しくはこちら) Amazon.co.jpで購入する"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "34defb718aa9",
+      "source": "kazobara",
+      "title": "つながる時代に大事な「予算を作る力」とは？-518号-",
+      "url": "https://note.com/kazobara/n/n5d8d4d0ff1a1",
+      "date": "2026-09-21T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/313486647/rectangle_large_type_2_16f5d92cb4e52d5c2459a2c7555f8b48.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "（2021年6月8日の動画を記事化しました）",
+        "─────────────"
+      ],
+      "truncated": true
+    },
     {
       "id": "ff5bc13a3609",
       "source": "crossdig",
