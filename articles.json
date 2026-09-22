@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T00:39:39.440279+00:00",
+  "updated": "2026-09-22T08:21:52.176565+00:00",
   "sources": [
     {
       "id": "uno",
@@ -120,6 +120,21 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "d345050bcbf1",
+      "source": "kazobara",
+      "title": "AI使わなきゃと焦る人への４ステップーシルバーウィークにはじめてみませんか？",
+      "url": "https://note.com/kazobara/n/n9c19bf896588",
+      "date": "2026-09-22T03:09:25+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/316239040/rectangle_large_type_2_f6344ab5937a6137b0fdd750de54ce88.jpeg?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "AIで「好き」を「得意」に変える。生きがいチャートを「順路」として回す実践ガイド",
+        "メドレーがAI人材に最高6,000万円の年収を提示するというニュースが話題になった。だが本当に大事な論点は年収の額ではない。AIが手に入った今、僕たちがどこから動き出せばいいか、という話である。"
+      ],
+      "truncated": true
+    },
     {
       "id": "4a811029d10a",
       "source": "uno",
