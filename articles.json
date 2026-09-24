@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T00:18:50.762465+00:00",
+  "updated": "2026-09-24T08:16:12.685745+00:00",
   "sources": [
     {
       "id": "uno",
@@ -120,6 +120,20 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "5f92b7529508",
+      "source": "uno",
+      "title": "「従業員による会社支配」では半分しか問題は解決しないのではないか、という話",
+      "url": "https://note.com/wakusei2nduno/n/n53d1d830d14e",
+      "date": "2026-09-24T03:41:08+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/316969615/rectangle_large_type_2_bae59d56ee69fbab9684019b1aa8c3f5.png?width=800",
+      "author": "宇野常寛",
+      "subtitle": "",
+      "body": [
+        "僕が最近ずっと（『庭の話』の後半から）考えているのは、労働のことだ。"
+      ],
+      "truncated": true
+    },
     {
       "id": "47d30d11c7a4",
       "source": "kazobara",
