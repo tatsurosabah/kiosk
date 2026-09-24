@@ -91,9 +91,12 @@
   }
   .card{
     display:flex;gap:13px;padding:14px 0;border-bottom:1px solid var(--hair);
-    cursor:pointer;align-items:flex-start
+    cursor:pointer;align-items:flex-start;position:relative;touch-action:pan-y;
+    transition:transform .16s ease,background-color .16s ease
   }
   .card:active{opacity:.55}
+  .card.swiping{transition:none;background:rgba(168,86,60,.08)}
+  .card.swipe-ready{background:rgba(168,86,60,.15)}
   .card.read .ctitle{color:var(--muted);font-weight:500}
   .card.read .cthumb{opacity:.45}
   .cbody{flex:1 1 auto;min-width:0}
@@ -218,6 +221,18 @@
   .srcrow .dot{width:8px;height:8px;border-radius:50%;flex:0 0 auto}
   .srcrow .nm{flex:1;font-size:14px;font-weight:600}
   .srcrow .ct{font-size:11.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+  .srcrow .remove{
+    border:0;background:none;color:var(--muted);padding:5px 2px 5px 8px;
+    font-size:11.5px;cursor:pointer
+  }
+  .srcrow .remove:disabled{opacity:.35}
+  .toast{
+    position:fixed;left:50%;bottom:calc(76px + var(--safe-b));z-index:80;
+    transform:translate(-50%,12px);opacity:0;pointer-events:none;
+    background:var(--ink);color:#fff;border-radius:999px;padding:9px 16px;
+    font-size:12.5px;letter-spacing:.03em;transition:.18s ease;white-space:nowrap
+  }
+  .toast.on{opacity:1;transform:translate(-50%,0)}
   .scope{font-size:12px;color:var(--muted);letter-spacing:.04em;margin:0 0 14px;line-height:1.7}
   .scope b{color:var(--ink2)}
   .readopt{
@@ -258,6 +273,7 @@
   <button class="btn primary" id="btn-add">＋ 記事・購読を追加</button>
   <button class="btn ghost" id="btn-readall">まとめて既読</button>
 </div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <!-- ============ 記事 ============ -->
 <div class="sheet" id="sheet-article">
@@ -313,6 +329,10 @@
         Substack や note は記事URLでもフィードが見つかるので、1本だけ欲しいときは「この記事だけ」を選んでください。<br>
         処理は GitHub 側で走るので、反映は次の収集（数分）を待ちます。
       </p>
+      <p class="note" style="margin-top:14px">
+        <b>公開URLだけを追加してください。</b> 送ったURLは公開リポジトリのコミット履歴に残る可能性があります。
+        非公開URL、認証情報や個人的な秘密を含むURLは送らないでください。
+      </p>
       <div class="arow">
         <button class="btn primary" id="btn-send-url">送る</button>
         <button class="btn" id="btn-check">結果を見る</button>
@@ -350,6 +370,10 @@
   <div class="sheetbody">
     <h3 style="font-size:14px;margin:0 0 4px">購読しているもの</h3>
     <div id="srclist"></div>
+    <div class="arow" style="margin-top:16px">
+      <button class="btn" id="btn-add-source">＋ 購読先を追加</button>
+    </div>
+    <div id="source-msg"></div>
 
     <hr class="sep">
     <h3 style="font-size:14px;margin:0 0 4px">URL追加をこの端末から使う</h3>
@@ -358,6 +382,7 @@
       GitHub の <b>Settings → Developer settings → Fine-grained tokens</b> で、
       このリポジトリだけを対象に <b>Contents: Read and write</b> を付けたトークンを作ってください。
       トークンはこの端末の中だけに置かれます。使わない場合は空のままで構いません（貼り付け追加は不要）。
+      購読先の追加・解除も同じトークンを使います。
     </p>
     <label class="f">リポジトリ（owner/name）</label>
     <input type="text" id="in-repo" placeholder="tatsurosabah/kiosk" autocapitalize="off" spellcheck="false">
@@ -408,6 +433,13 @@ var $  = function(s,r){ return (r||document).querySelector(s); };
 var $$ = function(s,r){ return Array.prototype.slice.call((r||document).querySelectorAll(s)); };
 function esc(s){ return String(s==null?"":s).replace(/[&<>"']/g, function(c){
   return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+var toastTimer = null;
+function toast(text){
+  var el = $("#toast");
+  el.textContent = text; el.classList.add("on");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(function(){ el.classList.remove("on"); }, 1600);
+}
 
 // ---------------------------------------------------------------- 読み込み
 function load(cb){
@@ -747,9 +779,27 @@ function pushUrl(url, how){
     return api("/contents/inbox.json", {
       method:"PUT",
       body: JSON.stringify({
-        message: "追加: " + url.slice(0,72),
+        message: "購読・記事URLの追加",
         content: b64enc(JSON.stringify(box, null, 2) + "\n"),
         sha: f.sha
+      })
+    });
+  });
+}
+
+function removeSubscription(id){
+  return api("/contents/sources.json").then(function(f){
+    var cfg;
+    try { cfg = JSON.parse(b64dec(f.content)); } catch(e){ throw new Error("購読設定を読めませんでした"); }
+    var before = (cfg.sources||[]).length;
+    cfg.sources = (cfg.sources||[]).filter(function(s){ return s.id !== id; });
+    if(cfg.sources.length === before) throw new Error("この購読先はすでに外されています");
+    return api("/contents/sources.json", {
+      method:"PUT",
+      body:JSON.stringify({
+        message:"購読先の解除",
+        content:b64enc(JSON.stringify(cfg, null, 2) + "\n"),
+        sha:f.sha
       })
     });
   });
@@ -759,6 +809,58 @@ function msg(sel, kind, text){
   $(sel).innerHTML = '<div class="msg ' + kind + '">' + text + "</div>";
 }
 
+function toggleLater(id){
+  if(S.later[id]) delete S.later[id]; else S.later[id] = 1;
+  save();
+  if(view.tab === "later"){
+    render();
+  } else {
+    $$('[data-star]').forEach(function(star){
+      if(star.dataset.star !== id) return;
+      star.textContent = S.later[id] ? "★" : "☆";
+      star.classList.toggle("on", !!S.later[id]);
+    });
+    updateCounts();
+  }
+  return !!S.later[id];
+}
+
+// 一覧は一覧のまま、右スワイプで「見たい」を付け外しする。
+var swipe = null, suppressCardClickUntil = 0;
+$("#list").addEventListener("pointerdown", function(ev){
+  if(!ev.isPrimary || ev.button !== 0 || (ev.target.closest && ev.target.closest("button,a"))) return;
+  var card = ev.target.closest && ev.target.closest(".card");
+  if(!card) return;
+  swipe = {card:card, id:card.dataset.id, x:ev.clientX, y:ev.clientY, dx:0, horizontal:false};
+});
+$("#list").addEventListener("pointermove", function(ev){
+  if(!swipe || !ev.isPrimary) return;
+  var dx = ev.clientX - swipe.x, dy = ev.clientY - swipe.y;
+  if(!swipe.horizontal && Math.abs(dy) > Math.abs(dx) + 8){ swipe = null; return; }
+  if(dx <= 8) return;
+  swipe.horizontal = true; swipe.dx = dx;
+  ev.preventDefault();
+  var move = Math.min(dx, 96);
+  swipe.card.classList.add("swiping");
+  swipe.card.classList.toggle("swipe-ready", dx >= 64);
+  swipe.card.style.transform = "translateX(" + move + "px)";
+});
+function finishSwipe(){
+  if(!swipe) return;
+  var s = swipe; swipe = null;
+  s.card.classList.remove("swiping","swipe-ready");
+  s.card.style.transform = "";
+  if(!s.horizontal || s.dx < 64) return;
+  suppressCardClickUntil = Date.now() + 500;
+  var on = toggleLater(s.id);
+  toast(on ? "★ 見たいに追加しました" : "見たいから外しました");
+}
+$("#list").addEventListener("pointerup", finishSwipe);
+$("#list").addEventListener("pointercancel", function(){
+  if(swipe){ swipe.card.classList.remove("swiping","swipe-ready"); swipe.card.style.transform = ""; }
+  swipe = null;
+});
+
 // ---------------------------------------------------------------- イベント
 document.addEventListener("click", function(ev){
   var t = ev.target;
@@ -766,22 +868,35 @@ document.addEventListener("click", function(ev){
   var star = t.closest && t.closest("[data-star]");
   if(star){
     ev.stopPropagation();
-    var sid = star.dataset.star;
-    if(S.later[sid]) delete S.later[sid]; else S.later[sid] = 1;
-    save();
-    if(view.tab === "later"){
-      render();                       // 「見たい」タブでは外した記事が消える
-    } else {
-      // 一覧を作り直すと画像を読み直してちらつくので、その場で書き換える
-      star.textContent = S.later[sid] ? "★" : "☆";
-      star.classList.toggle("on", !!S.later[sid]);
-      updateCounts();
-    }
+    toggleLater(star.dataset.star);
     return;
   }
 
   var card = t.closest && t.closest(".card");
-  if(card){ openArticle(card.dataset.id); return; }
+  if(card){
+    if(Date.now() < suppressCardClickUntil){ ev.preventDefault(); return; }
+    openArticle(card.dataset.id); return;
+  }
+
+  var removeSrc = t.closest && t.closest("[data-remove-src]");
+  if(removeSrc){
+    var removeId = removeSrc.dataset.removeSrc, source = SRC[removeId] || {name:removeId};
+    if(!S.token || !S.repo){ msg("#source-msg","info","先にリポジトリとトークンを保存してください。"); return; }
+    if(!confirm("「" + source.name + "」を購読から外しますか？\n公開一覧からも記事が外れます。")) return;
+    removeSrc.disabled = true;
+    removeSubscription(removeId).then(function(){
+      DATA.sources = (DATA.sources||[]).filter(function(s){ return s.id !== removeId; });
+      DATA.articles = (DATA.articles||[]).filter(function(a){ return a.source !== removeId; });
+      delete SRC[removeId];
+      if(view.src === removeId) view.src = "";
+      renderSettingsSources(); render();
+      msg("#source-msg","ok","購読解除を送りました。数分で公開データにも反映されます。");
+    }).catch(function(e){
+      removeSrc.disabled = false;
+      msg("#source-msg","ng","解除できませんでした: " + esc(e.message));
+    });
+    return;
+  }
 
   var chip = t.closest && t.closest(".chip");
   if(chip){ view.src = chip.dataset.src; shown = PAGE; window.scrollTo(0,0); render(); return; }
@@ -875,17 +990,32 @@ $("#a-later").onclick = function(){
 
 $("#btn-reload").onclick = function(){ this.textContent = "…"; var b = this; load(function(){ b.textContent = "⟳"; }); };
 $("#btn-add").onclick = function(){ $("#url-msg").innerHTML = ""; $("#paste-msg").innerHTML = ""; open("#sheet-add"); };
-$("#btn-settings").onclick = function(){
-  $("#in-repo").value = S.repo || "";
-  $("#in-token").value = S.token || "";
+$("#btn-add-source").onclick = function(){
+  closeAll();
+  $("#url-msg").innerHTML = "";
+  $("#pane-url").style.display = ""; $("#pane-paste").style.display = "none";
+  $$("[data-add]").forEach(function(b){ b.classList.toggle("on", b.dataset.add === "url"); });
+  $$("[data-as]").forEach(function(b){ b.classList.toggle("on", b.dataset.as === "feed"); });
+  open("#sheet-add");
+};
+function renderSettingsSources(){
   var counts = {};
   allItems().forEach(function(a){ counts[a.source] = (counts[a.source]||0)+1; });
+  var real = {};
+  (DATA.sources||[]).forEach(function(s){ real[s.id] = 1; });
   $("#srclist").innerHTML = Object.keys(SRC).map(function(id){
     var s = SRC[id];
     return '<div class="srcrow"><i class="dot" style="background:' + hueColor(s) + '"></i>' +
       '<span class="nm">' + esc(s.name) + (s.local ? ' <span class="badge local">端末内</span>' : "") + "</span>" +
-      '<span class="ct">' + (counts[id]||0) + "件</span></div>";
+      '<span class="ct">' + (counts[id]||0) + "件</span>" +
+      (real[id] ? '<button class="remove" data-remove-src="' + esc(id) + '">外す</button>' : "") + "</div>";
   }).join("");
+}
+$("#btn-settings").onclick = function(){
+  $("#in-repo").value = S.repo || "";
+  $("#in-token").value = S.token || "";
+  $("#source-msg").innerHTML = "";
+  renderSettingsSources();
   open("#sheet-settings");
 };
 
@@ -1007,12 +1137,16 @@ $("#btn-clear-token").onclick = function(){
 };
 
 $("#btn-export").onclick = function(){
-  var blob = new Blob([JSON.stringify(S, null, 2)], {type:"application/json"});
+  var backup = Object.assign({}, S, {backup_version:2});
+  delete backup.token;
+  var blob = new Blob([JSON.stringify(backup, null, 2)], {type:"application/json"});
   var a = document.createElement("a");
-  a.href = URL.createObjectURL(blob);
+  var objectUrl = URL.createObjectURL(blob);
+  a.href = objectUrl;
   a.download = "kiosk-backup-" + new Date().toISOString().slice(0,10) + ".json";
   a.click();
-  msg("#data-msg","ok","書き出しました。");
+  setTimeout(function(){ URL.revokeObjectURL(objectUrl); }, 1000);
+  msg("#data-msg","ok","書き出しました。安全のためGitHubトークンは含めていません。");
 };
 $("#btn-import").onclick = function(){ $("#file-import").click(); };
 $("#file-import").onchange = function(){
@@ -1023,11 +1157,15 @@ $("#file-import").onchange = function(){
       var d = JSON.parse(rd.result);
       S.read = Object.assign(S.read||{}, d.read||{});
       S.later = Object.assign(S.later||{}, d.later||{});
+      S.autoseen = Object.assign(S.autoseen||{}, d.autoseen||{});
       var have = {}; (S.pasted||[]).forEach(function(p){ have[p.id]=1; });
       (d.pasted||[]).forEach(function(p){ if(!have[p.id]) S.pasted.push(p); });
+      if(typeof d.repo === "string") S.repo = d.repo;
+      ["mode","tab","speed"].forEach(function(k){ if(d[k] != null) S[k] = d[k]; });
       save(); render();
-      msg("#data-msg","ok","読み込みました。");
+      msg("#data-msg","ok","読み込みました。GitHubトークンは読み込まれません。必要なら設定し直してください。");
     } catch(e){ msg("#data-msg","ng","読み込めませんでした。"); }
+    $("#file-import").value = "";
   };
   rd.readAsText(f);
 };

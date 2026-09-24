@@ -489,7 +489,7 @@ def slug(name, taken):
 # main
 # --------------------------------------------------------------------------
 
-def process_inbox(cfg, articles, limit_default):
+def process_inbox(cfg, articles, limit_default, dry=False):
     """アプリから投げ込まれたURLを、購読ソースか単発記事にする。"""
     inbox = load(INBOX, {"queue": []})
     queue = inbox.get("queue") or []
@@ -508,7 +508,8 @@ def process_inbox(cfg, articles, limit_default):
         if not url.startswith("http"):
             url = "https://" + url
         want = entry.get("as") or "auto"     # "auto" | "feed" | "article"
-        print(f"  inbox: {url} ({want})")
+        # public Actions のログへクエリ文字列などを残さない
+        print(f"  inbox: {urlparse(url).netloc} ({want})")
 
         try:
             if want == "article":
@@ -517,18 +518,18 @@ def process_inbox(cfg, articles, limit_default):
             else:
                 feed, html, final = discover_feed(url)
         except Exception as e:
-            notes.append({"url": url, "ok": False, "message": f"取得できませんでした: {e}"})
+            notes.append({"ok": False, "message": f"取得できませんでした: {e}"})
             continue
 
         if feed and want != "article":
             if feed in known_feeds:
-                notes.append({"url": url, "ok": True, "message": "すでに購読しています"})
+                notes.append({"ok": True, "message": "すでに購読しています"})
                 continue
             try:
                 txt, ffinal = http_get(feed, timeout=25)
                 name, items = parse_feed(txt, ffinal)
             except Exception as e:
-                notes.append({"url": url, "ok": False, "message": f"フィードを読めませんでした: {e}"})
+                notes.append({"ok": False, "message": f"フィードを読めませんでした: {e}"})
                 continue
             sid = slug(name or urlparse(feed).netloc, taken)
             taken.add(sid)
@@ -544,34 +545,35 @@ def process_inbox(cfg, articles, limit_default):
                 "enabled": True,
             })
             changed = True
-            notes.append({"url": url, "ok": True,
+            notes.append({"ok": True,
                           "message": f"「{name or sid}」を購読に追加しました（{len(items)}件）"})
             continue
 
         # フィードが無い → 単発の記事として取り込む
         if not html:
             why = final[1:] if isinstance(final, str) and final.startswith("!") else ""
-            notes.append({"url": url, "ok": False,
+            notes.append({"ok": False,
                           "message": ("ページを開けませんでした（%s）" % why) if why else
                                      "フィードも本文も取れませんでした。本文を貼り付けてください"})
             continue
         art = article_from_html(html, final or url, limit_default)
         if art["url"] in known_urls:
-            notes.append({"url": url, "ok": True, "message": "すでに取り込み済みです"})
+            notes.append({"ok": True, "message": "すでに取り込み済みです"})
             continue
         if not art["body"]:
-            notes.append({"url": url, "ok": False,
+            notes.append({"ok": False,
                           "message": "本文を読めませんでした（ログインが要る記事かもしれません）"})
             continue
         articles.append(art)
         known_urls.add(art["url"])
         changed = True
-        notes.append({"url": url, "ok": True, "message": f"記事「{art['title'][:24]}」を追加しました"})
+        notes.append({"ok": True, "message": f"記事「{art['title'][:24]}」を追加しました"})
 
-    inbox["queue"] = []
-    inbox["last_result"] = notes
-    inbox["processed_at"] = datetime.now(timezone.utc).isoformat()
-    save(INBOX, inbox)
+    if not dry:
+        inbox["queue"] = []
+        inbox["last_result"] = notes
+        inbox["processed_at"] = datetime.now(timezone.utc).isoformat()
+        save(INBOX, inbox)
     return changed, notes
 
 
@@ -587,11 +589,17 @@ def main():
     articles = store.get("articles", [])
     by_id = {a["id"]: a for a in articles}
 
-    cfg_changed, notes = process_inbox(cfg, articles, limit_default)
+    cfg_changed, notes = process_inbox(cfg, articles, limit_default, dry=dry)
     if notes:
         by_id = {a["id"]: a for a in articles}
     if cfg_changed and not dry:
         save(SOURCES, cfg)
+
+    # sources.json から外した購読先は、過去記事も公開一覧から外す。
+    # inbox の単発記事だけは購読設定に無くても保持する。
+    active_ids = {s["id"] for s in cfg["sources"]}
+    articles = [a for a in articles if a.get("source") == "inbox" or a.get("source") in active_ids]
+    by_id = {a["id"]: a for a in articles}
 
     if not inbox_only:
         # YouTube の feeds.xml は毎回ランダムに一部が 404 になる。

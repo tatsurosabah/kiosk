@@ -9,13 +9,6 @@
       "enabled": true
     },
     {
-      "id": "planets",
-      "name": "PLANETS",
-      "site": "https://note.com/wakusei2nd",
-      "hue": 88,
-      "enabled": true
-    },
-    {
       "id": "slowtimes",
       "name": "Slow Times",
       "site": "https://slowtimesjp.substack.com",
@@ -823,22 +816,6 @@
         "米国スポーツにおいてはコーチも高額な報酬を得ている。トッププロコーチの報酬は1500万ドルから2000万ドルにのぼる。大学レベルでさえも、最も稼ぐ大学フットボールのコーチは1000万ドル以上を得ている。",
         "https://www.sportico.com/personalities/coaches/2026/highest-paid-coaches-harbaugh-reid-kerr-1234882103/",
         "米国ではユーススポーツでさえ驚異的な成長を遂げている。子どものスポーツ活動に異パン消費者たちは実に毎年合計400億ドル以上をつぎ込んでいる。これによりディックス・スポーティング・グッズのようなスポーツ用品小売業者は、昨年過去最高の141億ドルの収益にまで成長した。野球にかける家庭の年間平均支出は、2019年から2024年の間に約70％増加している。"
-      ],
-      "truncated": true
-    },
-    {
-      "id": "01f19fdde6d2",
-      "source": "planets",
-      "title": "現役官僚のニューヨーク駐在日記：With Japanに見出す日本の生存戦略｜橘宏樹",
-      "url": "https://note.com/wakusei2nd/n/na574524bec80",
-      "date": "2026-09-13T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/311933122/rectangle_large_type_2_940092d63f08a3486927331b6c532f11.jpeg?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "橘宏樹　現役官僚のニューヨーク駐在日記",
-        "第18回　With Japanに見出す日本の生存戦略｜橘宏樹",
-        "橘宏樹さんが、「中の人」ならではの視点で日米の行政・社会構造を比較分析していく連載「現役官僚のNY駐在日記」の最終回です。日本はNYから何を学ぶべきなのか。日本とNY、日本と世界は共に栄える関係をいかに築けるのかを論じます。"
       ],
       "truncated": true
     },
@@ -3643,21 +3620,6 @@
       "truncated": true
     },
     {
-      "id": "e12a4b4e5032",
-      "source": "planets",
-      "title": "リハビリテーション・ジャーナル──リハビリ編：プールを休むとどうなるか｜濱野智史",
-      "url": "https://note.com/wakusei2nd/n/n614a199031f9",
-      "date": "2026-08-13T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/300907956/rectangle_large_type_2_5dd396fc2041f4bfe363c70948a3c83b.jpeg?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "批評家の濱野智史さんによる連載「リハビリテーション・ジャーナル」です。指定難病「特発性大腿骨頭壊死症」にかかり、人工股関節を入れる手術を受けるため、約1ヶ月間の入院生活を送ることとなった濱野さん。人生初の経験となる長期にわたる入院生活、そしてその後のリハビリ生活の中で見えてきたノウハウやメソッドを紹介しながら、「健康」と「身体」を見つめ直していきます。",
-        "第6回は、あえて「プールを休む」ことで気づいたプール・ウォーキングの効果や身体の変化ついて論じます。"
-      ],
-      "truncated": true
-    },
-    {
       "id": "288a034775e1",
       "source": "kazobara",
       "title": "ワクワクが行動につながりやすくなるためには-507号-",
@@ -4588,20 +4550,6 @@
       "video": "huoR2hSkbP4"
     },
     {
-      "id": "6093be84e7ff",
-      "source": "planets",
-      "title": "“kakkoii”の誕生――世紀末ボーイズトイ列伝　“kakkoii”の誕生（後編）｜池田明季哉",
-      "url": "https://note.com/wakusei2nd/n/n6d778d7cb5d9",
-      "date": "2026-07-23T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/296526748/rectangle_large_type_2_b8dc9eb0a25e7de1750be26abeb47065.jpeg?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "デザイナー／ライター／小説家の池田明季哉さんによる連載『\"kakkoii\"の誕生──世紀末ボーイズトイ列伝』の最終回です。今回は「20世紀的な男性的成熟」から解放される回路として「おもちゃ」というフィクショナルな身体の可能性を論じ、“kakkoii”概念をまとめます。"
-      ],
-      "truncated": true
-    },
-    {
       "id": "08bbf8fdda36",
       "source": "ochiai",
       "title": "万博「ヌルヌル」を経て落合陽一の個展「天孫帰るってよ？」の全貌公開「AIに怯えていた」「日本人でも韓国人でもない」400年以上続く十五代沈壽官の葛藤…“超絶技巧”に司馬遼太郎からの金言、真の愛国心とは",
@@ -5473,20 +5421,6 @@
       "video": "fsKg56kUBks"
     },
     {
-      "id": "6574ceca376f",
-      "source": "planets",
-      "title": "リハビリテーション・ジャーナル──リハビリ編 補論：真夏の屋外プールの魅力｜濱野智史",
-      "url": "https://note.com/wakusei2nd/n/n7dbf27ce01c8",
-      "date": "2026-06-11T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/284453188/rectangle_large_type_2_4b851e5a64ab5fd8aa34a1c31681bb7d.jpeg?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "批評家の濱野智史さんによる連載「リハビリテーション・ジャーナル」です。指定難病「特発性大腿骨頭壊死症」にかかり、人工股関節を入れる手術を受けるため、約1ヶ月間の入院生活を送ることとなった濱野さん。人生初の経験となる長期にわたる入院生活、そしてその後のリハビリ生活の中で見えてきたノウハウやメソッドを紹介しながら、「健康」と「身体」を見つめ直していきます。第5回は番外編として、濱野さんがリハビリ生活で虜になった真夏の屋外プールの魅力を語ります。"
-      ],
-      "truncated": true
-    },
-    {
       "id": "c5b0afbc0f8d",
       "source": "rikei",
       "title": "老化は「治せる」のか？ 世界的生命科学者が語る“不老長寿”研究の最前線【橋本幸治の理系通信】",
@@ -5758,23 +5692,6 @@
       "video": "e6orE5xPRPw"
     },
     {
-      "id": "36f9062580db",
-      "source": "planets",
-      "title": "ニューヨークとは何か－街を動かす３つのプリンシプル－｜橘宏樹",
-      "url": "https://note.com/wakusei2nd/n/n149a71be63ca",
-      "date": "2026-05-19T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/277313835/rectangle_large_type_2_9b247e9a7e28067844cb861c439db657.jpeg?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "橘宏樹　現役官僚のニューヨーク駐在日記",
-        "第17回　ニューヨークとは何か－街を動かす３つのプリンシプル－｜橘宏樹",
-        "橘宏樹さんが、「中の人」ならではの視点で日米の行政・社会構造を比較分析していく連載「現役官僚のニューヨーク駐在日記」。",
-        "今回は本連載のテーマに掲げたNYの「力強さ」について、これまでの連載を振り返りながらまとめます。"
-      ],
-      "truncated": true
-    },
-    {
       "id": "a1332b10fc0c",
       "source": "nikkei",
       "title": "【AIは心に寄り添えるのか】スマホの中の相談相手、距離感探る人々【NIKKEI Film】",
@@ -5844,20 +5761,6 @@
       "video": "aZJq8yV0mKg"
     },
     {
-      "id": "dfa23d8dc5b8",
-      "source": "planets",
-      "title": "【2026年3月】PLANETSアーカイブ",
-      "url": "https://note.com/wakusei2nd/n/nddf8233df57b",
-      "date": "2026-04-17T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/267911241/rectangle_large_type_2_baff163f06b53021de72474c1e244300.jpeg?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "評論家・宇野常寛主宰「PLANETS」では、各種媒体にて毎月記事や動画を更新しています。今回は、2026年3月に公開された記事や動画をまとめました。ぜひご覧ください。"
-      ],
-      "truncated": true
-    },
-    {
       "id": "9030d070d35d",
       "source": "nikkei",
       "title": "【インドの早期教育】３歳から始まる国家戦略",
@@ -5909,20 +5812,6 @@
       "truncated": false,
       "kind": "video",
       "video": "0wXM4KBAn1c"
-    },
-    {
-      "id": "90ca389202fd",
-      "source": "planets",
-      "title": "“kakkoii”の誕生――世紀末ボーイズトイ列伝　“kakkoii”の誕生（中編）",
-      "url": "https://note.com/wakusei2nd/n/nbf79a94aecb6",
-      "date": "2026-03-19T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/259782371/rectangle_large_type_2_7ceb8bba4c020ec1ec9f2a417b99058f.jpeg?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "デザイナー／ライター／小説家の池田明季哉さんによる連載『\"kakkoii\"の誕生──世紀末ボーイズトイ列伝』。今回は、スマートフォンとSNSが引き起こす問題を「20世紀的な成熟」への欲望として読み解きながら、ダイアクロンというおもちゃに刻まれた美学を検討します。"
-      ],
-      "truncated": true
     },
     {
       "id": "2ed1b23822f3",
@@ -6016,54 +5905,6 @@
       "truncated": false,
       "kind": "video",
       "video": "cWqLgJNcU_c"
-    },
-    {
-      "id": "e212615d8db5",
-      "source": "planets",
-      "title": "男と塾｜井上敏樹",
-      "url": "https://note.com/wakusei2nd/n/n6c804a8261e3",
-      "date": "2026-02-17T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/252173162/rectangle_large_type_2_c4dd2deb35ef74f18520d1d0d2646de4.jpeg?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "平成仮面ライダーシリーズなどでおなじみ、脚本家・井上敏樹先生のエッセイ『男と遊び』。今回は、西荻窪の名店「しゃんしゃん」でのひとときから、友人・Kさんの珍妙なエピソードまで――人と店、遊びをめぐる一篇をお届けします。",
-        "脚本家・井上敏樹エッセイ『男と遊び』第72回",
-        "男と塾　 井上敏樹"
-      ],
-      "truncated": true
-    },
-    {
-      "id": "e38681a8de7e",
-      "source": "planets",
-      "title": "“kakkoii”の誕生――世紀末ボーイズトイ列伝　“kakkoii”の誕生（前編）",
-      "url": "https://note.com/wakusei2nd/n/n6a706757d18b",
-      "date": "2026-01-29T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/247262264/rectangle_large_type_2_15775e724123fefeb5882372773d6322.jpeg?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "デザイナー／ライター／小説家の池田明季哉さんによる連載『”kakkoii”の誕生──世紀末ボーイズトイ列伝』。今回は、「サイボーグ性」と「成熟」のイメージからスマートフォンが社会にもたらした影響について考えます。"
-      ],
-      "truncated": true
-    },
-    {
-      "id": "61aeea8537e0",
-      "source": "planets",
-      "title": "【読者のみなさまへ大切なお願い】マガジン「PLANETSnote」のご購読をお願いいたします",
-      "url": "https://note.com/wakusei2nd/n/n2019868441e8",
-      "date": "2026-01-21T08:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/245491196/rectangle_large_type_2_a884ba326a7c98f98d165e951b97f802.png?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "PLANETS読者のみなさま",
-        "いつも弊誌のコンテンツをお楽しみくださり、誠にありがとうございます。",
-        "本日は、マガジン「PLANETSnote」購読のお願いをさせていただきたく、ご連絡いたしました。",
-        "PLANETS noteは、宇野常寛が主宰するPLANETSがnoteでお届けするウェブマガジンです。政治からサブカルチャーまで独自の角度と既存のメディアにはできない深度で情報発信しています。",
-        "https://note.com/wakusei2nd/m/m1b354ff5fe44"
-      ],
-      "truncated": true
     },
     {
       "id": "202b0f815b6b",
@@ -6207,20 +6048,6 @@
       "video": "RzWOOUDzKSQ"
     },
     {
-      "id": "5e77c065e5d8",
-      "source": "planets",
-      "title": "“kakkoii”の誕生――世紀末ボーイズトイ列伝　「ミクロマン」後編",
-      "url": "https://note.com/wakusei2nd/n/n32917e583b8b",
-      "date": "2025-12-15T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/236278259/rectangle_large_type_2_884e979b1d2f1933bfa42bd79348d9bd.jpeg?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "デザイナー／ライター／小説家の池田明季哉さんによる連載『”kakkoii”の誕生──世紀末ボーイズトイ列伝』。今回は、「変身サイボーグ」の後継シリーズ『ミクロマン』です。ミクロマンが示した「先進的な想像力」を、20世紀的な男性文化をアップデートするヒントとして読み解きます。"
-      ],
-      "truncated": true
-    },
-    {
       "id": "453ca9bbb4ac",
       "source": "nikkei",
       "title": "【ツバル】祖国が沈んで消える･･･　ツバル人一家が選んだ「オーストラリアへの移住」【NIKKEI Film】",
@@ -6269,22 +6096,6 @@
       "truncated": false,
       "kind": "video",
       "video": "8q2GZ1XhJi0"
-    },
-    {
-      "id": "c7e36cdf3f27",
-      "source": "planets",
-      "title": "男とバー｜井上敏樹",
-      "url": "https://note.com/wakusei2nd/n/n902a32558660",
-      "date": "2025-11-10T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/228336913/rectangle_large_type_2_c0e10f635571e24a67c59a702e5a102c.jpeg?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "平成仮面ライダーシリーズなどでおなじみ、脚本家・井上敏樹先生のエッセイ『男と遊び』。平成仮面ライダーシリーズなどでおなじみ、脚本家・井上敏樹先生のエッセイ『男と遊び』。今回は友人・Kさんとのエピソードをお送りします。",
-        "脚本家・井上敏樹エッセイ『男と遊び』第71回",
-        "男とバー　 井上敏樹"
-      ],
-      "truncated": true
     },
     {
       "id": "66e48c34ca44",
@@ -6352,20 +6163,6 @@
       "video": "ALHuW4WhHp0"
     },
     {
-      "id": "f483db45067a",
-      "source": "planets",
-      "title": "“kakkoii”の誕生――世紀末ボーイズトイ列伝　勇者シリーズ（１１）「ミクロマン」中編",
-      "url": "https://note.com/wakusei2nd/n/n7cd568cb5790",
-      "date": "2025-10-16T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/222291483/rectangle_large_type_2_b97eefc9969ab69deeed9bb6233102e2.png?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "デザイナー／ライター／小説家の池田明季哉さんによる連載『\"kakkoii\"の誕生──世紀末ボーイズトイ列伝』。今回は「変身サイボーグ」の後継シリーズ『ミクロマン』を分析します。現実とフィクションを接続する“拡張現実”的な遊びの転換点を、ミクロマンから読み解きます。"
-      ],
-      "truncated": true
-    },
-    {
       "id": "2bfdc86ebba2",
       "source": "nishiguchi",
       "title": "ブランディングの誤解／ユニクロの成功とコカ・コーラの過去の失敗を分析／ブランディングは“目的”ではない【西口さん、マーケティングって本当に必要ですか？#15】",
@@ -6393,22 +6190,6 @@
       "truncated": false,
       "kind": "video",
       "video": "XQBz8lC8Ue8"
-    },
-    {
-      "id": "6352b778881e",
-      "source": "planets",
-      "title": "男と遊び　再び｜井上敏樹",
-      "url": "https://note.com/wakusei2nd/n/nbdcbe8d64581",
-      "date": "2025-09-23T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/216481989/rectangle_large_type_2_07d672422eb6400a1aba74b9ab50d2c8.jpeg?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "平成仮面ライダーシリーズなどでおなじみ、脚本家・井上敏樹先生のエッセイ『男と遊び』。約3年ぶりの連載となる今回は、頭のエンジンを切らない思考法からアクスタ誕生の裏話まで、近況と創作の心得をまとめてお届けします。",
-        "脚本家・井上敏樹エッセイ『男と遊び』第70回",
-        "男　と　遊　び　再び　　　　 井上敏樹"
-      ],
-      "truncated": true
     },
     {
       "id": "9db6fba7a3fc",
@@ -6549,23 +6330,6 @@
       "video": "Dvp5_-TaaOk"
     },
     {
-      "id": "2ce551c423f5",
-      "source": "planets",
-      "title": "連続と不連続の間｜橘宏樹",
-      "url": "https://note.com/wakusei2nd/n/nf11766def327",
-      "date": "2025-08-31T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/211473911/rectangle_large_type_2_f55ff069194d42d43016392c2494b27d.jpeg?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "橘宏樹さんが、「中の人」ならではの視点で日米の行政・社会構造を比較分析していく連載「現役官僚のニューヨーク駐在日記」。",
-        "ニューヨークの社交場では、どのような振る舞いが求められるのでしょうか。好機をつかむための社交戦術を紹介します。",
-        "橘宏樹　現役官僚のニューヨーク駐在日記",
-        "第16回　連続と不連続の間｜橘宏樹"
-      ],
-      "truncated": true
-    },
-    {
       "id": "c371b7ca63c7",
       "source": "nishiguchi",
       "title": "顧客のインサイト(＝隠れた本音)を引き出すインタビュー方法/WHY(＝なぜ)を聞いてはダメ/”顧客ピラミッド”と”カスタマージャーニー”を学ぶ【西口さん、マーケティングって本当に必要ですか？#12】",
@@ -6621,34 +6385,6 @@
       "truncated": false,
       "kind": "video",
       "video": "u2XWx-89Sro"
-    },
-    {
-      "id": "e0996c6b8a47",
-      "source": "planets",
-      "title": "“kakkoii”の誕生――世紀末ボーイズトイ列伝　勇者シリーズ（１０）「ミクロマン」前編",
-      "url": "https://note.com/wakusei2nd/n/n29c41c449ca8",
-      "date": "2025-08-14T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/208482033/rectangle_large_type_2_9cf43501372cb328dd0e9c879b5f2981.jpeg?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "デザイナー／ライター／小説家の池田明季哉さんによる連載『\"kakkoii\"の誕生──世紀末ボーイズトイ列伝』。今回は「変身サイボーグ」の後継シリーズ『ミクロマン』を分析します。サイズが12インチから3.75インチへと小型化したことで、〈少年＝遊び手〉と〈玩具〉の関係がどう変わったのかを考えます。"
-      ],
-      "truncated": true
-    },
-    {
-      "id": "720da97926df",
-      "source": "planets",
-      "title": "“kakkoii”の誕生――世紀末ボーイズトイ列伝　勇者シリーズ（９）「勇者王ガオガイガー」後編",
-      "url": "https://note.com/wakusei2nd/n/nd066df08551e",
-      "date": "2025-07-04T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/200023712/rectangle_large_type_2_64e6b50018d42e934574793e727b7ed1.png?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "デザイナー／ライター／小説家の池田明季哉さんによる連載『\"kakkoii\"の誕生──世紀末ボーイズトイ列伝』。今回は前回に引き続き『勇者王ガオガイガー』を分析します。玩具主導の勇者シリーズがロボットアニメへと転換した流れを読み解きます。"
-      ],
-      "truncated": true
     },
     {
       "id": "1e9062502a58",
@@ -6763,37 +6499,6 @@
       "video": "03_ql-gSKPo"
     },
     {
-      "id": "fe44aeb7aeda",
-      "source": "planets",
-      "title": "“kakkoii”の誕生――世紀末ボーイズトイ列伝　勇者シリーズ（９）「勇者王ガオガイガー」前編",
-      "url": "https://note.com/wakusei2nd/n/n3310d6e18a49",
-      "date": "2025-05-29T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/192425921/rectangle_large_type_2_5548de0b8ba50c791a2fc0639653d4c1.jpeg?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "デザイナー／ライター／小説家の池田明季哉さんによる連載『\"kakkoii\"の誕生──世紀末ボーイズトイ列伝』。勇者シリーズの最終作『勇者王ガオガイガー』は、歴代随一の人気作でありながら異端作だとも言われます。今回は、その「異端にして集大成」という二面性を読み解きます。"
-      ],
-      "truncated": true
-    },
-    {
-      "id": "812f0eb71f23",
-      "source": "planets",
-      "title": "日本の命運を握る「三種類の日本人」「三段構えの社交戦術」「三次元の国家間関係」について｜橘宏樹",
-      "url": "https://note.com/wakusei2nd/n/nb9f68ec7f62f",
-      "date": "2025-05-22T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/191467131/rectangle_large_type_2_b6561543de630aeb0f0ca8da32dd13d3.jpeg?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "橘宏樹さんが、「中の人」ならではの視点で日米の行政・社会構造を比較分析していく連載「現役官僚のニューヨーク駐在日記」。",
-        "今回は、〈出張組〉〈駐在組〉〈永住組〉という三層の日本人コミュニティを読み解きます。",
-        "橘宏樹　現役官僚のニューヨーク駐在日記",
-        "第15回　日本の命運を握る「三種類の日本人」「三段構えの社交戦術」「三次元の国家間関係」について"
-      ],
-      "truncated": true
-    },
-    {
       "id": "545fcb639e9d",
       "source": "nikkei",
       "title": "【曲げられる太陽電池】ペロブスカイト太陽電池､大阪万博にも　照らせ2兆円市場【NIKKEI Film】",
@@ -6834,20 +6539,6 @@
       "video": "fa9hSDqfldE"
     },
     {
-      "id": "1204e92542b2",
-      "source": "planets",
-      "title": "“kakkoii”の誕生――世紀末ボーイズトイ列伝　勇者シリーズ（８）「勇者指令ダグオン」後編",
-      "url": "https://note.com/wakusei2nd/n/ncf62deb3e809",
-      "date": "2025-03-18T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/179500316/rectangle_large_type_2_0b70c011fa300754930bae4129d9f5fc.png?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "デザイナー／ライター／小説家の池田明季哉さんによる連載『\"kakkoii\"の誕生──世紀末ボーイズトイ列伝』。今回は前回に引き続き『勇者指令ダグオン』を分析します。「絶対にして完璧な存在」となる誘惑を断ち切り「青春」を優先した主人公・大堂寺 炎。成熟のイメージという観点からは、どのように読むことができるのでしょうか？"
-      ],
-      "truncated": true
-    },
-    {
       "id": "83f2844ee08d",
       "source": "itokan",
       "title": "【伊藤貫の真剣な雑談】第21回「大革命家トランプ！」[桜R7/3/8]",
@@ -6879,35 +6570,6 @@
       "video": "do6ZzJ3nwYQ"
     },
     {
-      "id": "f5a82b8bef01",
-      "source": "planets",
-      "title": "リハビリテーション・ジャーナル──リハビリ編：プールで毎日2時間歩いて飽きないためのスパイス｜濱野智史",
-      "url": "https://note.com/wakusei2nd/n/n2b83b61fa37d",
-      "date": "2025-02-25T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/176303734/rectangle_large_type_2_7f11df2c1cb600e57d1f7d0e977b9be2.jpeg?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "批評家の濱野智史さんによる連載「リハビリテーション・ジャーナル」です。指定難病「特発性大腿骨頭壊死症」にかかり、人工股関節を入れる手術を受けるため、約1ヶ月間の入院生活を送ることとなった濱野さん。人生初の経験となる長期にわたる入院生活、そしてその後のリハビリ生活の中で見えてきたノウハウやメソッドを紹介しながら、「健康」と「身体」を見つめ直していきます。第4回では、前回の記事で濱野さんが熱く魅力を語ったプールを「飽きない」ためのデバイスやメソッドについて紹介します。"
-      ],
-      "truncated": true
-    },
-    {
-      "id": "77a29a880720",
-      "source": "planets",
-      "title": "「分断」を乗り越える個人のチカラ（ニューヨークのイノベーションシーンについて後編＃3）",
-      "url": "https://note.com/wakusei2nd/n/ne501e5144764",
-      "date": "2025-02-16T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/174603009/rectangle_large_type_2_197b5a0285f2446307d2ec4ba3d22cca.png?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "橘宏樹さんが、「中の人」ならではの視点で日米の行政・社会構造を比較分析していく連載「現役官僚のニューヨーク駐在日記」。今回はニューヨークで活躍する日本人のイノベーターとして、包丁や食器の輸入販売を行う「Korin」社長・創業者の川野作織さんを紹介します。「ニューヨークレストラン業界のゴッドマザー」として、現地のシェフたちに支持される川野さんが始めた活動「GOHAN Society」。その日本文化の伝承方法としての革新性とは？",
-        "「分断」を乗り越える個人のチカラ（ニューヨークのイノベーションシーンについて後編＃3）"
-      ],
-      "truncated": true
-    },
-    {
       "id": "a3519d81848d",
       "source": "nikkei",
       "title": "【英語教育】AIあるのに、なんで英語勉強するの？【NIKKEI Film】",
@@ -6926,49 +6588,6 @@
       "truncated": false,
       "kind": "video",
       "video": "ZF7T2MLUvHA"
-    },
-    {
-      "id": "f4f79c34980d",
-      "source": "planets",
-      "title": "“kakkoii”の誕生――世紀末ボーイズトイ列伝　勇者シリーズ（８）「勇者指令ダグオン」前編",
-      "url": "https://note.com/wakusei2nd/n/n8b2c2c7296c0",
-      "date": "2025-02-11T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/173931301/rectangle_large_type_2_e550725fdbb0628d342d787158615d4b.jpeg?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "デザイナー／ライター／小説家の池田明季哉さんによる連載『\"kakkoii\"の誕生──世紀末ボーイズトイ列伝』。今回は「末期勇者」として『勇者指令ダグオン』を分析します。『黄金勇者ゴルドラン』によって一度達成されてしまった「魂を持った乗り物」という概念で名指そうとした美学。「末期勇者」はいかなる提案を勇者シリーズに行うのでしょうか。"
-      ],
-      "truncated": true
-    },
-    {
-      "id": "236968e1e7be",
-      "source": "planets",
-      "title": "リハビリテーション・ジャーナル──リハビリ編：プール・ウォーキングの魅力｜濱野智史",
-      "url": "https://note.com/wakusei2nd/n/n189f4cf02d33",
-      "date": "2025-01-27T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/171822376/rectangle_large_type_2_14f87bb7cefb8b3b8466671d7ddcf955.jpeg?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "批評家の濱野智史さんによる連載「リハビリテーション・ジャーナル」です。指定難病「特発性大腿骨頭壊死症」にかかり、人工股関節を入れる手術を受けるため、約1ヶ月間の入院生活を送ることとなった濱野さん。人生初の経験となる長期にわたる入院生活、そしてその後のリハビリ生活の中で見えてきたノウハウやメソッドを紹介しながら、「健康」と「身体」を見つめ直していきます。第3回では、プールと水中ウォーキングというスポーツ・アクティビティの魅力とメリットを紹介します。"
-      ],
-      "truncated": true
-    },
-    {
-      "id": "56e7ab617c39",
-      "source": "planets",
-      "title": "“kakkoii”の誕生――世紀末ボーイズトイ列伝　勇者シリーズ（７）「黄金勇者ゴルドラン」後編",
-      "url": "https://note.com/wakusei2nd/n/n5d8238bad7d6",
-      "date": "2025-01-06T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/167393567/rectangle_large_type_2_8105460043f85b146ebed0e6c209af2a.jpeg?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "デザイナー／ライター／小説家の池田明季哉さんによる連載『\"kakkoii\"の誕生──世紀末ボーイズトイ列伝』。",
-        "「黄金勇者ゴルドラン」分析の最終編です。20世紀的な男性性の美学を鋭く批判する、「所有」や「支配」ではない「遊び」による成熟のイメージとは？"
-      ],
-      "truncated": true
     },
     {
       "id": "ffc65f4f1042",
@@ -7000,20 +6619,6 @@
       "truncated": false,
       "kind": "video",
       "video": "LLc2cswbu6Q"
-    },
-    {
-      "id": "e2e12b577c13",
-      "source": "planets",
-      "title": "リハビリテーション・ジャーナル──入院編：入院生活に欠かせないIT&デジタル環境の必須リスト（後編）｜濱野智史",
-      "url": "https://note.com/wakusei2nd/n/n72b63e3c15b5",
-      "date": "2024-12-10T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/165228840/rectangle_large_type_2_01bcc103a4b650e3c223973f8583d633.png?width=800",
-      "author": "PLANETS",
-      "subtitle": "",
-      "body": [
-        "批評家の濱野智史さんによる新連載「リハビリテーション・ジャーナル」です。指定難病「特発性大腿骨頭壊死症」にかかり、人工股関節を入れる手術を受けるため、約1ヶ月間の入院生活を送ることとなった濱野さん。人生初の経験となる長期にわたる入院生活、そしてその後のリハビリ生活の中で見えてきたノウハウやメソッドを紹介しながら、「健康」と「身体」を見つめ直していきます。第2回（後編）では前回に引き続き、入院生活に欠かせないIT&デジタル環境の必須リストを紹介してくれました。"
-      ],
-      "truncated": true
     },
     {
       "id": "e34072fb8c73",

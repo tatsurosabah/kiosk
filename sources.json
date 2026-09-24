@@ -22,14 +22,6 @@
       "enabled": true
     },
     {
-      "id": "planets",
-      "name": "PLANETS",
-      "url": "https://note.com/wakusei2nd/rss",
-      "site": "https://note.com/wakusei2nd",
-      "hue": 88,
-      "enabled": true
-    },
-    {
       "id": "slowtimes",
       "name": "Slow Times",
       "url": "https://slowtimesjp.substack.com/feed",
