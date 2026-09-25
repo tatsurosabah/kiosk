@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T00:21:19.530257+00:00",
+  "updated": "2026-09-25T08:38:42.201050+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,53 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "5b9d500a8a91",
+      "source": "cambria",
+      "title": "79歳名物社長が語る！飲食店を次々と蘇らせる驚きの再生術　～テンポスHD 森下篤史社長～【カンブリア宮殿／未公開インタビュー】",
+      "url": "https://www.youtube.com/watch?v=oGeR34NZ8hM",
+      "date": "2026-09-25T08:00:22+00:00",
+      "image": "https://i4.ytimg.com/vi/oGeR34NZ8hM/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "▼インタビューのフルバージョン(19分)は「テレ東BIZ」で配信中！▼",
+        "https://txbiz.tv-tokyo.co.jp/cambria/vod/post_349266?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_260924_yt_oGeR34NZ8hM",
+        "▼2026年9月24日OA『“飲食店の救世主”驚き再生術』【カンブリア宮殿】▼",
+        "https://txbiz.tv-tokyo.co.jp/cambria/vod/post_349079?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_260924_yt_oGeR34NZ8hM",
+        "2026年9月24日放送の『“飲食店の救世主”驚き再生術』で取材した、テンポスHD・森下篤史社長のインタビューをテレ東BIZで限定配信します。 「外食事業の始まりとなった「あさくま」復活の舞台裏」「倒産危機だった居酒屋チェーンを再生させた秘話」など、詳しく聞きました。",
+        "#テンポスHD　#外食　#あさくま　#ステーキラーメン　#テンポスバスターズ　#カンブリア宮殿　#番組未公開"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "oGeR34NZ8hM"
+    },
+    {
+      "id": "7f06876332c7",
+      "source": "uno",
+      "title": "「人間」の拡張について（文化系のための『マタギドライヴ』の読み方 #6）",
+      "url": "https://note.com/wakusei2nduno/n/n877e1e93b4e5",
+      "date": "2026-09-25T07:32:54+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/317373043/rectangle_large_type_2_28fd16492ac1cbed5bfdf93621cfd77b.png?width=800",
+      "author": "宇野常寛",
+      "subtitle": "",
+      "body": [
+        "（これまでの解説はこちら↓から）"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "564b838c7ce8",
+      "source": "kazobara",
+      "title": "語らないAI Jevが作るチャンスを読み解くー創発の読み方, 埋め込まれた設計図ー実践プロンプト付",
+      "url": "https://note.com/kazobara/n/ne8ff210a5030",
+      "date": "2026-09-25T01:43:48+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/317287522/rectangle_large_type_2_5f741625d0e2b885a02df90a60ab8dae.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "続きをみる",
+      "body": [],
+      "truncated": true
+    },
     {
       "id": "799b19ff0430",
       "source": "kazobara",
