@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T08:38:42.201050+00:00",
+  "updated": "2026-09-25T14:30:11.237849+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,57 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "117ac8b869ec",
+      "source": "gaia",
+      "title": "ガイアの夜明け【続・インフラ危機に挑む！】予告",
+      "url": "https://www.youtube.com/watch?v=1WJejwluVMw",
+      "date": "2026-09-25T14:08:13+00:00",
+      "image": "https://i2.ytimg.com/vi/1WJejwluVMw/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "【10月2日(金)夜10時放送】",
+        "道路や橋、トンネルなど日本のインフラは高度経済成長期前後に整備されたものが多く、いま老朽化が急速に進んでいる。インフラ危機への挑戦と未来への展望を伝える。",
+        "https://txbiz.tv-tokyo.co.jp/gaia?utm_source=youtube&utm_medium=video&utm_campaign=gaia",
+        "【案内人】長谷川博己",
+        "【ナレーター】田中哲司",
+        "「ガイアの夜明け」最新回や過去の放送、TV番組未公開が見放題！",
+        "■テレ東BIZ",
+        "https://txbiz.tv-tokyo.co.jp/gaia?utm_source=youtube&utm_medium=video&utm_campaign=gaia",
+        "■番組HP",
+        "https://www.tv-tokyo.co.jp/gaia/",
+        "#ガイアの夜明け"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "1WJejwluVMw"
+    },
+    {
+      "id": "37462e3e15ea",
+      "source": "cambria",
+      "title": "経営危機の「あさくま」をV字回復させたテンポスHD森下篤史の飲食店再生論【カンブリア宮殿】",
+      "url": "https://www.youtube.com/watch?v=3pJocA0U54w",
+      "date": "2026-09-25T11:00:08+00:00",
+      "image": "https://i4.ytimg.com/vi/3pJocA0U54w/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "▼番組のフル視聴（37分）はこちらから▼",
+        "https://txbiz.tv-tokyo.co.jp/cambria/vod/post_349079?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_260924_yt_3pJocA0U54w",
+        "▼日本一「つぶれる店を見てきた」社長が語る…飲食店経営の極意！あらゆる店を復活させる！？再生術とは… 未放送のスタジオトークをイッキ見！【カンブリア宮殿/スタジオ完全版】▼",
+        "https://txbiz.tv-tokyo.co.jp/cambria/vod/post_349263?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_260924_yt_3pJocA0U54w",
+        "▼79歳名物社長が語る！飲食店を次々と蘇らせる驚きの再生術　～テンポスHD 森下篤史社長～【カンブリア宮殿／未公開インタビュー】▼",
+        "https://txbiz.tv-tokyo.co.jp/cambria/vod/post_349266?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_260924_yt_3pJocA0U54w",
+        "▼「テレ東BIZ」会員登録はこちら▼",
+        "https://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_260924_yt_3pJocA0U54w",
+        "肉汁溢れるハンバーグで大人気のチェーン「ステーキのあさくま」。実はかつて、深刻な経営危機に直面していた。そんな現場に乗り込み、45種類のサラダバーなどの戦略で見事なV字回復へと導いたのが、テンポスホールディングスを率いる森下篤史79歳だ。中古厨房機器の買取販売からスタートし、「日本一つぶれる店を見てきた」と語る森下。いかにして飲食店を蘇らせるのか…驚きの再生術に迫る！",
+        "#テンポスHD #ステーキのあさくま #テンポスバスターズ #飲食店 #金原ひとみ #ヒャダイン #カンブリア宮殿 #テレビ東京 #テレ東BIZ"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "3pJocA0U54w"
+    },
     {
       "id": "5b9d500a8a91",
       "source": "cambria",
