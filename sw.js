@@ -1,5 +1,5 @@
 // index.html / sw.js を変えたら CACHE の版番号を必ず上げること
-const CACHE = "kiosk-v13";
+const CACHE = "kiosk-v14";
 const SHELL = ["./", "./index.html", "./manifest.json", "./icon-180.png", "./icon-512.png"];
 
 self.addEventListener("install", (e) => {

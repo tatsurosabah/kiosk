@@ -95,8 +95,9 @@
     transition:transform .16s ease,background-color .16s ease
   }
   .card:active{opacity:.55}
-  .card.swiping{transition:none;background:rgba(168,86,60,.08)}
-  .card.swipe-ready{background:rgba(168,86,60,.15)}
+  .card.swiping{transition:none}
+  .card.swipe-later{background:rgba(168,86,60,.15)}
+  .card.swipe-read{background:rgba(56,104,92,.15)}
   .card.read .ctitle{color:var(--muted);font-weight:500}
   .card.read .cthumb{opacity:.45}
   .cbody{flex:1 1 auto;min-width:0}
@@ -423,9 +424,12 @@ var S = { read:{}, later:{}, pasted:[], repo:"", token:"", src:"" };
 try { Object.assign(S, JSON.parse(localStorage.getItem(KEY) || "{}")); } catch(e){}
 function save(){ try{ localStorage.setItem(KEY, JSON.stringify(S)); }catch(e){} }
 
+// この更新では一度だけ「観る」を初期表示にする。以後はユーザーが選んだ側を記憶する。
+if(!S.videoDefaultV1){ S.mode = "video"; S.videoDefaultV1 = 1; save(); }
+
 var DATA = { articles:[], sources:[], updated:"" };
 var SRC = {};              // id -> source
-var view = { mode:(S.mode || "article"), tab:(S.tab || "unread"), src:"" };
+var view = { mode:(S.mode || "video"), tab:(S.tab || "unread"), src:"" };
 var current = null;
 var PAGE = 24, shown = PAGE;      // note の画像は一度に何十枚も頼むと弾かれるので少しずつ出す
 
@@ -825,7 +829,25 @@ function toggleLater(id){
   return !!S.later[id];
 }
 
-// 一覧は一覧のまま、右スワイプで「見たい」を付け外しする。
+function markRead(id){
+  var item = allItems().filter(function(a){ return a.id === id; })[0];
+  if(!item) return "";
+  var already = !!S.read[id];
+  S.read[id] = 1;
+  save();
+  if(view.tab === "unread"){
+    render();
+  } else {
+    $$('[data-id]').forEach(function(card){
+      if(card.dataset.id === id) card.classList.add("read");
+    });
+    updateCounts();
+  }
+  if(isVideo(item)) return already ? "視聴済みです" : "視聴済みにしました";
+  return already ? "既読です" : "既読にしました";
+}
+
+// 一覧は一覧のまま、右で「見たい」、左で既読・視聴済みにする。
 var swipe = null, suppressCardClickUntil = 0;
 $("#list").addEventListener("pointerdown", function(ev){
   if(!ev.isPrimary || ev.button !== 0 || (ev.target.closest && ev.target.closest("button,a"))) return;
@@ -837,27 +859,33 @@ $("#list").addEventListener("pointermove", function(ev){
   if(!swipe || !ev.isPrimary) return;
   var dx = ev.clientX - swipe.x, dy = ev.clientY - swipe.y;
   if(!swipe.horizontal && Math.abs(dy) > Math.abs(dx) + 8){ swipe = null; return; }
-  if(dx <= 8) return;
+  if(Math.abs(dx) <= 8) return;
   swipe.horizontal = true; swipe.dx = dx;
   ev.preventDefault();
-  var move = Math.min(dx, 96);
+  var move = Math.max(-96, Math.min(dx, 96));
   swipe.card.classList.add("swiping");
-  swipe.card.classList.toggle("swipe-ready", dx >= 64);
+  swipe.card.classList.toggle("swipe-later", dx >= 64);
+  swipe.card.classList.toggle("swipe-read", dx <= -64);
   swipe.card.style.transform = "translateX(" + move + "px)";
 });
 function finishSwipe(){
   if(!swipe) return;
   var s = swipe; swipe = null;
-  s.card.classList.remove("swiping","swipe-ready");
+  s.card.classList.remove("swiping","swipe-later","swipe-read");
   s.card.style.transform = "";
-  if(!s.horizontal || s.dx < 64) return;
+  if(!s.horizontal || Math.abs(s.dx) < 64) return;
   suppressCardClickUntil = Date.now() + 500;
-  var on = toggleLater(s.id);
-  toast(on ? "★ 見たいに追加しました" : "見たいから外しました");
+  if(s.dx > 0){
+    var on = toggleLater(s.id);
+    toast(on ? "★ 見たいに追加しました" : "見たいから外しました");
+  } else {
+    var message = markRead(s.id);
+    if(message) toast(message);
+  }
 }
 $("#list").addEventListener("pointerup", finishSwipe);
 $("#list").addEventListener("pointercancel", function(){
-  if(swipe){ swipe.card.classList.remove("swiping","swipe-ready"); swipe.card.style.transform = ""; }
+  if(swipe){ swipe.card.classList.remove("swiping","swipe-later","swipe-read"); swipe.card.style.transform = ""; }
   swipe = null;
 });
 
