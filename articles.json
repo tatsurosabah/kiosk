@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T14:30:11.237849+00:00",
+  "updated": "2026-09-26T00:26:26.427600+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,30 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "807236597e72",
+      "source": "crossdig",
+      "title": "【片山さつき財務大臣】高市総理は「日銀の独立性を尊重」／「今の金利上昇は長く続かない」／著名投資家ドラッケンミラー氏と面会／防衛費GDP比3.5%「防衛省・アメリカから一度も言われてない」",
+      "url": "https://www.youtube.com/watch?v=C3w8FR_hhlg",
+      "date": "2026-09-25T22:30:38+00:00",
+      "image": "https://i4.ytimg.com/vi/C3w8FR_hhlg/hqdefault.jpg",
+      "author": "TBS CROSS DIG with Bloomberg",
+      "subtitle": "",
+      "body": [
+        "https://youtube.com/@tbs_bloomberg",
+        "👆チャンネル登録・高評価をよろしくお願いします",
+        "25日夜、ベッセント米財務長官と電話会談を行った片山さつき財務大臣。同日の閣議後会見で、トランプ大統領から円安への懸念が示されたことを明らかにしていましたが、今の円相場、金利上昇そして財政運営についてどう考えているのか？ブルームバーグの独占インタビューです。",
+        "（ブルームバーグ 2026年9月25日 配信）",
+        "▼TBS CROSS DIG with Bloomberg",
+        "https://newsdig.tbs.co.jp/list/withbloomberg",
+        "▼公式Xアカウント",
+        "https://x.com/tbs_bloomberg",
+        "#tbs #crossdig #財務省"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "C3w8FR_hhlg"
+    },
     {
       "id": "117ac8b869ec",
       "source": "gaia",
