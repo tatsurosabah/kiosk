@@ -56,9 +56,11 @@
   .mode{
     flex:0 0 auto;background:none;border:0;padding:6px 2px 9px;margin-right:16px;
     color:var(--faint);font-size:15px;font-weight:700;letter-spacing:.1em;cursor:pointer;
-    border-bottom:2px solid transparent
+    border-bottom:2px solid transparent;text-decoration:none
   }
   .mode.on{color:var(--ink);border-bottom-color:var(--ink)}
+  .mode.log-link{color:var(--warm)}
+  .mode.log-link:active{opacity:.55}
   .mode b{font-weight:600;font-size:11px;margin-left:6px;color:var(--faint);
     font-variant-numeric:tabular-nums}
   .mode.on b{color:var(--warm)}
@@ -273,6 +275,7 @@
   <div class="modes">
     <button class="mode on" data-mode="article">読む<b id="n-article"></b></button>
     <button class="mode" data-mode="video">観る<b id="n-video"></b></button>
+    <a class="mode log-link" href="https://yohaku-reading-log.shiraishitatsuro2020.chatgpt.site" target="_blank" rel="noopener" aria-label="自分専用の作品ログを開く">残す</a>
     <div class="filters">
       <button class="filt on" data-tab="unread" id="f-unread">未読</button>
       <button class="filt" data-tab="read" id="f-read">既読</button>
