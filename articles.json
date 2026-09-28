@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T17:37:10.514928+00:00",
+  "updated": "2026-09-28T00:24:45.229082+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,21 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "45377092cee7",
+      "source": "kazobara",
+      "title": "リモートワークで成果が出るチームとは?─「ザッソウ」と、クリエイティブな組織になる7つのステップ-520号-",
+      "url": "https://note.com/kazobara/n/n512d71685b01",
+      "date": "2026-09-27T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/318158169/rectangle_large_type_2_aabff44852141a5f32416b1209fef143.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "（2021年9月24日解説動画を記事化しました）",
+        "あっという間に9月も終わりで、もうすぐ10月。学びの秋ですね。というわけで、来月のゲストの発表です！10月のゲストは、株式会社ソニックガーデンの倉貫義人さんです。"
+      ],
+      "truncated": true
+    },
     {
       "id": "8c5b75e3053a",
       "source": "crossdig",
