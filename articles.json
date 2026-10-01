@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T01:09:31.698792+00:00",
+  "updated": "2026-10-01T09:54:22.606713+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,45 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "97f11ddca6c8",
+      "source": "uno",
+      "title": "人間を「数字」として扱わない職場の組織に必要なのは「1on1」ではなく「フェアな契約」だという話",
+      "url": "https://note.com/wakusei2nduno/n/ncd6d07cb276e",
+      "date": "2026-10-01T04:55:12+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/319515688/rectangle_large_type_2_ba199c037aecd05f1aec1785f8535fc2.png?width=800",
+      "author": "宇野常寛",
+      "subtitle": "",
+      "body": [
+        "今日は先日の渋谷セカンドステージで行われた、楽天大学ラボでの議論をもう少し振り返ってみたい。",
+        "【会場開催】9/25（金）知的生産の近未来―AIはホワイトカラーを『終わらせる』のか｜宮田裕章×篠田真貴子×宇野常寛（渋谷セカンドステージSPECIAL 楽天大学ラボ 公開収録｜Hikarie＋PLANETS＋楽天大学ラボ）◆開催概要 日　時： 9月25日（金）19:00〜21:00（18:30開場・受付開始） 会　場： 渋谷ヒカリエ8階 クリpeatix.com"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "4ff89a3d0256",
+      "source": "crossdig",
+      "title": "【タイムズスクエア出店へ】3.5兆円の米国すし市場に挑戦／円安のコスト高は「メニューミックス」で対応／ライバル「くら寿司」もアメリカで存在感",
+      "url": "https://www.youtube.com/watch?v=UAfOgW_9hUs",
+      "date": "2026-10-01T03:00:07+00:00",
+      "image": "https://i2.ytimg.com/vi/UAfOgW_9hUs/hqdefault.jpg",
+      "author": "TBS CROSS DIG with Bloomberg",
+      "subtitle": "",
+      "body": [
+        "https://youtube.com/@tbs_bloomberg",
+        "👆チャンネル登録・高評価をよろしくお願いします",
+        "回転ずしチェーン「スシロー」が10月、ニューヨークに再上陸する。運営会社のFOOD & LIFE COMPANIESの山本雅啓社長が、世界展開の戦略と円安によるコスト高への対応をブルームバーグのインタビューで語った。ナレーションはブルームバーグ・テレビジョンの東京アンカー、シェリー・アン。",
+        "（ブルームバーグ 2026年9月28日 配信）",
+        "▼TBS CROSS DIG with Bloomberg",
+        "https://newsdig.tbs.co.jp/list/withbloomberg",
+        "▼公式Xアカウント",
+        "https://x.com/tbs_bloomberg",
+        "#tbs #crossdig #sushi"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "UAfOgW_9hUs"
+    },
     {
       "id": "16cb6a791409",
       "source": "uno",
