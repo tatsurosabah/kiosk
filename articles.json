@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T09:54:22.606713+00:00",
+  "updated": "2026-10-01T18:44:51.695496+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,60 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "f59741c3554b",
+      "source": "cambria",
+      "title": "カンブリア宮殿【統合のシナジー効果で躍進！　大江戸温泉物語の舞台裏】予告",
+      "url": "https://www.youtube.com/watch?v=MMjTor94Ss8",
+      "date": "2026-10-01T14:54:27+00:00",
+      "image": "https://i2.ytimg.com/vi/MMjTor94Ss8/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "【10月8日(木)夜11時6分放送】",
+        "大江戸温泉がいま、ホテル事業を拡大させ業績を伸ばしている。高価格帯ブランドの宿「ＴＡＯＹＡ」も随時展開、ペットと同伴で泊まれる「わんわんシリーズ」も拡大している",
+        "https://txbiz.tv-tokyo.co.jp/cambria?utm_source=youtube&utm_medium=video&utm_campaign=cambria",
+        "【ゲスト】GENSEN　HOLDINGS　社長　川﨑俊介　副社長　橋本啓太",
+        "【ＭＣ】金原ひとみ　ヒャダイン",
+        "「カンブリア宮殿」最新回や過去の放送、TV番組未公開が見放題！",
+        "■テレ東BIZ",
+        "https://txbiz.tv-tokyo.co.jp/cambria?utm_source=youtube&utm_medium=video&utm_campaign=cambria",
+        "■番組HP",
+        "https://www.tv-tokyo.co.jp/cambria/",
+        "#カンブリア宮殿 #金原ひとみ #ヒャダイン #GENSEN #TAOYA #大江戸温泉"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "MMjTor94Ss8"
+    },
+    {
+      "id": "40b6f49eddf1",
+      "source": "ochiai",
+      "title": "【AIが人間を上手に飼う】可能性が高いのはペット化？認知科学者の苫米地英人が警鐘「隠せる個人情報はなくなる」アンソロピックからのアンケート、規制で米中競争の行方は？母の声を使う認知戦の実態【落合陽一】",
+      "url": "https://www.youtube.com/watch?v=1jPEbM-79Xs",
+      "date": "2026-10-01T11:00:25+00:00",
+      "image": "https://i2.ytimg.com/vi/1jPEbM-79Xs/hqdefault.jpg",
+      "author": "NewsPicks /ニューズピックス",
+      "subtitle": "",
+      "body": [
+        "番組のフル視聴（96分）はこちらから",
+        "https://npx.me/s/ySyfSKpK",
+        "10日間無料トライアル実施中",
+        "https://s.npx.me/ySXyEJt8",
+        "_____",
+        "国際的に議論されるAI規制。Anthropicのダリオ・アモデイCEOは、AIの急速な進化がもたらすリスクを理由に、開発のペースを落とすべきだと訴えた。これにはイーロン・マスク氏やサム・アルトマン氏も賛同。一方、アメリカのトランプ大統領はAI脅威論を「でっち上げ」と一蹴し、新たな国際規制の枠組みにも反対の姿勢を示している。行方を誰も見通せない今、その先の世界をどう読めばいいのか。認知戦の形はどうなるのか？かつて2050年の世界を予想した認知科学者・苫米地英人氏を迎え落合陽一と“24年後の世界”を描き出す。",
+        "ゲスト：苫米地英人（認知科学者）",
+        "《目次》",
+        "02:57 苫米地英人が捉えるAIの現在地",
+        "07:34 「AIは真面目すぎる」",
+        "12:44 AI規制ではなく人間規制",
+        "15:05 お母さんの声を使う認知戦",
+        "#落合陽一 #苫米地英人 #AI #認知戦 #生成AI #Anthropic #AI規制 #米中対立 #ディープフェイク #NewsPicks #WEEKLYOCHIAI"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "1jPEbM-79Xs"
+    },
     {
       "id": "97f11ddca6c8",
       "source": "uno",
