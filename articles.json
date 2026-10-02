@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T09:30:43.520743+00:00",
+  "updated": "2026-10-02T18:16:50.320448+00:00",
   "sources": [
     {
       "id": "uno",
@@ -114,6 +114,57 @@
   "generated_by": "fetch.py",
   "articles": [
     {
+      "id": "f46330acced7",
+      "source": "gaia",
+      "title": "ガイアの夜明け【地方の“うまい”を売る！～ニッポンの「食」が大進化～】予告",
+      "url": "https://www.youtube.com/watch?v=qEhTCWscYWM",
+      "date": "2026-10-02T13:53:40+00:00",
+      "image": "https://i2.ytimg.com/vi/qEhTCWscYWM/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "【10月9日(金)夜10時放送】",
+        "ガイアが見つめてきた主人公たち。地域の食文化を守りながら、独自の方法で食材を“進化”させる挑戦を追った。",
+        "https://txbiz.tv-tokyo.co.jp/gaia?utm_source=youtube&utm_medium=video&utm_campaign=gaia",
+        "【案内人】長谷川博己",
+        "【ナレーター】田中哲司",
+        "「ガイアの夜明け」最新回や過去の放送、TV番組未公開が見放題！",
+        "■テレ東BIZ",
+        "https://txbiz.tv-tokyo.co.jp/gaia?utm_source=youtube&utm_medium=video&utm_campaign=gaia",
+        "■番組HP",
+        "https://www.tv-tokyo.co.jp/gaia/",
+        "#ガイアの夜明け"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "qEhTCWscYWM"
+    },
+    {
+      "id": "074343c4bdb0",
+      "source": "cambria",
+      "title": "角栓崩壊から洗濯槽の除菌まで！「驚異の洗浄力」を生む花王の技術力を徹底解剖【カンブリア宮殿】",
+      "url": "https://www.youtube.com/watch?v=qe0gZixWnRY",
+      "date": "2026-10-02T11:00:36+00:00",
+      "image": "https://i2.ytimg.com/vi/qe0gZixWnRY/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "▼番組のフル視聴（38分）はこちらから▼",
+        "https://txbiz.tv-tokyo.co.jp/cambria/vod/post_349398?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_261001_yt_qe0gZixWnRY",
+        "▼新型アタック…角栓崩壊ビオレ…ヒット商品連発の裏にあった理系社長の大改革　未放送のスタジオトークをイッキ見！【カンブリア宮殿／スタジオ完全版】▼",
+        "https://txbiz.tv-tokyo.co.jp/cambria/vod/post_349624?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_261001_yt_qe0gZixWnRY",
+        "▼理系社長の原点となった「工場長の厳しい一言」とは？手本とするリーダー像や「対話」を重視する経営の真髄～花王 長谷部佳宏社長～【カンブリア宮殿／未公開インタビュー】▼",
+        "https://txbiz.tv-tokyo.co.jp/cambria/vod/post_349625?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_261001_yt_qe0gZixWnRY",
+        "▼「テレ東BIZ」会員登録はこちら▼",
+        "https://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_261001_yt_qe0gZixWnRY",
+        "社長就任以来、業績を急回復させる花王・長谷部社長。今年上期の営業利益は過去最高を記録した。その原動力となっているのは、創業以来の高度な「界面制御技術」だ。メイク落としから洗濯洗剤、さらには農業分野まで、花王が培ってきた界面技術を再構築し、日用品からさらに事業領域を広げる長谷部社長の戦略に迫る。",
+        "#花王 #ビオレ #アタック #角栓崩壊 #界面制御技術 #洗濯 #金原ひとみ #ヒャダイン #カンブリア宮殿 #テレビ東京 #テレ東BIZ"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "qe0gZixWnRY"
+    },
+    {
       "id": "cdfcd042d061",
       "source": "cambria",
       "title": "理系社長の原点となった「工場長の厳しい一言」とは？手本とするリーダー像や「対話」を重視する経営の真髄～花王 長谷部佳宏社長～【カンブリア宮殿／未公開インタビュー】",
@@ -145,8 +196,7 @@
       "author": "宇野常寛",
       "subtitle": "",
       "body": [
-        "先日、宇野維正さん、森直人さんとクリストファー・ノーラン監督の『オデュッセイア』についての座談会を収録した。近日中にYoutubeに公開されるのだが、それとは別にこの『オデュッセイア』については書いておきたい。……と思っていたのだが、「Real Sound」に掲載された福嶋亮大さんの批評があまりにも素晴らしすぎて、書く気を失ってしまった。",
-        "超神話と反革命の時代への並外れた批評――クリストファー・ノーラン『オデュッセイア』評クリストファー・ノーラン監督の新作『オデュッセイア』は紛れもない傑作である。ただしそれは、日本の各界の著名人たちが讃えるよrealsound.jp"
+        "先日、宇野維正さん、森直人さんとクリストファー・ノーラン監督の『オデュッセイア』についての座談会を収録した。"
       ],
       "truncated": true
     },
