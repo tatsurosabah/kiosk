@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T18:44:51.695496+00:00",
+  "updated": "2026-10-02T01:30:16.305156+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,21 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "df76bc2016d9",
+      "source": "kazobara",
+      "title": "仲間を勝たせる会話術─相手の個性を輝かせる『プロレス力』-521号-",
+      "url": "https://note.com/kazobara/n/nc0e875ce42c4",
+      "date": "2026-10-01T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/318161865/rectangle_large_type_2_8ea6e4de27c4c9ca3a00f13f2ce4b1de.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "（2021年6月4日解説動画を記事化しました）",
+        "今日は、つながる時代の天才の解説として「仲間を勝たせる会話術」のお話をさせていただきたいと思います。"
+      ],
+      "truncated": true
+    },
     {
       "id": "f59741c3554b",
       "source": "cambria",
