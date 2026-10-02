@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T01:30:16.305156+00:00",
+  "updated": "2026-10-02T09:30:43.520743+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,43 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "cdfcd042d061",
+      "source": "cambria",
+      "title": "理系社長の原点となった「工場長の厳しい一言」とは？手本とするリーダー像や「対話」を重視する経営の真髄～花王 長谷部佳宏社長～【カンブリア宮殿／未公開インタビュー】",
+      "url": "https://www.youtube.com/watch?v=H0BL4Pir2hU",
+      "date": "2026-10-02T08:00:05+00:00",
+      "image": "https://i1.ytimg.com/vi/H0BL4Pir2hU/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "▼インタビューのフルバージョン(18分)は「テレ東BIZ」で配信中！▼",
+        "https://txbiz.tv-tokyo.co.jp/cambria/vod/post_349625?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_261001_yt_H0BL4Pir2hU",
+        "▼2026年10月1日OA『業績拡大させた改革とは？「花王」ヒット連発の舞台裏』【カンブリア宮殿】▼",
+        "https://txbiz.tv-tokyo.co.jp/cambria/vod/post_349398?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_261001_yt_H0BL4Pir2hU",
+        "2026年10月1日放送のカンブリア宮殿『ヒット連発！改革＆驚きの技術』で伝えきれなかった、花王 長谷部佳宏社長のインタビューをテレ東BIZで限定配信します。",
+        "「転機となった苦い経験」「手本とするリーダー」「対話を生み出す秘訣」などを聞いています。",
+        "#花王　#長谷部佳宏　#社長　#日用品　#アタック　#ビオレ　#界面制御技術　#カンブリア宮殿　#番組未公開"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "H0BL4Pir2hU"
+    },
+    {
+      "id": "39244b86c3b4",
+      "source": "uno",
+      "title": "オデュッセイアと「劇映画」の問題",
+      "url": "https://note.com/wakusei2nduno/n/n5b280de31cd3",
+      "date": "2026-10-02T04:37:47+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/319862859/rectangle_large_type_2_5be26c50d19c7b102cb6c98be2f0d07e.png?width=800",
+      "author": "宇野常寛",
+      "subtitle": "",
+      "body": [
+        "先日、宇野維正さん、森直人さんとクリストファー・ノーラン監督の『オデュッセイア』についての座談会を収録した。近日中にYoutubeに公開されるのだが、それとは別にこの『オデュッセイア』については書いておきたい。……と思っていたのだが、「Real Sound」に掲載された福嶋亮大さんの批評があまりにも素晴らしすぎて、書く気を失ってしまった。",
+        "超神話と反革命の時代への並外れた批評――クリストファー・ノーラン『オデュッセイア』評クリストファー・ノーラン監督の新作『オデュッセイア』は紛れもない傑作である。ただしそれは、日本の各界の著名人たちが讃えるよrealsound.jp"
+      ],
+      "truncated": true
+    },
     {
       "id": "df76bc2016d9",
       "source": "kazobara",
