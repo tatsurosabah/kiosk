@@ -59,8 +59,8 @@
     border-bottom:2px solid transparent;text-decoration:none
   }
   .mode.on{color:var(--ink);border-bottom-color:var(--ink)}
-  .mode.log-link{color:var(--warm)}
-  .mode.log-link:active{opacity:.55}
+  .mode.log-mode{color:var(--warm)}
+  .mode.log-mode.on{color:var(--warm);border-bottom-color:var(--warm)}
   .mode b{font-weight:600;font-size:11px;margin-left:6px;color:var(--faint);
     font-variant-numeric:tabular-nums}
   .mode.on b{color:var(--warm)}
@@ -140,6 +140,18 @@
 
   .empty{text-align:center;color:var(--faint);padding:64px 20px;font-size:13px;line-height:2;
     letter-spacing:.04em}
+
+  /* ---------- 作品ログ ---------- */
+  body.showing-log{padding-bottom:0;overflow:hidden}
+  .worklog{display:none;height:calc(100dvh - 102px);background:var(--surface)}
+  .worklog.on{display:flex;flex-direction:column}
+  .worklogbar{
+    flex:0 0 auto;display:flex;align-items:center;gap:10px;padding:8px 16px;
+    border-bottom:1px solid var(--hair);background:var(--surface);font-size:11.5px;color:var(--muted)
+  }
+  .worklogbar span{flex:1}
+  .worklogbar a{color:var(--warm);font-weight:600;text-decoration:none;white-space:nowrap}
+  .worklogframe{display:block;width:100%;height:100%;min-height:0;border:0;background:var(--paper)}
 
   /* ---------- 下部バー ---------- */
   .bottom{
@@ -275,7 +287,7 @@
   <div class="modes">
     <button class="mode on" data-mode="article">読む<b id="n-article"></b></button>
     <button class="mode" data-mode="video">観る<b id="n-video"></b></button>
-    <a class="mode log-link" href="https://yohaku-reading-log.shiraishitatsuro2020.chatgpt.site" target="_blank" rel="noopener" aria-label="自分専用の作品ログを開く">残す</a>
+    <button class="mode log-mode" data-mode="log" aria-label="自分専用の作品ログを見る">残す</button>
     <div class="filters">
       <button class="filt on" data-tab="unread" id="f-unread">未読</button>
       <button class="filt" data-tab="read" id="f-read">既読</button>
@@ -287,6 +299,16 @@
 </header>
 
 <main id="list"></main>
+
+<section class="worklog" id="worklog" aria-label="作品ログ">
+  <div class="worklogbar">
+    <span>自分専用の作品ログ</span>
+    <a href="https://yohaku-reading-log.shiraishitatsuro2020.chatgpt.site" target="_blank" rel="noopener">別画面で開く ↗</a>
+  </div>
+  <iframe class="worklogframe" id="worklog-frame" title="余白 — 作品ログ"
+    data-src="https://yohaku-reading-log.shiraishitatsuro2020.chatgpt.site"
+    allow="clipboard-read; clipboard-write"></iframe>
+</section>
 
 <div class="bottom">
   <button class="btn primary" id="btn-add">＋ 記事・購読を追加</button>
@@ -590,6 +612,22 @@ function render(){
     ? fmtDay(DATA.updated).replace("きょう","今日") + " " + fmtTime(DATA.updated) + " 更新" : "";
 
   var all = updateCounts();
+
+  // 作品ログは Kiosk の3つ目の画面として表示する。ログ本体は非公開サイト側に置いたまま、
+  // 公開リポジトリへ個人的な感想をコピーしない。
+  var showingLog = view.mode === "log";
+  document.body.classList.toggle("showing-log", showingLog);
+  $(".filters").style.display = showingLog ? "none" : "";
+  $("#chips").style.display = showingLog ? "none" : "";
+  $("#list").style.display = showingLog ? "none" : "";
+  $(".bottom").style.display = showingLog ? "none" : "";
+  $("#worklog").classList.toggle("on", showingLog);
+  if(showingLog){
+    $("#updated").textContent = "作品ログ";
+    var frame = $("#worklog-frame");
+    if(!frame.getAttribute("src")) frame.src = frame.dataset.src;
+    return;
+  }
 
   // ソースチップ。今のタブに在るものだけを、溜まっている本数つきで出す
   var counts = {};
