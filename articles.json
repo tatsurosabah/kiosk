@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T14:16:41.938249+00:00",
+  "updated": "2026-10-04T00:24:39.911546+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,30 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "d6cc542d860d",
+      "source": "crossdig",
+      "title": "【リボ払い年利400％も】「スマホですぐ借金」フィンテックの弊害／分割払いは当たり前／スポーツ賭博が追い打ち／企業の借金は計7兆円／国の利払いはGDP8％超／そんなブラジルより多い日本の政府債務",
+      "url": "https://www.youtube.com/watch?v=ctTyPn2o-Iw",
+      "date": "2026-10-03T23:00:35+00:00",
+      "image": "https://i4.ytimg.com/vi/ctTyPn2o-Iw/hqdefault.jpg",
+      "author": "TBS CROSS DIG with Bloomberg",
+      "subtitle": "",
+      "body": [
+        "https://youtube.com/@tbs_bloomberg",
+        "👆チャンネル登録・高評価をよろしくお願いします",
+        "選挙を控えたブラジルの債務問題は深刻になっています。実に80％の世帯がなんらかの借金を抱えています。「借金大国」とも言えるブラジルの実態は？",
+        "（ブルームバーグ 2026年9月25日 配信）",
+        "▼TBS CROSS DIG with Bloomberg",
+        "https://newsdig.tbs.co.jp/list/withbloomberg",
+        "▼公式Xアカウント",
+        "https://x.com/tbs_bloomberg",
+        "#tbs #crossdig"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "ctTyPn2o-Iw"
+    },
     {
       "id": "41bb7f747b1d",
       "source": "joho",
