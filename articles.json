@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T00:24:39.911546+00:00",
+  "updated": "2026-10-04T09:29:36.929933+00:00",
   "sources": [
     {
       "id": "uno",
@@ -114,6 +114,20 @@
   "generated_by": "fetch.py",
   "articles": [
     {
+      "id": "b8e0ed00b026",
+      "source": "kazobara",
+      "title": "【学びの秋】自分の成長 ステージで使い分けてる？ 二人の達人フォーマットから応用できること",
+      "url": "https://note.com/kazobara/n/n7aa033105f9d",
+      "date": "2026-10-04T02:25:31+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/320587788/rectangle_large_type_2_73a20aaaaca5192bec4e133ac68c4dc5.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "まず、この図を見てほしい。仲山進也さんが『組織にいながら、自由に働く。』で示した「加減乗除の法則」である。"
+      ],
+      "truncated": true
+    },
+    {
       "id": "d6cc542d860d",
       "source": "crossdig",
       "title": "【リボ払い年利400％も】「スマホですぐ借金」フィンテックの弊害／分割払いは当たり前／スポーツ賭博が追い打ち／企業の借金は計7兆円／国の利払いはGDP8％超／そんなブラジルより多い日本の政府債務",
@@ -131,7 +145,7 @@
         "https://newsdig.tbs.co.jp/list/withbloomberg",
         "▼公式Xアカウント",
         "https://x.com/tbs_bloomberg",
-        "#tbs #crossdig"
+        "#tbs #crossdig #brazil"
       ],
       "truncated": false,
       "kind": "video",
