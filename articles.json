@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T01:27:31.871726+00:00",
+  "updated": "2026-10-07T10:00:31.898850+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,37 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "b3eb69ac0397",
+      "source": "kazobara",
+      "title": "なぜ任天堂は「遊べなくなるゲーム」をつくるのか。AIと考えたら、僕たちの「終わり方」が見えてきた",
+      "url": "https://note.com/kazobara/n/n820476edfbad",
+      "date": "2026-10-07T09:24:03+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/321814810/rectangle_large_type_2_6d5f4fc6497b95734ef6b5c1025eedef.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "ルイージもピーチも、遊び疲れると寝ちゃう。",
+        "しかも、寝ている間は遊べない。",
+        "任天堂が10月6日に配信を始めた、無料のNintendo Switchソフト「かおルイージ」「かおピーチ」。顔をつついたり、ひっぱったり、いろんな表情を楽しむ、子ども向けの遊びです。"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "449c76cbaa50",
+      "source": "uno",
+      "title": "「微分可能オントロジー」について：第2章2節後半（文化系のための「マタギドライヴ」の読み方 #8）",
+      "url": "https://note.com/wakusei2nduno/n/n49085fdc7f9a",
+      "date": "2026-10-07T02:55:20+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/321697902/rectangle_large_type_2_682e106ae80f0015dc2ceacae77aa9f6.png?width=800",
+      "author": "宇野常寛",
+      "subtitle": "",
+      "body": [
+        "（前回までの解説はこちら）",
+        "文化系のための『マタギドライヴ』の読み方｜宇野常寛｜note宇野常寛による落合陽一『マタギドライヴ』の徹底解説シリーズ。文系目線で、限界まで噛み砕いています。ここまでやれば初読者でもnote.com"
+      ],
+      "truncated": true
+    },
     {
       "id": "7139c6ede164",
       "source": "kazobara",
