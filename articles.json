@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T10:13:16.681981+00:00",
+  "updated": "2026-10-08T19:12:11.119146+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,62 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "71c9e44f8bae",
+      "source": "cambria",
+      "title": "カンブリア宮殿【熱を操って103年！タイガー 低迷からの復活劇】予告",
+      "url": "https://www.youtube.com/watch?v=vcvdkCPZSDk",
+      "date": "2026-10-08T14:54:39+00:00",
+      "image": "https://i3.ytimg.com/vi/vcvdkCPZSDk/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "【10月15日(木)夜11時6分放送】",
+        "炊飯器や水筒でお馴染みのタイガー魔法瓶。2006年に販売した業界初の「土鍋炊飯器」は、本物の土鍋にIHで熱を伝えるという難しい技術を実現して大ヒット。その戦略に迫る！",
+        "https://txbiz.tv-tokyo.co.jp/cambria?utm_source=youtube&utm_medium=video&utm_campaign=cambria",
+        "【ゲスト】タイガー魔法瓶　CEO　菊池嘉聡",
+        "【ＭＣ】金原ひとみ　ヒャダイン",
+        "「カンブリア宮殿」最新回や過去の放送、TV番組未公開が見放題！",
+        "■テレ東BIZ",
+        "https://txbiz.tv-tokyo.co.jp/cambria?utm_source=youtube&utm_medium=video&utm_campaign=cambria",
+        "■番組HP",
+        "https://www.tv-tokyo.co.jp/cambria/",
+        "#カンブリア宮殿 #金原ひとみ #ヒャダイン #タイガー魔法瓶"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "vcvdkCPZSDk"
+    },
+    {
+      "id": "d78e32c26c7f",
+      "source": "ochiai",
+      "title": "【人間は今、発信する快楽の中毒】ドバガキの問題点…Amazonで度々売り切れ『マタギドライヴ』を落合陽一と宇野常寛が解説「botの方が賢い」人がカフェで仕事する理由、ちいかわ化する日本、推し活の問題点",
+      "url": "https://www.youtube.com/watch?v=GC5984aUyo8",
+      "date": "2026-10-08T11:00:26+00:00",
+      "image": "https://i4.ytimg.com/vi/GC5984aUyo8/hqdefault.jpg",
+      "author": "NewsPicks /ニューズピックス",
+      "subtitle": "",
+      "body": [
+        "番組のフル視聴（75分）はこちらから",
+        "https://npx.me/s/rnJ5EZdz",
+        "10日間無料トライアル実施中",
+        "https://s.npx.me/ySXyEJt8",
+        "_____",
+        "「1冊の本を8年かけて書くなんて、人生で多分今後もないだろう」",
+        "前作『デジタルネイチャー』から8年をかけて書き上げた、落合陽一の新著『マタギドライヴ』。500ページを超えるこの書籍は、Amazonでたびたび売り切れになるなど、話題を呼んでいる。今回は、評論家の宇野常寛氏を招き、『マタギドライヴ』を中心に語り合う。話題は自然観やAI時代の仕事、そして全世界で興行収入16億ドルを超える映画『オデュッセイア』にも及ぶ。",
+        "ちいかわ化した社会に出口はあるのか？仕事の形はどう変わっていくのか？",
+        "ゲスト：宇野常寛（評論家）",
+        "《目次》",
+        "02:34 「落合陽一は預言者」マタギドライヴ解説",
+        "08:21 ちいかわ化した社会の問題点",
+        "13:47 祭りの意味",
+        "17:08 ドパガキの問題点",
+        "#落合陽一 #宇野常寛 #マタギドライヴ #ドバガキ #推し活 #SNS #NewsPicks #WEEKLYOCHIAI"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "GC5984aUyo8"
+    },
     {
       "id": "202091f5a353",
       "source": "gaia",
@@ -1065,7 +1121,7 @@
     {
       "id": "7553e321ef7d",
       "source": "crossdig",
-      "title": "【ポテチ消費は10年で3倍】インドを西洋ジャンクフードが侵食／13歳で「胃を小さくする手術」も／2035年には8割超が肥満に",
+      "title": "【ポテチ消費は10年で3倍】インドを西洋ジャンクフードが侵食／13歳で「胃を小さくする手術」も／2035年までに肥満率は8割以上、増加へ",
       "url": "https://www.youtube.com/watch?v=HLkj0h7mSZ4",
       "date": "2026-09-21T23:00:02+00:00",
       "image": "https://i1.ytimg.com/vi/HLkj0h7mSZ4/hqdefault.jpg",
@@ -1075,7 +1131,7 @@
         "https://youtube.com/@tbs_bloomberg",
         "👆チャンネル登録・高評価をよろしくお願いします",
         "インドでは、成人の約4人に1人が過体重または肥満といわれています。西側のジャンクフード大手が市場を拡大する中、健康被害を防ぐため規制強化の声もあがっています。",
-        "（ブルームバーグ 2023年3月11日 配信）",
+        "（ブルームバーグ 2023年11月3日 配信）",
         "※本動画は2023年に配信されました。インドをめぐる肥満の問題については以下もご覧ください",
         "・India Is One of the World’s Most Obese Countries, But Few Indians Want GLP-1s（2026年8月28日）",
         "https://www.bloomberg.com/news/articles/2026-08-28/india-s-cheap-generic-ozempic-drugs-fail-to-crack-the-market",
