@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T19:12:11.119146+00:00",
+  "updated": "2026-10-09T01:50:38.097424+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,21 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "086eaba3db74",
+      "source": "kazobara",
+      "title": "TEDに秘められた名刺から始まらない仲間の作り方-523号-",
+      "url": "https://note.com/kazobara/n/nc6c7c6a7adeb",
+      "date": "2026-10-08T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/318877940/rectangle_large_type_2_27aac391d53ee0ec5e2e60e4df731bf6.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "（2022年4月12日の解説動画を記事化しました）",
+        "はい！"
+      ],
+      "truncated": true
+    },
     {
       "id": "71c9e44f8bae",
       "source": "cambria",
