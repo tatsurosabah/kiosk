@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T09:48:08.824306+00:00",
+  "updated": "2026-10-11T17:56:41.480544+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,21 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "a73d179fbce0",
+      "source": "kazobara",
+      "title": "10月ゲスト動画: 荒木 博行さん「成長の地図_ しなやかなタフさを手に入れる５つの旅路」",
+      "url": "https://note.com/kazobara/n/n498f06b6260c",
+      "date": "2026-10-11T09:52:44+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/323219050/rectangle_large_type_2_80c4c7533da7ff9798cf23b13be79f91.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "荒木 博行さん「成長の地図_ しなやかなタフさを手に入れる５つの旅路」 アップだよ！",
+        "動画・記事はメンバーシップ掲示板から"
+      ],
+      "truncated": true
+    },
     {
       "id": "fe822bec28f8",
       "source": "crossdig",
