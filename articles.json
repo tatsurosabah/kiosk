@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T00:57:06.737163+00:00",
+  "updated": "2026-10-11T09:48:08.824306+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,34 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "fe822bec28f8",
+      "source": "crossdig",
+      "title": "【ナイキ王者陥落】「Just Do It」何故できない？／W杯ユニフォームに“欠陥”／傘下のコンバース 過去10年で最低水準／On・HOKAに奪われるシェア／中国で苦戦続く",
+      "url": "https://www.youtube.com/watch?v=sCm_TPnAYxo",
+      "date": "2026-10-10T23:00:08+00:00",
+      "image": "https://i4.ytimg.com/vi/sCm_TPnAYxo/hqdefault.jpg",
+      "author": "TBS CROSS DIG with Bloomberg",
+      "subtitle": "",
+      "body": [
+        "https://youtube.com/@tbs_bloomberg",
+        "👆チャンネル登録・高評価をよろしくお願いします",
+        "かつて圧倒的な強さを誇ったナイキが苦戦しています。株価は今年40%強下落し、2027年5月期の売上高は1桁台後半の減少を見込んでいます。新経営陣のもと再び王者に返り咲くことはできるのでしょうか？",
+        "（ブルームバーグ 2026年6月11日 配信）",
+        "===",
+        "ナイキの業績については以下の記事もご参照ください",
+        "・ナイキ販売不振さらに悪化へ、1桁台後半の減収見通し－人員削減へ",
+        "https://newsdig.tbs.co.jp/articles/withbloomberg/2984064?display=1",
+        "▼TBS CROSS DIG with Bloomberg",
+        "https://newsdig.tbs.co.jp/list/withbloomberg",
+        "▼公式Xアカウント",
+        "https://x.com/tbs_bloomberg",
+        "#tbs #crossdig #nike"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "sCm_TPnAYxo"
+    },
     {
       "id": "479c14879067",
       "source": "joho",
