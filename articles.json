@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T21:38:59.516356+00:00",
+  "updated": "2026-10-13T03:07:11.327876+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,21 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "b732e43301e7",
+      "source": "kazobara",
+      "title": "違いと変化を楽しむ。批判的精神をはぐくむためには-524号-",
+      "url": "https://note.com/kazobara/n/n6e8ed3c2bf1d",
+      "date": "2026-10-12T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/323471908/rectangle_large_type_2_addaf17b38030375ba1482a7e0130dc1.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "（2020年11月10日の解説動画を記事化しました）",
+        "「青と赤」に二極化していく話の中で、今日は「変化の時代の中で違いを楽しむために大事な批判的精神」という話と、「日本が今までの歴史の中でこういったものがなぜ育ちにくかったのか？」とした時に「どうするんだっけ？」という話をしていきたいと思います。"
+      ],
+      "truncated": true
+    },
     {
       "id": "73ca7f869d64",
       "source": "gaia",
