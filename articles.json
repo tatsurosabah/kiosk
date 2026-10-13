@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T10:18:12.026573+00:00",
+  "updated": "2026-10-13T19:48:01.113833+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,44 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "4fb666a447bb",
+      "source": "uno",
+      "title": "言語の五段階史とデジタルヒューマンツイン（文化系のための「マタギドライヴ」の読み方 #9）第2章3節",
+      "url": "https://note.com/wakusei2nduno/n/ne54941aebcca",
+      "date": "2026-10-13T11:59:29+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/324015266/rectangle_large_type_2_e19400f23811f32e5df663ab97ebd4fe.png?width=800",
+      "author": "宇野常寛",
+      "subtitle": "",
+      "body": [
+        "（前回までの解説はこちら）",
+        "文化系のための『マタギドライヴ』の読み方｜宇野常寛｜note宇野常寛による落合陽一『マタギドライヴ』の徹底解説シリーズ。文系目線で、限界まで噛み砕いています。ここまでやれば初読者でもnote.com"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "68c7a3af8dec",
+      "source": "gaia",
+      "title": "「南国酒家」東京で見たことない！47都道府県の地方食材で作る新しい中国料理 【ガイアの夜明け】",
+      "url": "https://www.youtube.com/watch?v=8YDUvI2_1uM",
+      "date": "2026-10-13T11:00:31+00:00",
+      "image": "https://i1.ytimg.com/vi/8YDUvI2_1uM/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "▼番組のフル視聴（44分）はこちらから▼",
+        "https://txbiz.tv-tokyo.co.jp/gaia/vod/post_349804?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_261009_yt_8YDUvI2_1uM",
+        "▼本編では伝えきれなかったエピソード「住宅も守りたい！ “補修”の革命児」▼",
+        "https://txbiz.tv-tokyo.co.jp/gaia/vod/post_350158?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_261009_yt_8YDUvI2_1uM",
+        "▼「テレ東BIZ」会員登録はこちら▼",
+        "https://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_261009_yt_8YDUvI2_1uM",
+        "日本各地の風土に根ざした“うまい”食材。しかし、そこには「地元以外で知られていない」「他の地域との差別化ができていない」など、様々な課題があった。東京・原宿に本店を構える老舗の中国料理店「南国酒家」は、「日本の気候風土に合った中国料理」というコンセプトで、地方の知られざる食材を積極的に料理に取り入れてきた。その先頭に立つのが、宮田順次社長。宮田さんは、自ら各地を訪れ地元の生産者と対話し、東京では珍しい“うまい”食材を発掘してきた。そんな宮田さんが新たに取り組もうとしているのが、地方の食材を活かした「体に優しい中国料理」。果たしてどんな料理になるのか？一方、古くから雪国に伝わる知恵「雪室（ゆきむろ）」を現代に甦らせ、食材に新たな価値を加える「越後雪室屋」。雪室で食材を貯蔵することで熟成し、糖度や旨味が増す効果を生かした商品を展開している。その中心で、雪のエネルギーを活用する専門家として活躍してきたのが伊藤親臣さん。雪が持つ力を科学的に生かしたシステムの設計・監修を手がけてきた。そんな伊藤さんが今、高齢化する地域の米農家を救う新たな取り組みを始めていた。ガイアが見つめてきた、あの主人公たち。地域の食文化を守りながら、独自の方法で食材を“進化”させる挑戦を追った。",
+        "#ガイアの夜明け #南国酒家 #47china #中華 #中国料理 #地方食材 #テレビ東京 #テレ東BIZ"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "8YDUvI2_1uM"
+    },
     {
       "id": "b732e43301e7",
       "source": "kazobara",
