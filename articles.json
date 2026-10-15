@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T14:25:08.243455+00:00",
+  "updated": "2026-10-15T00:23:42.959254+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,20 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "0163aeb98dd7",
+      "source": "uno",
+      "title": "「制作の拡張」と「弱い自立」（第四の主体のためのノート #9",
+      "url": "https://note.com/wakusei2nduno/n/n9758a750a03e",
+      "date": "2026-10-14T22:02:22+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/324490188/rectangle_large_type_2_64171224ff85a8df3b82fb42f3536437.png?width=800",
+      "author": "宇野常寛",
+      "subtitle": "",
+      "body": [
+        "※このnoteでは5ヶ月遅れで「すばる」（集英社）誌連載の『第四の主体のためのノート』を転載していきます。『庭の話』の直接的な続編になる連載で、次の主著にするつもりで取り組んでいます。『庭の話』を読み、興味をもっていただけた人は、ぜひこちらもチェックしてください。よろしくお願いします。"
+      ],
+      "truncated": true
+    },
     {
       "id": "4fb666a447bb",
       "source": "uno",
