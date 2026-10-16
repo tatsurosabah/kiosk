@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T14:02:36.459459+00:00",
+  "updated": "2026-10-16T00:09:41.865120+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,47 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "e347288cefcb",
+      "source": "kazobara",
+      "title": "最高のチームになるために：焚き火を超えるテクノロジーはあるのか？-525号-",
+      "url": "https://note.com/kazobara/n/n006b51ac5604",
+      "date": "2026-10-15T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/323482378/rectangle_large_type_2_eaba020161acc7f0c563f8bea4d6d637.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "（2022年4月22日の解説動画を記事化しました）",
+        "焚き火にかなうテクノロジーはあるのか？尾原のオンラインサロンハックです。"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "265490e1d73a",
+      "source": "cambria",
+      "title": "カンブリア宮殿【デジタル時代に絶好調　創業140年 老舗の挑戦】予告",
+      "url": "https://www.youtube.com/watch?v=SX9Wsu0vq20",
+      "date": "2026-10-15T14:54:35+00:00",
+      "image": "https://i4.ytimg.com/vi/SX9Wsu0vq20/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "【10月22日(木)夜11時6分放送】",
+        "デジタル全盛の時代にあって、日本の文房具メーカーの業績が好調だ。2025年度の売り上げも過去最高収益を更新し続けている三菱鉛筆の躍進がとまらない。絶好調の背景に迫る",
+        "https://txbiz.tv-tokyo.co.jp/cambria?utm_source=youtube&utm_medium=video&utm_campaign=cambria",
+        "【ゲスト】三菱鉛筆　社長　数原滋彦",
+        "【ＭＣ】金原ひとみ　ヒャダイン",
+        "「カンブリア宮殿」最新回や過去の放送、TV番組未公開が見放題！",
+        "■テレ東BIZ",
+        "https://txbiz.tv-tokyo.co.jp/cambria?utm_source=youtube&utm_medium=video&utm_campaign=cambria",
+        "■番組HP",
+        "https://www.tv-tokyo.co.jp/cambria/",
+        "#カンブリア宮殿 #金原ひとみ #ヒャダイン #三菱鉛筆"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "SX9Wsu0vq20"
+    },
     {
       "id": "dcba7ec68667",
       "source": "ochiai",
