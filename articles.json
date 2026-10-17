@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T07:37:15.836227+00:00",
+  "updated": "2026-10-17T12:47:20.238675+00:00",
   "sources": [
     {
       "id": "uno",
@@ -114,27 +114,11 @@
   "generated_by": "fetch.py",
   "articles": [
     {
-      "id": "24aa0093cfd4",
-      "source": "kazobara",
-      "title": "ザッカーバーグは、なぜやめないのか。──AI時代の「作り続ける力」を分解する",
-      "url": "https://note.com/kazobara/n/ndd6e17dbf045",
-      "date": "2026-10-17T05:49:35+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/325319678/rectangle_large_type_2_d41f35b8bbf2b2963ccb834183a1fee3.png?width=800",
-      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
-      "subtitle": "",
-      "body": [
-        "会議では、みんなが「いいですね」と言ってくれる。",
-        "資料もきれいにまとまっている。AIに相談すれば、もっともらしい説明までつくってくれる。",
-        "でも、いざお客さんに出してみると、使ってもらえない。"
-      ],
-      "truncated": true
-    },
-    {
       "id": "b2dedd4d2743",
       "source": "itokan",
       "title": "【伊藤貫の真剣な雑談】第25回 伊藤貫×水島総「次の世界を支配する者 ～そしてそれはどんな世界か～」[桜R8/10/17]",
       "url": "https://www.youtube.com/watch?v=WTtD3YfnpGE",
-      "date": "2026-10-17T03:54:46+00:00",
+      "date": "2026-10-17T11:00:09+00:00",
       "image": "https://i4.ytimg.com/vi/WTtD3YfnpGE/hqdefault.jpg",
       "author": "新日本文化チャンネル桜",
       "subtitle": "",
@@ -175,6 +159,22 @@
       "truncated": false,
       "kind": "video",
       "video": "WTtD3YfnpGE"
+    },
+    {
+      "id": "24aa0093cfd4",
+      "source": "kazobara",
+      "title": "ザッカーバーグは、なぜやめないのか。──AI時代の「作り続ける力」を分解する",
+      "url": "https://note.com/kazobara/n/ndd6e17dbf045",
+      "date": "2026-10-17T05:49:35+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/325319678/rectangle_large_type_2_d41f35b8bbf2b2963ccb834183a1fee3.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "会議では、みんなが「いいですね」と言ってくれる。",
+        "資料もきれいにまとまっている。AIに相談すれば、もっともらしい説明までつくってくれる。",
+        "でも、いざお客さんに出してみると、使ってもらえない。"
+      ],
+      "truncated": true
     },
     {
       "id": "2e41ab2d4ef9",
