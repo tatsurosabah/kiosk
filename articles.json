@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T16:12:24.870485+00:00",
+  "updated": "2026-10-17T23:52:01.128586+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,30 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "22f70d745151",
+      "source": "crossdig",
+      "title": "【ドイツ分裂】戦後最低の支持率／与党CDUは州議選で惨敗／極右AfD台頭で混乱は必至／それでも明確な後任はいない",
+      "url": "https://www.youtube.com/watch?v=WvFuYjMuavk",
+      "date": "2026-10-17T23:00:13+00:00",
+      "image": "https://i4.ytimg.com/vi/WvFuYjMuavk/hqdefault.jpg",
+      "author": "TBS CROSS DIG with Bloomberg",
+      "subtitle": "",
+      "body": [
+        "https://youtube.com/@tbs_bloomberg",
+        "👆チャンネル登録・高評価をよろしくお願いします",
+        "支持率の低迷、改革の停滞、そして州議選での敗北…ドイツのメルツ首相に残されている時間は多くはありません。ドイツ経済が回復の兆しを見せているとはいえ、苦境に立たされた首相は持ちこたえられるのでしょうか？",
+        "（ブルームバーグ 2026年9月30日 配信）",
+        "▼TBS CROSS DIG with Bloomberg",
+        "https://newsdig.tbs.co.jp/list/withbloomberg",
+        "▼公式Xアカウント",
+        "https://x.com/tbs_bloomberg",
+        "#tbs #crossdig #germany"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "WvFuYjMuavk"
+    },
     {
       "id": "b2dedd4d2743",
       "source": "itokan",
