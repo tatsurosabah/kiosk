@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T08:37:44.338074+00:00",
+  "updated": "2026-10-19T16:18:55.091202+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,29 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "e974117e4d71",
+      "source": "gaia",
+      "title": "米価急落！安いを求める消費者にどう応える？米農家の平均年齢68.9歳  儲かるコメ作りに挑む【ガイアの夜明け】",
+      "url": "https://www.youtube.com/watch?v=rMbUWNwojLs",
+      "date": "2026-10-19T11:00:33+00:00",
+      "image": "https://i3.ytimg.com/vi/rMbUWNwojLs/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "▼番組のフル視聴（44分）はこちらから▼",
+        "https://txbiz.tv-tokyo.co.jp/gaia/vod/post_350423?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_261016_yt_rMbUWNwojLs",
+        "▼本編では伝えきれなかったエピソード「コマツ会長が農業土木に意欲！売上高４兆円超“建機の巨人”が動く！」▼",
+        "https://txbiz.tv-tokyo.co.jp/gaia/vod/post_350611?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_261016_yt_rMbUWNwojLs",
+        "▼「テレ東BIZ」会員登録はこちら▼",
+        "https://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_261016_yt_rMbUWNwojLs",
+        "「令和のコメ騒動」から一転、今年はコメの民間在庫が6月末時点で過去最多の243万トンとなり「空前のコメ余り」に。スーパーの平均店頭価格は5キロ3000円を大きく割り込み、1月の高値から1500円以上も急落している。高齢化が進み、廃業するコメ農家が過去最多を更新する中、米価の急落が生産者の経営を圧迫している。そうした中、生産コストを大幅に抑えながら、コシヒカリよりも収穫量が5割も増えるという新たな品種が誕生。儲かるコメ作りに挑む農家や、日本のコメを海外へ売り込み、農家の経営を支えようと奮闘する人たちを追った。",
+        "#ガイアの夜明け #日本米 #米農家 #コシヒカリ #多収米 #乾田直播 #テレビ東京 #テレ東BIZ"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "rMbUWNwojLs"
+    },
     {
       "id": "924cae96b18f",
       "source": "uno",
