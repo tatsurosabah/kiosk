@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T16:18:55.091202+00:00",
+  "updated": "2026-10-20T01:06:16.453563+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,21 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "e36999cc13f1",
+      "source": "kazobara",
+      "title": "マーケティング4タイプ：お客さんと出逢いやすくするための方法-526号-",
+      "url": "https://note.com/kazobara/n/n05dc6e981823",
+      "date": "2026-10-19T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/324565874/rectangle_large_type_2_c1f044adc9a526325c3c58c8def7c18c.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "（2021年10月29日 解説動画を記事化しました）",
+        "今日は、マーケティングのお話をしたいと思います。お客様との出逢い方は4タイプ、これはどのブレンドでどの相性がいいかを考えた方がいいよ、っていう話です。"
+      ],
+      "truncated": true
+    },
     {
       "id": "e974117e4d71",
       "source": "gaia",
