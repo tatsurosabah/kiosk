@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T01:06:16.453563+00:00",
+  "updated": "2026-10-20T08:18:56.732268+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,21 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "b2d55ef0d011",
+      "source": "kazobara",
+      "title": "AI動画・コンテンツが大氾濫、煽り・バイアスを抜いて、重要情報だけ抜き出し摂取する簡単な方法",
+      "url": "https://note.com/kazobara/n/n32c70f378a7b",
+      "date": "2026-10-20T03:41:33+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/326413482/rectangle_large_type_2_dff554de78bf494e06dee693c7ce6958.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "最近、YouTubeで経済や歴史、あるいは「そんなニッチな世界があるのか！」と思うような解説動画を見かけることが増えていませんか？",
+        "AIで台本や画像、音声を作りやすくなり、個人でもさまざまなテーマを解説できるようになりました。"
+      ],
+      "truncated": true
+    },
     {
       "id": "e36999cc13f1",
       "source": "kazobara",
