@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T08:22:57.334135+00:00",
+  "updated": "2026-10-21T14:24:28.303138+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,44 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "f1e7170c2281",
+      "source": "kazobara",
+      "title": "AIを「使う人」から、「育てる人」へ。あなたの仕事経験が、もう一度資産になる",
+      "url": "https://note.com/kazobara/n/nb68de0acdf00",
+      "date": "2026-10-21T12:40:57+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/326932215/rectangle_large_type_2_b81932d1386ec22991c91e1565f548ff.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "AIに仕事を頼むと、自分が時間をかけて覚えたことを、あっという間にやってしまう。文章を書く。情報を整理する。企画のたたき台をつくる。その速さを見ると、これまで積み重ねてきた経験は何だったのだろう、と感じることがあるかもしれません。",
+        "でも、その答えを見て、「よくできているけれど、このまま相手に渡すのは少し違う」と気づくことはありませんか。数字は合っている。でも、相手が本当に気にしていることに答えていない。説明は丁寧なのに、先に伝えるべきことが後ろにある。"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "b167cee41b78",
+      "source": "gaia",
+      "title": "「ローソン」過疎地でも儲かる“地域共生コンビニ”とは 地方の出店を見送ってきた空白地帯で2000億円規模の市場を狙う【ガイアの夜明け】",
+      "url": "https://www.youtube.com/watch?v=qDyQfPDeAOI",
+      "date": "2026-10-21T09:00:03+00:00",
+      "image": "https://i2.ytimg.com/vi/qDyQfPDeAOI/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "▼番組のフル視聴（43分）はこちらから▼",
+        "https://txbiz.tv-tokyo.co.jp/gaia/vod/post_348617?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_3min_260918_yt_qDyQfPDeAOI",
+        "▼本編では伝えきれなかったエピソード「ローソン・とくし丸...トップの決断！」▼",
+        "https://txbiz.tv-tokyo.co.jp/gaia/vod/post_349022?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_3min_260918_yt_qDyQfPDeAOI",
+        "▼「テレ東BIZ」会員登録はこちら▼",
+        "https://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_3min_260918_yt_qDyQfPDeAOI",
+        "過疎化が進み店舗の閉鎖・撤退が続く地方都市。高齢者や車の運転ができない人たちは日々の買い物にも困る、いわゆる「買い物弱者」となってしまう。実はこうした人たちは全国に900万人以上いるとされる。65歳以上の高齢者の約25％にあたり、ネット通販などの利用も簡単ではないという。こうした人たちを救おうと立ち上がった企業がある。キーワードは「自分で見て選ぶ楽しみ」、そして「持続可能性」。続けるためには儲けなければならない。人口が減少する中でも収益を上げるビジネスモデルを新たに構築しようと動き出していた。果たして、すべての人に楽しい買い物を提供することはできるのか。その挑戦を追う。",
+        "#ガイアの夜明け #コンビニ #ローソン #過疎地 #買い物弱者 #テレビ東京 #テレ東BIZ"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "qDyQfPDeAOI"
+    },
     {
       "id": "7e324de53ac1",
       "source": "uno",
