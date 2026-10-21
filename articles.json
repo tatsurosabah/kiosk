@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T00:27:09.622177+00:00",
+  "updated": "2026-10-21T08:22:57.334135+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,20 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "7e324de53ac1",
+      "source": "uno",
+      "title": "「対話」について",
+      "url": "https://note.com/wakusei2nduno/n/n354d8d55e017",
+      "date": "2026-10-21T07:46:36+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/326830260/rectangle_large_type_2_4394d4f49e3785df702f1a12b0279003.png?width=800",
+      "author": "宇野常寛",
+      "subtitle": "",
+      "body": [
+        "さて、今日はソウル大学での講演と、その後に話したことをもう少し取り上げたい。僕はこの滞在で、別々の日に2回講演していて、そのたびに韓国の研究者と議論をしている。個人的にもたくさんの示唆を得てきて、とても1回では書ききれないので、何回かに分けて書こうと思う。この連続講演の初回は『母性のディストピア』（サブカルチャー論＋戦後論）で、2回目は『庭の話』（情報社会論）だったのだけど、今日は2回目の講演後の議論を通して考えたことを記しておきたい。"
+      ],
+      "truncated": true
+    },
     {
       "id": "b2d55ef0d011",
       "source": "kazobara",
