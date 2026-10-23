@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T14:25:38.681496+00:00",
+  "updated": "2026-10-23T00:40:12.055476+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,21 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "b1d958af48d8",
+      "source": "kazobara",
+      "title": "意味のビジネスを作り出す3つの掛け算とは？-527号-",
+      "url": "https://note.com/kazobara/n/n786810820a10",
+      "date": "2026-10-22T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/324567793/rectangle_large_type_2_3f8cd6e29d796ac5e7bdac93dbf18819.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "（2021年12月16日の解説動画を記事化しました）",
+        "今日の10分解説は『プロセスエコノミー』にとても相性がいい、「意味をずらすビジネスの方程式」です。"
+      ],
+      "truncated": true
+    },
     {
       "id": "bfa5ea4d3f29",
       "source": "uno",
