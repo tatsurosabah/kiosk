@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T00:06:11.364959+00:00",
+  "updated": "2026-10-25T08:13:36.220209+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,30 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "fcc6b7511305",
+      "source": "crossdig",
+      "title": "【フランス大規模デモ】福祉国家の限界か／「裕福な家の子だけ…」深刻な教育格差／国債は暴落　金利は急騰／ドイツとの金利差は 「ユーロ危機」以来の水準に",
+      "url": "https://www.youtube.com/watch?v=7oF_3RvJ4aY",
+      "date": "2026-10-25T01:00:08+00:00",
+      "image": "https://i4.ytimg.com/vi/7oF_3RvJ4aY/hqdefault.jpg",
+      "author": "TBS CROSS DIG with Bloomberg",
+      "subtitle": "",
+      "body": [
+        "https://youtube.com/@tbs_bloomberg",
+        "👆チャンネル登録・高評価をよろしくお願いします",
+        "フランス全土に広がる抗議デモ。発端となった教育格差だけでなく、巨額の財政赤字や国債金利の急騰など危機が連鎖し、フランスが抱える根深い問題を浮き彫りにしています。",
+        "（ブルームバーグ 2026年10月14日 配信）",
+        "▼TBS CROSS DIG with Bloomberg",
+        "https://newsdig.tbs.co.jp/list/withbloomberg",
+        "▼公式Xアカウント",
+        "https://x.com/tbs_bloomberg",
+        "#tbs #crossdig #france"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "7oF_3RvJ4aY"
+    },
     {
       "id": "511f52a3e29e",
       "source": "kazobara",
