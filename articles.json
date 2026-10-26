@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T00:09:13.684329+00:00",
+  "updated": "2026-10-26T08:40:00.242143+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,20 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "529b3d24debb",
+      "source": "uno",
+      "title": "「マネジメント」から（「自己啓発」を経て）「教養」へ",
+      "url": "https://note.com/wakusei2nduno/n/n2471b8857a46",
+      "date": "2026-10-26T02:42:06+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/328642642/rectangle_large_type_2_827d99e254287d68352b2f87e00a589a.png?width=800",
+      "author": "宇野常寛",
+      "subtitle": "",
+      "body": [
+        "先日、堀内勉さんと対談した。対談は下記のYoutube上の動画で確認して欲しいのだけど、今日はそこで考えたことを記しておきたい。"
+      ],
+      "truncated": true
+    },
     {
       "id": "f2aed30bc5da",
       "source": "gaia",
