@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T15:58:13.895131+00:00",
+  "updated": "2026-10-27T01:29:41.936293+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,21 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "97c65a587f8e",
+      "source": "kazobara",
+      "title": "尾原が今若くて就職するなら、どこに就職するのか？-528号-",
+      "url": "https://note.com/kazobara/n/n37fe9f15bc91",
+      "date": "2026-10-26T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/328767000/rectangle_large_type_2_f8fd1c26e1c5a7e98f1407f33f18358c.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "（2022年3月24日の解説動画を記事化しました）",
+        "今もし尾原が若くて、今どこに就職するの？って質問されたら２つの方向に考えるよってことを解説していきたいと思います。"
+      ],
+      "truncated": true
+    },
     {
       "id": "e8c08dd33aef",
       "source": "nishiguchi",
