@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T01:15:14.784999+00:00",
+  "updated": "2026-10-28T09:26:27.087024+00:00",
   "sources": [
     {
       "id": "uno",
@@ -114,6 +114,30 @@
   "generated_by": "fetch.py",
   "articles": [
     {
+      "id": "e6932db8d15c",
+      "source": "crossdig",
+      "title": "【財源はどこに？】高市政権の官民370兆円で…強い日本か財政悪化か／続く円安・インフレ・少子高齢化／国債の追加発行の可能性も／冷え込む日中関係／債務残高の対GDP比はG10で“最悪レベル”",
+      "url": "https://www.youtube.com/watch?v=Qyri885qB_o",
+      "date": "2026-10-28T09:00:12+00:00",
+      "image": "https://i2.ytimg.com/vi/Qyri885qB_o/hqdefault.jpg",
+      "author": "TBS CROSS DIG with Bloomberg",
+      "subtitle": "",
+      "body": [
+        "https://youtube.com/@tbs_bloomberg",
+        "👆チャンネル登録・高評価をよろしくお願いします",
+        "高市早苗氏が初の女性総理に就任してから1年。高市政権は、2040年度までに官民あわせて370兆円を投じる方針ですが、日本が抱える巨額の債務をさらに増やすことなく、経済成長を実現できるのでしょうか？",
+        "（ブルームバーグ 2026年10月20日 配信）",
+        "▼TBS CROSS DIG with Bloomberg",
+        "https://newsdig.tbs.co.jp/list/withbloomberg",
+        "▼公式Xアカウント",
+        "https://x.com/tbs_bloomberg",
+        "#tbs #crossdig #高市早苗"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "Qyri885qB_o"
+    },
+    {
       "id": "3114d3df00e7",
       "source": "uno",
       "title": "ソウルで考えた「隣人」、あるいは「兄弟姉妹」について",
@@ -155,6 +179,8 @@
       "body": [
         "▼続きはテレ東BIZで配信中▼",
         "https://txbiz.tv-tokyo.co.jp/mktg/vod/post_350508?utm_source=youtube&utm_medium=video&utm_campaign=nishiguchi_261026_yt_9dk1A85oREw",
+        "▼西口マーケAIをどう使う（無料公開中）▼",
+        "https://txbiz.tv-tokyo.co.jp/mktg/vod/post_348319?utm_source=youtube&utm_medium=video&utm_campaign=nishiguchi_AI_yt_9dk1A85oREw",
         "西口一希氏の膨大な知識とP&G流マーケティングの知見を詰め込んだAIツール「番組特製・西口マーケAI」。今回は、話題のApple「iPhone Duo」についての記事を読み込ませて分析してみます。36万円を超える高価格iPhoneからマーケターはなにを学べるのか。実務に活かす”西口マーケAI”の使い方を徹底検証します。",
         "※本サービスは番組が期間限定（2026年11月まで）で提供するベータ版です。テレ東BIZの有料会員限定で、番組ページまたは各エピソードの視聴ページに掲載のバナーからご利用いただけます。",
         "※AIによる回答は西口氏の解釈に基づくものであり、P&Gの公式な見解を示すものではありません。",
@@ -1635,7 +1661,7 @@
         "▼10日間無料トライアル実施中",
         "https://s.npx.me/ySXyEJt8",
         "-------------------------------------------------------------",
-        "AI開発に、本当にブレーキはかかるのでしょうか。この1週間で、Anthropic、OpenAI、Googleなど、AI業界をリードするトップ5社が「人類滅亡リスク」を理由に、開発のスローダウンに合意。2023年、研究者らがAI開発の一時停止を求めた時はほとんど動かなかった彼らが、なぜ今、足並みをそろえたのか。上場を目前に控えるAnthropicとOpenAIの思惑とは。AI競争の最前線で起きている異変をひも解きます。",
+        "IPOを目前に控えたアンソロピックの時価総額は、今や約320兆円。そんな巨大AI企業誕生の裏には、「効果的利他主義（EA）」と呼ばれる思想ネットワークがありました。人類の幸福を最大化しようとする慈善思想が、なぜ最先端のAI開発に深く関わるのか。そして今、トランプ政権からも警戒されるのはなぜなのか。テック業界の天才たちを引き寄せてきた、謎の思想集団「EA」の謎に迫ります。",
         "▼お知らせ",
         "👉公式Xのフォローお願いします！",
         "https://x.com/shukanjoho_SNS",
