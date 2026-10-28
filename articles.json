@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T09:26:27.087024+00:00",
+  "updated": "2026-10-28T18:42:38.234625+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,36 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "858557c0d13c",
+      "source": "kazobara",
+      "title": "会社を辞めずに、選択肢を増やす。AI時代の「始まりの場所」は、いまの部署にある",
+      "url": "https://note.com/kazobara/n/nc1251fc8d23b",
+      "date": "2026-10-28T10:22:10+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/329222133/rectangle_large_type_2_c5d07615c955222e74c549f2d6c359ff.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "AI時代に乗り遅れないためには、会社を辞めて、新しい業界に飛び込まないといけないのでしょうか。",
+        "いまの仕事もある。家族との生活もある。住宅ローンもある。そんななかで「とにかく挑戦しよう」と言われても、簡単には動けないですよね。"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "6045c391ec8c",
+      "source": "uno",
+      "title": "リベラルは（再建のために）一度「解散」するべきだという話",
+      "url": "https://note.com/wakusei2nduno/n/n0e79abc46f1e",
+      "date": "2026-10-28T09:50:36+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/329506360/rectangle_large_type_2_2998a99e74eb81c101224ef071a68ff2.png?width=800",
+      "author": "宇野常寛",
+      "subtitle": "",
+      "body": [
+        "さて、久しぶりに国内政治の話をしたい。先週末に、昨年に続いてリベラル系のイベント「RONDAN FES」に出てきた。そしてトリのステージ的なセッションにも出演したのだけど、そのテーマが「野党」だった。僕はいわゆる左派界隈の「私たちは正しいことをやっているんだから負けているけれどこれでいいんだ」みたいな傷の舐め合いが苦手で、ちょっと場違いな登壇になるんじゃないかと怯えていたのだけど、実際には（少なくともこの日並んでいたパネラーのみなさんとは）きちんと現実を受け止めたうえで、有効なモデルを探していこうという建設的な議論になっていたと思う。",
+        "RONDAN FES言論人や研究者、ジャーナリストが集結し、時代の諸問題を独自の座組で議論・解決の道を模索するトークフェスティバル。 【今年www.youtube.com"
+      ],
+      "truncated": true
+    },
     {
       "id": "e6932db8d15c",
       "source": "crossdig",
