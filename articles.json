@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T09:37:55.669141+00:00",
+  "updated": "2026-10-29T18:50:53.028674+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,78 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "8b5688c711b3",
+      "source": "cambria",
+      "title": "カンブリア宮殿【名門復活なるか？　日産自動車 決断と覚悟】予告",
+      "url": "https://www.youtube.com/watch?v=bLhutuwLMyk",
+      "date": "2026-10-29T15:24:11+00:00",
+      "image": "https://i3.ytimg.com/vi/bLhutuwLMyk/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "【11月5日(木)夜11時12分放送】",
+        "自動車業界が大きな転換期を迎える中、岐路に立たされているのが日産自動車だ。「日産らしさ」を取り戻そうと奮闘するイヴァン社長に迫る。",
+        "https://txbiz.tv-tokyo.co.jp/cambria?utm_source=youtube&utm_medium=video&utm_campaign=cambria",
+        "【ゲスト】日産自動車　社長兼CEO　イヴァン・エスピノーサ",
+        "【ＭＣ】金原ひとみ　ヒャダイン",
+        "「カンブリア宮殿」最新回や過去の放送、TV番組未公開が見放題！",
+        "■テレ東BIZ",
+        "https://txbiz.tv-tokyo.co.jp/cambria?utm_source=youtube&utm_medium=video&utm_campaign=cambria",
+        "■番組HP",
+        "https://www.tv-tokyo.co.jp/cambria/",
+        "#カンブリア宮殿 #金原ひとみ #ヒャダイン #日産"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "bLhutuwLMyk"
+    },
+    {
+      "id": "2b00cea9465c",
+      "source": "ochiai",
+      "title": "【漫画減るかも】ドパガキ増殖への危機感『左ききのエレン』作者かっぴーが明かす制作秘話「俺、天才じゃないわ」中高生で気づいた才能、漫画界のAI事情、『大人大戦』に込めた思い、当時の広告業界は【落合陽一】",
+      "url": "https://www.youtube.com/watch?v=oYEkGdbJINo",
+      "date": "2026-10-29T11:00:04+00:00",
+      "image": "https://i4.ytimg.com/vi/oYEkGdbJINo/hqdefault.jpg",
+      "author": "NewsPicks /ニューズピックス",
+      "subtitle": "",
+      "body": [
+        "番組のフル視聴（71分）はこちらから",
+        "https://npx.me/s/61B6XRG4",
+        "10日間無料トライアル実施中",
+        "https://s.npx.me/ySXyEJt8",
+        "_____",
+        "広告業界を舞台に、天才と凡人の対比やクリエイターの苦悩を描き、累計発行部数420万部を突破した人気漫画『左ききのエレン』。この春にはTVアニメ化となり大きな話題を呼んだ。",
+        "作者は、大手広告代理店のアートディレクターからWEB制作会社を経て、漫画家へ転身したかっぴー氏。働く大人やクリエイターの心を強く揺さぶるこの作品は、いかにして生まれたのか？",
+        "AI時代のクリエイティブとは？自分だけの武器を見つける方法とは？",
+        "落合陽一が、才能の「正体」と“天才と凡人を分けるもの”に迫る。",
+        "ゲスト：かっぴー（漫画家）",
+        "《目次》",
+        "01:50 漫画家になった理由",
+        "06:35 落合陽一と『左ききのエレン』の出会い",
+        "11:16 天才じゃないと気づいたきっかけ",
+        "14:51 『大人大戦』に込めた思い",
+        "#WEEKLYOCHIAI #落合陽一 #かっぴー #左ききのエレン #NewsPicks #天才と凡人 #クリエイティブ #AI時代"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "oYEkGdbJINo"
+    },
+    {
+      "id": "998e1e81a5d7",
+      "source": "uno",
+      "title": "「原理のゲーム」とは何か（文化系のための「マタギドライヴ」の読み方 #11 ）第2章5節",
+      "url": "https://note.com/wakusei2nduno/n/nc99c3be1990e",
+      "date": "2026-10-29T10:49:54+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/329861838/rectangle_large_type_2_6ff339469b48268e843c3885cb6da706.png?width=800",
+      "author": "宇野常寛",
+      "subtitle": "",
+      "body": [
+        "（前回までの解説はこちら）",
+        "文化系のための『マタギドライヴ』の読み方｜宇野常寛｜note宇野常寛による落合陽一『マタギドライヴ』の徹底解説シリーズ。文系目線で、限界まで噛み砕いています。ここまでやれば初読者でもnote.com"
+      ],
+      "truncated": true
+    },
     {
       "id": "05ebdf7597be",
       "source": "gaia",
