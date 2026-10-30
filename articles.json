@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T18:50:53.028674+00:00",
+  "updated": "2026-10-30T01:54:50.654234+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,21 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "cfbe4eeae6f2",
+      "source": "kazobara",
+      "title": "何者かになるための簡単3ステップ-529号-",
+      "url": "https://note.com/kazobara/n/nb5695b945379",
+      "date": "2026-10-29T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/328779174/rectangle_large_type_2_b49124b4b52bc6d2ca34070f55cbf65a.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "（2022年6月2日の解説動画を記事化しました）",
+        "──────"
+      ],
+      "truncated": true
+    },
     {
       "id": "8b5688c711b3",
       "source": "cambria",
