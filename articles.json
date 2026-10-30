@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T01:54:50.654234+00:00",
+  "updated": "2026-10-30T09:45:11.080392+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,27 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "4c2535792843",
+      "source": "cambria",
+      "title": "「写真フィルムがなくなる」危機をどう乗り越えたのか？医療機器・化粧品・バイオ医薬品まで…大変貌を遂げた富士フイルムの強さの秘密～富士フイルムHD 後藤禎一社長～【カンブリア宮殿／未公開インタビュー】",
+      "url": "https://www.youtube.com/watch?v=KpkpztF2Y2I",
+      "date": "2026-10-30T08:00:02+00:00",
+      "image": "https://i4.ytimg.com/vi/KpkpztF2Y2I/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "▼インタビューのフルバージョン(35分)は「テレ東BIZ」で配信中！▼",
+        "https://txbiz.tv-tokyo.co.jp/cambria/vod/post_351437?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_261029_yt_KpkpztF2Y2I",
+        "▼2026年10月29日OA『チェキ・医療機器・半導体まで…進撃の富士フイルム』【カンブリア宮殿】▼",
+        "https://txbiz.tv-tokyo.co.jp/cambria/vod/post_351199?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_261029_yt_KpkpztF2Y2I",
+        "2026年10月29日放送の『チェキ・医療機器・半導体まで…進撃の富士フイルム』で伝えきれなかった、富士フイルムHD 後藤禎一社長のインタビューをテレ東BIZで限定配信します。「“飛び地”には投資しない」「シェアではなくパイを広げる」「タコツボ化させない」など巨大企業トップの経営術を大公開！",
+        "#富士フイルム #チェキ#写ルンです#カンブリア宮殿#番組未公開"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "KpkpztF2Y2I"
+    },
     {
       "id": "cfbe4eeae6f2",
       "source": "kazobara",
