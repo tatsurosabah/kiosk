@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T01:01:33.649576+00:00",
+  "updated": "2026-11-01T10:14:18.375924+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,65 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "7a17602c6c99",
+      "source": "joho",
+      "title": "【全米の嫌われ者】「AIデータセンター」の城下町が、本物のディストピアだった（中間選挙／Meta／Amazon／OpenAI／孫正義／オハイオ／エルサイード／解説：後藤直義、森川潤）",
+      "url": "https://www.youtube.com/watch?v=s3A64Mlk3-w",
+      "date": "2026-11-01T03:00:24+00:00",
+      "image": "https://i4.ytimg.com/vi/s3A64Mlk3-w/hqdefault.jpg",
+      "author": "NewsPicks /ニューズピックス",
+      "subtitle": "",
+      "body": [
+        "今後数年の世界を方向づけるアメリカ中間選挙。その帰趨を左右するのは、都市部とまったく違う感情と論理で動く中西部の激戦州です。そこで「最大の嫌われ者」になっているのが、AIデータセンター。「データセンター」という言葉を出した瞬間、その候補は急失速、電気代の高騰から、正体を伏せた「騙し討ち」の農地買収まで…AI企業のなりふり構わない建設攻勢に、トランプ支持者もリベラルも手を組む反対運動が広がっています。中西部を車で駆け抜け、怒りの震源地をレポートします。",
+        "👉公式Xはじめました。フォローお願いします！",
+        "https://x.com/shukanjoho_SNS",
+        "▼目次",
+        "00:00 オープニング",
+        "06:00 「データセンター」と言ったら終了",
+        "11:47 トランプ派も反トランプも共闘する「異常事態」",
+        "15:02 アルトマン・孫・エリソンの「騙し討ち」",
+        "▶フル版では…",
+        "👉️何も生まない「AIファクトリー」の嘘",
+        "👉️台風の目「AIを語れる反AI候補」",
+        "👉️テック業界は貴族階級になった",
+        "👉️「内輪の別世界」シリコンバレーの自己意識",
+        "👉️5%の富裕税を「潰す」「逃げる」億万長者たち",
+        "…などなど",
+        "▼出演",
+        "後藤直義（NewsPicks 編集委員／NY支局）",
+        "https://bit.ly/3CW2TOT",
+        "森川潤（NewsPicks NY支局長）",
+        "https://bit.ly/3X4Z5ln"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "s3A64Mlk3-w"
+    },
+    {
+      "id": "9653c8b74fa9",
+      "source": "crossdig",
+      "title": "【下水が川・海に流入も】サッチャー改革の末に“水道危機”／料金高騰も…民営化の歪み／財政悪化・物価高・成長鈍化に苦しむイギリス／バーナム首相は「サッチャリズム」と決別できるか",
+      "url": "https://www.youtube.com/watch?v=H008Lqv58uU",
+      "date": "2026-10-31T23:00:14+00:00",
+      "image": "https://i1.ytimg.com/vi/H008Lqv58uU/hqdefault.jpg",
+      "author": "TBS CROSS DIG with Bloomberg",
+      "subtitle": "",
+      "body": [
+        "https://youtube.com/@tbs_bloomberg",
+        "👆チャンネル登録・高評価をよろしくお願いします",
+        "財政悪化に苦しむイギリス。かつてサッチャー元首相が進めた民営化路線に対し、バーナム新首相が掲げるのは、地方分権や再公営化を目指す「マンチェスターイズム」。イギリスは「サッチャリズム」と決別できるのでしょうか？",
+        "（ブルームバーグ 2026年10月2日 配信）",
+        "▼TBS CROSS DIG with Bloomberg",
+        "https://newsdig.tbs.co.jp/list/withbloomberg",
+        "▼公式Xアカウント",
+        "https://x.com/tbs_bloomberg",
+        "#tbs #crossdig #イギリス #england #britain #uk"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "H008Lqv58uU"
+    },
     {
       "id": "41570235e927",
       "source": "joho",
