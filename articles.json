@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T01:33:52.644393+00:00",
+  "updated": "2026-11-02T10:42:50.274774+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,42 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "af6f674dced8",
+      "source": "kazobara",
+      "title": "PDCAではなくDCPA。AI時代に増やすべきは、生成回数より「検証回数」",
+      "url": "https://note.com/kazobara/n/n55569033f69f",
+      "date": "2026-11-02T03:03:32+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/329222946/rectangle_large_type_2_62df651505f2f9f440fcd32e064f160a.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "PDCAではなく、DCPAへ。",
+        "2018年の『どこでも誰とでも働ける』で僕が提案したのは、こんな仕事の順番です。これがAI時代にめっちゃフィット感がある。"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "4caf594003fd",
+      "source": "rikei",
+      "title": "\"超絶進化\"Turingの自動運転は大雨＆夜の東京を走破できるか？【橋本幸治の理系通信】テスラを超えられる？日本発の自動運転AIの現在地",
+      "url": "https://www.youtube.com/watch?v=MYnCAfW9fr4",
+      "date": "2026-11-01T11:00:12+00:00",
+      "image": "https://i2.ytimg.com/vi/MYnCAfW9fr4/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "フル視聴はコチラ▶https://txbiz.tv-tokyo.co.jp/rikei/vod/post_351637?utm_source=youtube&utm_medium=video&utm_campaign=rikei_261101_yt_MYnCAfW9fr4",
+        "理系通信、今回のテーマは「自動運転」です。",
+        "大雨、そして夜の東京を、AIはどこまで走れるのか。完全自動運転を目指すTuring（チューリング）の自動運転車に乗り込み、山本一成CEOとともに都内を走行しました。",
+        "歩行者や自転車、路上駐車、複雑な交差点など、東京ならではの難しい場面が次々と登場。さらに大雨と夜間という厳しい条件の中で、Turingの自動運転はどこまで対応できるのか、その実力を体験しました。",
+        "「We Overtake Tesla」を掲げるTuringは、TeslaやWaymo、Wayveなど世界の自動運転勢と何が違うのか。そして、日本発の自動運転AIは世界で勝てるのか。自動運転の現在地と、その先にある完全自動運転の未来に迫ります。",
+        "#E2E #AI #自動運転 #チューリング #Turing #テスラ #山本一成"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "MYnCAfW9fr4"
+    },
     {
       "id": "7a17602c6c99",
       "source": "joho",
