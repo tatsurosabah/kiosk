@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T10:42:50.274774+00:00",
+  "updated": "2026-11-02T22:13:34.340341+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,21 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "660b09678bfb",
+      "source": "kazobara",
+      "title": "クリエイター・プロセスエコノミー3つの進化軸-530号-",
+      "url": "https://note.com/kazobara/n/n9949fc6de8f5",
+      "date": "2026-11-02T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/331477153/rectangle_large_type_2_8d1bd0aed2d74237a2ade6b6e960eb4c.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "（2021年7月30日の10分解説動画を記事化しました）",
+        "今日は10分でわかる、クリエイターズエコノミー・プロセスエコノミーの次の進化って話をしたいと思います。"
+      ],
+      "truncated": true
+    },
     {
       "id": "af6f674dced8",
       "source": "kazobara",
@@ -6399,24 +6414,6 @@
       "subtitle": "",
       "body": [
         "今日は、先週の京都視察で考えたことの続きだ。"
-      ],
-      "truncated": true
-    },
-    {
-      "id": "3bbea22f8724",
-      "source": "kazobara",
-      "title": "人間の良心は信じる。でも、根性は信じない。AIがすべてのUXに埋め込まれる時代に、僕たちが設計すべきもの",
-      "url": "https://note.com/kazobara/n/n038e3fc45990",
-      "date": "2026-08-11T03:08:43+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/302408369/rectangle_large_type_2_944e5dd9e13b17a5d05ac1715c974c8d.png?width=800",
-      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
-      "subtitle": "",
-      "body": [
-        "私は、人間の良心をかなり信じている。",
-        "困っている人がいれば、助けたい。",
-        "約束したことは、できれば守りたい。",
-        "相手を傷つけたら、謝りたい。",
-        "自分が知っていることで誰かが助かるなら、教えてあげたい。"
       ],
       "truncated": true
     },
