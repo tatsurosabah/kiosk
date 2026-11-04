@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T10:39:23.013050+00:00",
+  "updated": "2026-11-04T20:20:31.772781+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,24 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "968e04bfce32",
+      "source": "rikei",
+      "title": "日本の「核融合スタートアップ」の開発現場に潜入　見えてきた実用化への道",
+      "url": "https://www.youtube.com/watch?v=vU6zTVGEq3w",
+      "date": "2026-11-04T12:00:34+00:00",
+      "image": "https://i3.ytimg.com/vi/vU6zTVGEq3w/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "フル視聴はコチラ▶https://txbiz.tv-tokyo.co.jp/original2/vod/post_351139?utm_source=youtube&utm_medium=video&utm_campaign=rikei_261104_yt_vU6zTVGEq3w",
+        "成長戦略17分野のひとつとして官民合計3.1兆円の投資を見込むなど実用化への期待が高まる核融合発電。8月末、資源エネルギー庁は600億円の支援金事業に核融合スタートアップ4社を条件付きで採択した。そのうちの一つが岐阜で実証装置の組み立てを進めるヘリカルフュージョン。核融合発電ではプラズマの加熱などに大量の電力が必要なため「投入電力」よりも「出力電力」をプラスにすること、つまり「収支のプラス」が実用化には不可欠だという。装置の建設を進めるヘリカルフュージョンの取り組みを中心に、核融合スタートアップなどの最新動向を紹介する。",
+        "#核融合　#フュージョンエネルギー　#Starlight　#Engine　#EXFusion　#Helical　#Fusion　#LINEAイノベーション　#京都フュージョニアリング"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "vU6zTVGEq3w"
+    },
     {
       "id": "fe0536ab7bef",
       "source": "kazobara",
