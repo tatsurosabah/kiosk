@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T02:12:45.295909+00:00",
+  "updated": "2026-11-04T10:39:23.013050+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,21 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "fe0536ab7bef",
+      "source": "kazobara",
+      "title": "「支援される側」が「つくる側」になる——デジタル製造とAIが生むマイクロプロデューサー - AIが1人ユニコーンを作るなら 1人で100万人救うソーシャルインパクトも",
+      "url": "https://note.com/kazobara/n/n3296709c374a",
+      "date": "2026-11-04T03:19:09+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/332046882/rectangle_large_type_2_09e708e59aca8d6dec920d0c99e4e2b5.jpeg?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "AIが加速、少人数AIスタートアップがユニコーンになる事例も増えてます。一方で、AIによって少人数で多数の人を救い、自走にいざなうAIソーシャルインパクトの事例もでてきているのです。今日はそんなご紹介",
+        "途上国や被災地の課題に対して、完成品を外から届けるのではなく、現地の人が自分で「つくる側」に回る仕組みが各地で動いている。本稿では、デジタル製造とAIを使い、当事者やコミュニティ自身が生産者・小さなブランドとして稼働している実例を4つご紹介。明日からこういう視点でのAI活用があるのかというヒントになればです。"
+      ],
+      "truncated": true
+    },
     {
       "id": "a51fbefb6d82",
       "source": "crossdig",
@@ -6463,20 +6478,6 @@
       "subtitle": "",
       "body": [
         "お待たせしました"
-      ],
-      "truncated": true
-    },
-    {
-      "id": "50edb2c13db1",
-      "source": "kazobara",
-      "title": "AIに仕事をさせるな。仕事そのものを疑わせろ。- AI自動化の前に自分も進化するシンプルなプロンプト術",
-      "url": "https://note.com/kazobara/n/n868633c1ab0e",
-      "date": "2026-08-12T03:49:29+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/302732237/rectangle_large_type_2_6b3fda1c3c2df9d3498f77fd00c8a06d.png?width=800",
-      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
-      "subtitle": "",
-      "body": [
-        "この記事で得られること 議事録AIを「時短ツール」から「組織の鏡」へ引き上げる具体的なプロンプト群。 そして、AI活用の問いを「どうやる？」から「なぜやってる？」へ反転させる思考の型。"
       ],
       "truncated": true
     },
