@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T10:31:44.727321+00:00",
+  "updated": "2026-11-05T20:30:54.266945+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,64 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "7cb5d347e97d",
+      "source": "cambria",
+      "title": "カンブリア宮殿【謎多き巨大企業　ミネベアミツミの全貌】予告",
+      "url": "https://www.youtube.com/watch?v=JxARMVugRnw",
+      "date": "2026-11-05T15:00:32+00:00",
+      "image": "https://i3.ytimg.com/vi/JxARMVugRnw/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "【11月12日(木)夜11時6分放送】",
+        "放送開始から20年。新MCのトップクリエイター2人が化学反応を起こしながら企業トップに切り込む。ワクワクする“経済トークショー”の幕開けです。",
+        "https://txbiz.tv-tokyo.co.jp/cambria?utm_source=youtube&utm_medium=video&utm_campaign=cambria",
+        "【ＭＣ】金原ひとみ　ヒャダイン",
+        "「カンブリア宮殿」最新回や過去の放送、TV番組未公開が見放題！",
+        "■テレ東BIZ",
+        "https://txbiz.tv-tokyo.co.jp/cambria?utm_source=youtube&utm_medium=video&utm_campaign=cambria",
+        "■番組HP",
+        "https://www.tv-tokyo.co.jp/cambria/",
+        "#カンブリア宮殿 #金原ひとみ #ヒャダイン #ミネベアミツミ"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "JxARMVugRnw"
+    },
+    {
+      "id": "d51283e00efc",
+      "source": "ochiai",
+      "title": "【表情止める整形は危険】ボトックスで感情が鈍る？整形ブームはプリクラから？顔研究の第一人者が徹底解説！アメリカ中間選挙での当選予測、「不況で細眉流行」景気に影響されるメイク？支配性と信頼性【落合陽一】",
+      "url": "https://www.youtube.com/watch?v=6jIqMzKvQMU",
+      "date": "2026-11-05T11:00:33+00:00",
+      "image": "https://i3.ytimg.com/vi/6jIqMzKvQMU/hqdefault.jpg",
+      "author": "NewsPicks /ニューズピックス",
+      "subtitle": "",
+      "body": [
+        "番組のフル視聴（83分）はこちらから",
+        "https://npx.me/s/tOm1uFYV",
+        "10日間無料トライアル実施中",
+        "https://s.npx.me/ySXyEJt8",
+        "_____",
+        "「もっと鼻が高ければ…」「あと少し目が大きければ…」",
+        "SNSやネットなどの普及により、私たちが目にする顔の数は、かつてないほど膨れ上がった。国内の美容医療市場は拡大を続け、顔をめぐる悩みやコンプレックスは尽きることがない。",
+        "「顔に悩む人は、ネット上で俳優や女優などいい顔を見すぎて、気づかないうちに自分の顔の基準が上がっている可能性がある」",
+        "と指摘するのは、中央大学教授の山口真美氏。赤ちゃんの視覚発達から大人の顔認知、ルッキズムまでを長年追究してきた“顔研究の第一人者”だ。山口氏によれば、生後7カ月で顔の学習は始まり、顔認知の発達はなんと30歳になるまで続くという。",
+        "私たちが「信頼できる」と感じる顔も、これまで見てきた顔によって作られているのか？AIが描く“平均顔”は美人なのか、それとも誰の記憶にも残らない顔なのか？日本人と欧米人とで、表情の読み方はなぜ違うのか？",
+        "落合陽一が、認知科学の最前線から人間社会を縛り続ける“見た目の呪縛”を解き明かす。",
+        "ゲスト：山口真美（中央大学教授）",
+        "《目次》",
+        "04:05 顔の見方は時代によって変化したのか？",
+        "09:15 顔の支配性と信頼性",
+        "14:23 ボトックスの影響",
+        "17:10 収入と顔の関係",
+        "#落合陽一 #ルッキズム #美容整形 #顔認知 #山口真美 #認知科学 #WEEKLYOCHIAI #NewsPicks"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "6jIqMzKvQMU"
+    },
     {
       "id": "acb9ab34ae39",
       "source": "cambria",
