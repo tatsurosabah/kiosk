@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T02:16:57.807878+00:00",
+  "updated": "2026-11-06T10:34:27.843196+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,108 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "d3259e8bff6b",
+      "source": "kazobara",
+      "title": "【11月ゲスト対談】アフターAI シバタナオキさん「希望のＡＩ: どう働き、何を学び、子どもに何を教えるか」",
+      "url": "https://note.com/kazobara/n/nad8a3d617368",
+      "date": "2026-11-06T10:03:12+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/332932868/rectangle_large_type_2_290b5f3ac235ed58e880b2dd2f569247.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "AIで不安になる「我々の仕事」「こどもの教育」AI最新事例を交えながら放談したよ",
+        "アフターAIシバタナオキさん「希望のＡＩ: どう働き、何を学び、子どもに何を教えるか」",
+        "希望のＡＩ: どう働き、何を学び、子どもに何を教えるかlink.amazon 1,940円(2026年11月06日 19:00時点詳しくはこちら) Amazon.co.jpで購入する"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "47c7c1c6e225",
+      "source": "gaia",
+      "title": "ハチの動きまでAI管理!? アメリカで起業した日本人「オイシイファーム」超精密農業の全貌【ガイアの夜明け】",
+      "url": "https://www.youtube.com/watch?v=oa4o1m9ENbE",
+      "date": "2026-11-06T09:00:25+00:00",
+      "image": "https://i4.ytimg.com/vi/oa4o1m9ENbE/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "▼番組のフル視聴（70分）はこちらから▼",
+        "https://txbiz.tv-tokyo.co.jp/gaia/vod/post_351200?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_261030_yt_oa4o1m9ENbE",
+        "▼本編では伝えきれなかったエピソード「大企業が参入！元マッキンゼー“稼ぐ農業”新戦略」▼",
+        "https://txbiz.tv-tokyo.co.jp/gaia/vod/post_351621?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_261030_yt_oa4o1m9ENbE",
+        "▼「テレ東BIZ」会員登録はこちら▼",
+        "https://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_261030_yt_oa4o1m9ENbE",
+        "日本人がアメリカで起業し、最先端の植物工場でイチゴの大量生産を実現した、いま注目のスタートアップ企業「オイシイファーム」。気温・湿度・光などをコントロールすることで、世界のどこでも日本と同じ環境を再現し、受粉に必要なハチの動きまでAIで徹底的に管理することで、これまで難しいとされてきた植物工場でのイチゴの生産を可能にしたという。",
+        "そのオイシイファームが日本に凱旋。東京で、安川電機など最先端技術をもった日本のトップ企業たちとオールジャパン体制で研究開発を加速。果物の生産だけでなく、植物工場自体の輸出を狙い、100兆円規模の産業を創出しようと動き出していた。",
+        "一方、マッキンゼー出身の若手経営者が率いる「日本農業」は、新たな栽培方法とブランド戦略で日本のリンゴをアジア各国に売り込み、儲かる農業で生産者の減少をも食い止めようと挑んでいた。世界で稼ぐ日本の新農業、その挑戦を追う。",
+        "#オイシイファーム #工場 #イチゴ #植物工場 #AI #起業 #ガイアの夜明け #テレビ東京 #テレ東BIZ"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "oa4o1m9ENbE"
+    },
+    {
+      "id": "1864a2b2b0c0",
+      "source": "cambria",
+      "title": "巨額赤字からの逆襲！再建への大改革～日産自動車 イヴァン・エスピノーサ社長～【カンブリア宮殿／未公開インタビュー】",
+      "url": "https://www.youtube.com/watch?v=GcXlklFnnjI",
+      "date": "2026-11-06T08:00:15+00:00",
+      "image": "https://i4.ytimg.com/vi/GcXlklFnnjI/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "▼インタビューのフルバージョン(12分)は「テレ東BIZ」で配信中！▼",
+        "https://txbiz.tv-tokyo.co.jp/cambria/vod/post_351728?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_261105_yt_GcXlklFnnjI",
+        "▼2026年11月5日OA『どうする？日産 復活への決断と覚悟』【カンブリア宮殿】▼",
+        "https://txbiz.tv-tokyo.co.jp/cambria/vod/post_351640?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_261105_yt_GcXlklFnnjI",
+        "2026年11月5日放送の『どうする？日産 復活への決断と覚悟』で伝えきれなかった、日産自動車 イヴァン・エスピノーサ社長のインタビューをテレ東BIZで限定配信します。再建計画の狙いや北米市場での巻き返し戦略などを聞いています。",
+        "#日産自動車 #イヴァンエスピノーサ #自動車 #EV #ReNissan #経営改革 #復活 #北米市場 #カンブリア宮殿 #番組未公開"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "GcXlklFnnjI"
+    },
+    {
+      "id": "777b26535173",
+      "source": "uno",
+      "title": "狩猟採集的な本能とその昇華（文化系のための「マタギドライヴ」の読み方 #12）第2章6節",
+      "url": "https://note.com/wakusei2nduno/n/n7dd9619a46f2",
+      "date": "2026-11-06T06:10:45+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/332857502/rectangle_large_type_2_27550bc61c2cf596bca9a03a68ef8ba7.png?width=800",
+      "author": "宇野常寛",
+      "subtitle": "",
+      "body": [
+        "（前回までの解説はこちら）",
+        "文化系のための『マタギドライヴ』の読み方｜宇野常寛｜note宇野常寛による落合陽一『マタギドライヴ』の徹底解説シリーズ。文系目線で、限界まで噛み砕いています。ここまでやれば初読者でもnote.com"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "6e5ee203e200",
+      "source": "cambria",
+      "title": "カンブリア宮殿【謎多き巨大企業　ミネベアミツミの全貌】予告",
+      "url": "https://www.youtube.com/watch?v=BUyTNLP1jTA",
+      "date": "2026-11-06T02:16:54+00:00",
+      "image": "https://i3.ytimg.com/vi/BUyTNLP1jTA/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "【11月12日(木)夜11時6分放送】",
+        "放送開始から20年。新MCのトップクリエイター2人が化学反応を起こしながら企業トップに切り込む。ワクワクする“経済トークショー”の幕開けです。",
+        "https://txbiz.tv-tokyo.co.jp/cambria?utm_source=youtube&utm_medium=video&utm_campaign=cambria",
+        "【ＭＣ】金原ひとみ　ヒャダイン",
+        "「カンブリア宮殿」最新回や過去の放送、TV番組未公開が見放題！",
+        "■テレ東BIZ",
+        "https://txbiz.tv-tokyo.co.jp/cambria?utm_source=youtube&utm_medium=video&utm_campaign=cambria",
+        "■番組HP",
+        "https://www.tv-tokyo.co.jp/cambria/",
+        "#カンブリア宮殿 #金原ひとみ #ヒャダイン #ミネベアミツミ"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "BUyTNLP1jTA"
+    },
     {
       "id": "8dc703248040",
       "source": "kazobara",
@@ -6485,21 +6587,6 @@
       "body": [
         "今日は空間についての「そもそも」の話をしてみたい。",
         "僕はよくチェーン店のカフェで仕事をしている。自分が契約しているシェアオフィスが1つと、関係者特権で無料で使用できるコワーキングスペースが2つある。しかし、ほとんど行かない。理由は単純で、「宇野」として認知されるからだ。もっと言ってしまえば、カフェでどこの誰か分からない人間として「許容」されるのが気持ちがいい（安心する）からだ。僕の考えでは、カフェが、ラップトップを広げて「仕事」をする人間で溢れてしまうのは、たぶんこれが原因だ。XやYouTubeのコメント欄には、承認欲求ばかりが強く、能力は低い人が溢れていて、彼ら彼女らの脳内は「何者かになりたい」みたいな願望でいっぱいなのだろうけど、人間には「何者か」になりたいという欲望と同じくらい、「何者かを問われずに許容されたい」欲望があるのだ。その欲望が、自分のやっていることが、どこの誰かとは関係なく受け入れられている状態を心地よく感じさせているのだ。"
-      ],
-      "truncated": true
-    },
-    {
-      "id": "288a034775e1",
-      "source": "kazobara",
-      "title": "ワクワクが行動につながりやすくなるためには-507号-",
-      "url": "https://note.com/kazobara/n/n2a9f82c3e966",
-      "date": "2026-08-13T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/302280263/rectangle_large_type_2_dc26dd6da12b6aeaf92b548724aa4d6d.png?width=800",
-      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
-      "subtitle": "",
-      "body": [
-        "（2020年10月8日の動画を記事化しました）",
-        "今日お話しするのは、”ワクワク”っていう話です。"
       ],
       "truncated": true
     },
