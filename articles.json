@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T10:34:27.843196+00:00",
+  "updated": "2026-11-06T19:53:55.613034+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,59 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "a00ce670f17d",
+      "source": "gaia",
+      "title": "ガイアの夜明け【ニデックの誤算、十の証言】予告",
+      "url": "https://www.youtube.com/watch?v=5E_y0Cu4uNo",
+      "date": "2026-11-06T13:53:32+00:00",
+      "image": "https://i2.ytimg.com/vi/5E_y0Cu4uNo/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "【11月13日(金)夜10時放送】",
+        "日本そして世界の経済の動きを幅広いテーマで描くドキュメンタリー。",
+        "https://txbiz.tv-tokyo.co.jp/gaia?utm_source=youtube&utm_medium=video&utm_campaign=gaia",
+        "【案内人】長谷川博己",
+        "【ナレーター】田中哲司",
+        "「ガイアの夜明け」最新回や過去の放送、TV番組未公開が見放題！",
+        "■テレ東BIZ",
+        "https://txbiz.tv-tokyo.co.jp/gaia?utm_source=youtube&utm_medium=video&utm_campaign=gaia",
+        "■番組HP",
+        "https://www.tv-tokyo.co.jp/gaia/",
+        "#ガイアの夜明け"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "5E_y0Cu4uNo"
+    },
+    {
+      "id": "dfdca7b48b51",
+      "source": "cambria",
+      "title": "「日産」巨額赤字からの攻勢 「新型車」で巻き返せ！イヴァン社長の改革現場に迫る【カンブリア宮殿】",
+      "url": "https://www.youtube.com/watch?v=kgEG2ypBCoA",
+      "date": "2026-11-06T11:00:15+00:00",
+      "image": "https://i4.ytimg.com/vi/kgEG2ypBCoA/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "▼番組のフル視聴（38分）はこちらから▼",
+        "https://txbiz.tv-tokyo.co.jp/cambria/vod/post_351640?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_261105_yt_kgEG2ypBCoA",
+        "▼テレ東系日米経済WEEKで世界市場の最前線をチェック▼",
+        "https://tvtokyo.tv/4eiLQ9l",
+        "▼日産自動車は復活できるのか？巨額赤字から再建へ！最年少社長が挑む大改革…未放送のスタジオトークをイッキ見！【カンブリア宮殿／スタジオ完全版】▼",
+        "https://txbiz.tv-tokyo.co.jp/cambria/vod/post_351738?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_261105_yt_kgEG2ypBCoA",
+        "▼巨額赤字からの逆襲！再建への大改革～日産自動車 イヴァン・エスピノーサ社長～【カンブリア宮殿／未公開インタビュー】▼",
+        "https://txbiz.tv-tokyo.co.jp/cambria/vod/post_351728?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_261105_yt_kgEG2ypBCoA",
+        "▼「テレ東BIZ」会員登録はこちら▼",
+        "https://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_261105_yt_kgEG2ypBCoA",
+        "世界的なEVシフトや中国メーカーの台頭など、自動車業界が大きな転換期を迎える中、岐路に立たされているのが日産自動車だ。「技術の日産」と呼ばれ、スカイラインやフェアレディZなど数々の名車を生み出してきたが、近年は販売不振などで業績が悪化。2024年度には6709億円の赤字、2025年度も5331億円の最終赤字となった。一方、2026年度4～6月期は連結営業利益779億円と黒字に転換し、一筋の光明が差している。再建を託されたのが、2025年4月に社長兼CEOに就任したメキシコ出身のイヴァン・エスピノーサ。就任直後に経営再建計画「Re:Nissan」を打ち出し、コスト改革と商品力の強化を進めている。大きく変動する自動車市場で、日産は再び存在感を取り戻すことができるのか？改革の現場と、「日産らしさ」を取り戻そうと奮闘するイヴァン社長に迫る。",
+        "#日産 #自動車 #EV #SUV #エルグランド #EV #スカイライン #フェアレディZ #イヴァンエスピノーサ #金原ひとみ #ヒャダイン #カンブリア宮殿 #テレビ東京 #テレ東BIZ"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "kgEG2ypBCoA"
+    },
     {
       "id": "d3259e8bff6b",
       "source": "kazobara",
