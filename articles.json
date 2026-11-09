@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T01:43:01.502568+00:00",
+  "updated": "2026-11-09T11:05:59.088926+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,46 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "39aaa25301c2",
+      "source": "gaia",
+      "title": "「フィジカルAI」開発の現場に潜入！世界が注目する日本発ユニコーン企業「Mujin」が物流センターの省人化に挑む！【ガイアの夜明け】",
+      "url": "https://www.youtube.com/watch?v=K9e69zkRkxA",
+      "date": "2026-11-09T11:00:08+00:00",
+      "image": "https://i4.ytimg.com/vi/K9e69zkRkxA/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "▼番組のフル視聴（43分）はこちらから（27年1月8日まで初回登録14日間無料！）▼",
+        "https://txbiz.tv-tokyo.co.jp/gaia/vod/post_351641?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_261106_yt_K9e69zkRkxA",
+        "▼本編では伝えきれなかったエピソード「安川電機トップが語る製造業とAIの未来」▼",
+        "https://txbiz.tv-tokyo.co.jp/gaia/vod/post_351998?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_261106_yt_K9e69zkRkxA",
+        "▼本編では伝えきれなかったエピソード「Mujin 2人の創業者　独占インタビュー」▼",
+        "https://txbiz.tv-tokyo.co.jp/gaia/vod/post_351999?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_261106_yt_K9e69zkRkxA",
+        "▼「テレ東BIZ」会員登録はこちら▼",
+        "https://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_261106_yt_K9e69zkRkxA",
+        "人の代わりに、AIが考え、ロボットが働く――。「フィジカルAI」が、工場や物流の現場を変えようとしている。これまでプログラミングされた動きを繰り返すだけだった機械が、目の前の状況を自ら読み取り、自ら判断して作業するのだ。内閣府と経済産業省の試算では、その世界市場は2040年に約55兆円へと急拡大する見通しだ。フィジカルAIは深刻な人手不足に直面する日本の産業に、新たな可能性をもたらすのか。物流の現場では、ロボットを動かすAIを手がけるスタートアップ「Mujin」が、物流センターの省人化に挑む。産業用ロボットの世界的メーカー「安川電機」も、AIを活用したロボットの開発に力を注ぐ。長年培ってきたモーターや制御技術を武器に、これまで人の手に頼ってきた繊細な作業をロボットに任せようというのだ。傘下のベンチャー「東京ロボティクス」では、油のふき取りや部品の交換など、人にかわって産業用ロボットを補助する新型ロボットの開発が進む。AIという「頭脳」と、日本が磨いてきた「正確に動かす技術」。2つを結びつけ、激しさを増す世界の競争に挑もうというのだ。働くAI開発の最前線に密着し、ニッポンの勝ち筋を探る。",
+        "#ガイアの夜明け #フィジカルAI #Mujin #安川電機 #東京ロボティクス #AI #省人化 #自動化 #開発 #テレビ東京 #テレ東BIZ"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "K9e69zkRkxA"
+    },
+    {
+      "id": "d75016fb4694",
+      "source": "kazobara",
+      "title": "議事録をAIに任せたとき、若手は何を見て成長すればいいのか",
+      "url": "https://note.com/kazobara/n/ndad7ac27923e",
+      "date": "2026-11-09T08:49:02+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/329224160/rectangle_large_type_2_3401fbbdc22a11199ed6dedf4e8a699b.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "「議事録はAIが作ってくれるので、もう若手に頼まなくていい」",
+        "これは、ありがたい変化ですよね。発言を聞き漏らさないよう必死に入力する。会議の後で文章を整える。その負担が減れば、議論にも参加しやすくなります。"
+      ],
+      "truncated": true
+    },
     {
       "id": "dbb4955e0960",
       "source": "gaia",
@@ -6677,26 +6717,6 @@
       "truncated": false,
       "kind": "video",
       "video": "WS5Z5Pg1duc"
-    },
-    {
-      "id": "33033ee38649",
-      "source": "kazobara",
-      "title": "【脳汁ゲスト】けんすう・尾原のAI未来会議ー 言語化しすぎないほうが、AIはうまく動く - 半年で起きたAI５つの構造転換",
-      "url": "https://note.com/kazobara/n/n7932fdb5e87e",
-      "date": "2026-08-15T04:52:29+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/303677679/rectangle_large_type_2_368398eb75a90799ce09074409035499.png?width=800",
-      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
-      "subtitle": "",
-      "body": [
-        "【月１ゲスト】けんすうとのAI話　脳汁！",
-        "この半年で見えた「AI活用の変曲点」一実務・プロダクト・マーケティング・SaaSの再定義",
-        "流石のけんすう、ヒトよりすごいAIをレバレッジするための新しい軸見えたよ。脳汁回！（動画、AI記事化、本対談後に参照すべきリンクなどはメンバーシップ（文末）から）",
-        "AIの勝ち筋、言語化しすぎないほうが、AIはうまく動く",
-        "AIは“個別機能の自動化”を超え、“意図推定”“連関性の理解”“主観の学習”によって、",
-        "仕事の設計・ブランド・プロダクト運営そのものを書き換え始めている。",
-        "この半年で、AI活用の重心がかなり変わった。けんすうさんと約90分話して見えてきたのは、AIが「作業の自動化」から「その人・その会社が大事にするものを理解するシステム」へ移り始めたこと。"
-      ],
-      "truncated": true
     },
     {
       "id": "d7509d1bbbf3",
