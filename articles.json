@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T10:46:55.199431+00:00",
+  "updated": "2026-11-12T20:42:11.821739+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,61 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "2732073ce91c",
+      "source": "cambria",
+      "title": "カンブリア宮殿【ジップエアー トーキョー　空の快進撃に迫る！】予告",
+      "url": "https://www.youtube.com/watch?v=9-z03C3IPUs",
+      "date": "2026-11-12T14:54:02+00:00",
+      "image": "https://i2.ytimg.com/vi/9-z03C3IPUs/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "【11月19日(木)夜11時6分放送】",
+        "いま絶好調のLCC（格安航空）がある。その名は「ZIPAIR　Tokyo（ジップエア　トーキョー」。仕掛けたのは、なんと日本航空JALだった。知られざる、空の快進撃に迫る！",
+        "https://txbiz.tv-tokyo.co.jp/cambria?utm_source=youtube&utm_medium=video&utm_campaign=cambria",
+        "【ゲスト】ZIPAIR　Tokyo　社長　深田康裕",
+        "【ＭＣ】金原ひとみ　ヒャダイン",
+        "「カンブリア宮殿」最新回や過去の放送、TV番組未公開が見放題！",
+        "■テレ東BIZ",
+        "https://txbiz.tv-tokyo.co.jp/cambria?utm_source=youtube&utm_medium=video&utm_campaign=cambria",
+        "■番組HP",
+        "https://www.tv-tokyo.co.jp/cambria/",
+        "#カンブリア宮殿 #金原ひとみ #ヒャダイン #ZIPAIR #ジップエアー"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "9-z03C3IPUs"
+    },
+    {
+      "id": "ab3777f984b5",
+      "source": "ochiai",
+      "title": "【高市総理も羽生善治も小室哲哉もみんな来た！】ついに配信400回達成「バズは狙わない。NISAも話しません」「ほぼ徹子の部屋状態」落合陽一が番組をデータ分析！議論AI、注目の２０代、印象に残ったゲスト",
+      "url": "https://www.youtube.com/watch?v=xZ8PRB0STEs",
+      "date": "2026-11-12T11:00:32+00:00",
+      "image": "https://i1.ytimg.com/vi/xZ8PRB0STEs/hqdefault.jpg",
+      "author": "NewsPicks /ニューズピックス",
+      "subtitle": "",
+      "body": [
+        "番組のフル視聴（76分）はこちらから",
+        "https://npx.me/s/YylMQP75",
+        "10日間無料トライアル実施中",
+        "https://s.npx.me/ySXyEJt8",
+        "_____",
+        "2017年7月にスタートした「WEEKLY OCHIAI」。落合陽一は当時29歳。初回のテーマは「AIと日本再興戦略」だった。そして今、番組はついにレギュラー配信400回を迎える。",
+        "舞台もスタジオにとどまらず、時には総理官邸から、時には大阪・関西万博の「null²」から。政治、科学、漫画、音楽、伝統文化まで、ジャンルを越えた多彩なゲストとの対話を積み重ねてきた。",
+        "29歳から39歳へ…番組とともに過ごした日々で、何が変わったのか？数々の対話のなかで、最も思考を揺さぶられた瞬間とは？そして、400回の先に、落合陽一は何を問い続けるのか？",
+        "《目次》",
+        "04:02 WEEKLY OCHIAIクイズ",
+        "08:44 落合陽一によるデータ分析",
+        "13:30 アテンションエコノミーはしない",
+        "17:23 落合陽一の議論AI",
+        "#落合陽一 #高市早苗 #WEEKLYOCHIAI #羽生善治 #小室哲哉 #NewsPicks #AI"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "xZ8PRB0STEs"
+    },
     {
       "id": "5f5a8d912f31",
       "source": "uno",
