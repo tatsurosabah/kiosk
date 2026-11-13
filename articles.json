@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T10:42:23.805054+00:00",
+  "updated": "2026-11-13T20:23:47.361177+00:00",
   "sources": [
     {
       "id": "uno",
@@ -114,16 +114,67 @@
   "generated_by": "fetch.py",
   "articles": [
     {
+      "id": "ce2d4be29991",
+      "source": "gaia",
+      "title": "ガイアの夜明け【働く！じーちゃんばーちゃん２】予告",
+      "url": "https://www.youtube.com/watch?v=IQwJ9HUV2NA",
+      "date": "2026-11-13T13:53:14+00:00",
+      "image": "https://i2.ytimg.com/vi/IQwJ9HUV2NA/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "【11月20日(金)夜10時放送】",
+        "働く条件は６０歳以上。９２歳のおばーちゃんも働くことで元気になれる新たな職場とは？高齢社会の課題をシニア自身の力で解決し、人生を豊かにする取り組みを追う！",
+        "https://txbiz.tv-tokyo.co.jp/gaia?utm_source=youtube&utm_medium=video&utm_campaign=gaia",
+        "【案内人】長谷川博己",
+        "【ナレーター】田中哲司",
+        "「ガイアの夜明け」最新回や過去の放送、TV番組未公開が見放題！",
+        "■テレ東BIZ",
+        "https://txbiz.tv-tokyo.co.jp/gaia?utm_source=youtube&utm_medium=video&utm_campaign=gaia",
+        "■番組HP",
+        "https://www.tv-tokyo.co.jp/gaia/",
+        "#ガイアの夜明け"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "IQwJ9HUV2NA"
+    },
+    {
+      "id": "10b3ebfde4d0",
+      "source": "cambria",
+      "title": "スマホから飛行機まで支える“スーパー黒子企業“ミネベアミツミ！ギネス世界記録を達成した驚異の技術に迫る【カンブリア宮殿】",
+      "url": "https://www.youtube.com/watch?v=vCLy0842-yw",
+      "date": "2026-11-13T11:00:04+00:00",
+      "image": "https://i3.ytimg.com/vi/vCLy0842-yw/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "▼番組のフル視聴（37分）はこちらから（27年1月8日まで初回登録14日間無料！）▼",
+        "https://txbiz.tv-tokyo.co.jp/cambria/vod/post_352031?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_261112_yt_vCLy0842-yw",
+        "▼驚きの超絶技術でギネス世界記録まで樹立したミネベアミツミ。巨大黒子企業を率いるトップの経営哲学とは？【カンブリア宮殿／スタジオ完全版▼",
+        "https://txbiz.tv-tokyo.co.jp/cambria/vod/post_352302?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_261112_yt_vCLy0842-yw",
+        "▼就任以来売り上げを７倍に拡大させた弁護士出身のトップが語る！年間１兆６０００億円を稼ぎ出す巨大企業の経営戦略とは？ ～ミネベアミツミ 貝沼由久会長CEO～【カンブリア宮殿／未公開インタビュー】▼",
+        "https://txbiz.tv-tokyo.co.jp/cambria/vod/post_352303?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_261112_yt_vCLy0842-yw",
+        "▼「テレ東BIZ」会員登録はこちら（27年1月8日まで初回登録14日間無料！）▼",
+        "https://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_261112_yt_vCLy0842-yw",
+        "名前は知らずとも、誰もが日頃からお世話になっている会社がある。その名は“ミ”が三つ、ミネベアミツミだ。飛行機・自動車から、パソコンにスマホ、さらには温水洗浄便座まで。身の回りのあらゆる機械の中に入っている“精密部品”をつくるメーカーだ。この会社がなければ、便利な暮らしはピタリと止まってしまう。そんなスーパー黒子企業を率いるトップは、異色の弁護士出身。部品の会社でありながら、独自の戦略で売上高はなんと1兆6000億円へと急拡大した。日本のものづくりが世界でサバイバルするためのヒントに迫る。",
+        "#ミネベアミツミ #超精密加工技術 #ヨーヨー #ギネス #ボールベアリング｣ #カンブリア宮殿 #テレビ東京 #テレ東BIZ"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "vCLy0842-yw"
+    },
+    {
       "id": "271c52ff29b8",
       "source": "rikei",
-      "title": "フアン氏辞任、イーロン・マスク氏は半導体「爆増」へ...業界の勢力図は激変するか【橋本幸治の理系通信】",
+      "title": "NVIDIAフアン氏辞任、イーロン・マスク氏は半導体「爆増」へ...業界の勢力図は激変するか【橋本幸治の理系通信】",
       "url": "https://www.youtube.com/watch?v=w46FYQgnFOk",
       "date": "2026-11-13T10:30:16+00:00",
       "image": "https://i4.ytimg.com/vi/w46FYQgnFOk/hqdefault.jpg",
       "author": "テレ東BIZ ダイジェスト",
       "subtitle": "",
       "body": [
-        "フル視聴はコチラ▶https://txbiz.tv-tokyo.co.jp/rikei/vod/post_352494?utm_source=youtube&utm_medium=video&utm_campaign=rikei_261113_yt_w46FYQgnFOk",
+        "フル視聴（57分）はコチラ▶https://txbiz.tv-tokyo.co.jp/rikei/vod/post_352494?utm_source=youtube&utm_medium=video&utm_campaign=rikei_261113_yt_w46FYQgnFOk",
         "理系通信、今回のテーマは、「揺れる半導体業界、その勢力図は激変するか」です。",
         "エヌビディアのジェンスン・フアン氏が辞任。AI半導体の覇者に何が起きているのか？",
         "一方、イーロン・マスク氏は半導体の生産能力を桁違いに拡大する「テラファブ構想」を打ち出しています。自ら半導体製造に乗り出す狙いとは？ 実現の可能性は？",
