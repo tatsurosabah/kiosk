@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T02:41:02.914420+00:00",
+  "updated": "2026-11-13T10:42:23.805054+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,49 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "271c52ff29b8",
+      "source": "rikei",
+      "title": "フアン氏辞任、イーロン・マスク氏は半導体「爆増」へ...業界の勢力図は激変するか【橋本幸治の理系通信】",
+      "url": "https://www.youtube.com/watch?v=w46FYQgnFOk",
+      "date": "2026-11-13T10:30:16+00:00",
+      "image": "https://i4.ytimg.com/vi/w46FYQgnFOk/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "フル視聴はコチラ▶https://txbiz.tv-tokyo.co.jp/rikei/vod/post_352494?utm_source=youtube&utm_medium=video&utm_campaign=rikei_261113_yt_w46FYQgnFOk",
+        "理系通信、今回のテーマは、「揺れる半導体業界、その勢力図は激変するか」です。",
+        "エヌビディアのジェンスン・フアン氏が辞任。AI半導体の覇者に何が起きているのか？",
+        "一方、イーロン・マスク氏は半導体の生産能力を桁違いに拡大する「テラファブ構想」を打ち出しています。自ら半導体製造に乗り出す狙いとは？ 実現の可能性は？",
+        "エヌビディアの圧倒的な強さは今後も続くのか。マスク氏の野望は半導体業界の勢力図を変えるのか。",
+        "半導体アナリストの大山聡氏を迎え、AI半導体をめぐる最新動向と業界の行方を徹底解説します。",
+        "＃エヌビディア　＃テスラ　＃ジェンスンフアン　＃イーロンマスク　＃ラピダス　＃ソニー　＃キオクシア　＃半導体　＃AI　＃不倫　＃NVIDIA　＃スパイ"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "w46FYQgnFOk"
+    },
+    {
+      "id": "cf2cc3587795",
+      "source": "cambria",
+      "title": "就任以来売り上げを７倍に拡大させた弁護士出身のトップが語る！年間１兆６０００億円を稼ぎ出す巨大企業の経営戦略とは？ ～ミネベアミツミ 貝沼由久会長CEO～【カンブリア宮殿／未公開インタビュー】",
+      "url": "https://www.youtube.com/watch?v=v2U2wLpBub0",
+      "date": "2026-11-13T08:00:17+00:00",
+      "image": "https://i3.ytimg.com/vi/v2U2wLpBub0/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "▼インタビューのフルバージョン(16分)は「テレ東BIZ」で配信中！（27年1月8日まで初回登録14日間無料！）▼",
+        "https://txbiz.tv-tokyo.co.jp/cambria/vod/post_352303?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_261112_yt_v2U2wLpBub0",
+        "▼2026年11月12日OA『謎多き巨大企業 ミネベアミツミの全貌』【カンブリア宮殿】▼",
+        "https://txbiz.tv-tokyo.co.jp/cambria/vod/post_352031?utm_source=youtube&utm_medium=video&utm_campaign=freecamb_261112_yt_v2U2wLpBub0",
+        "2026年11月12日放送の『謎多き巨大企業 ミネベアミツミの全貌』で伝えきれなかった、ミネベアミツミ 貝沼由久会長CEOのインタビューをテレ東BIZで限定配信します。「弁護士の道から企業トップへと歩みを進めた経緯」「“買収王”と呼ばれた義父から受け継いだ経営哲学」「Ｍ＆Aで売り上げを大きく拡大させた舞台裏」などを聞きました。",
+        "#ミネベアミツミ　#ベアリング　#半導体　#モーター　#弁護士　#慶應義塾大学　#買収　#MアンドA　#カンブリア宮殿　#テレ東BIZ　#番組未公開"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "v2U2wLpBub0"
+    },
     {
       "id": "6285595d04cb",
       "source": "kazobara",
