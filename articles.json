@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T18:41:00.118384+00:00",
+  "updated": "2026-11-15T01:47:29.317226+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,21 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "d6059966b7ec",
+      "source": "kazobara",
+      "title": "米国の社会主義、地政学、AI――振り子の時代に「混ざった対立」をほどく３つの問いと 自分をせばめない単純なプロンプト",
+      "url": "https://note.com/kazobara/n/n175556650b58",
+      "date": "2026-11-15T00:57:47+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/336266486/rectangle_large_type_2_e50ab3cd3bd164b52bb1ba02e603d6c7.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "アメリカで社会主義への関心が高まる。一方で、国家の力を使って自国の産業を守ろうとする動きも強まる。AIでは、ものすごい可能性への期待と、仕事や自由を奪われる不安が行き来する。",
+        "こういうニュースを追っていると、世の中の振り子が、右へ左へ、激しく揺れているように見えますよね。"
+      ],
+      "truncated": true
+    },
     {
       "id": "a2562c569bc3",
       "source": "cambria",
@@ -6734,21 +6749,6 @@
       "body": [
         "これは私のメルマガ「週刊Life is beautiful」で紹介している記事の要約・解説です。要約をこちらに書き、リンクを貼った上で私のコメントを書くというスタイルで、メルマガ本体のボリュームを減らして読みやすくすることを目的としています。",
         "EXCLUSIVE: Tesla has just officially received approval for its full Autonomous Vehicle Network Company permit in Nevada"
-      ],
-      "truncated": true
-    },
-    {
-      "id": "ad621425f1c1",
-      "source": "kazobara",
-      "title": "意味が増幅される理由と、コラボができる秘訣-509号-",
-      "url": "https://note.com/kazobara/n/n73e5fbd2401a",
-      "date": "2026-08-20T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/304536405/rectangle_large_type_2_da8264c3c76837dfe9b5bf9435c84d1d.png?width=800",
-      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
-      "subtitle": "",
-      "body": [
-        "（2019年10月11日の10分解説動画を記事化しました）",
-        "こんにちは。尾原のオンラインサロンハックのお時間です。"
       ],
       "truncated": true
     },
