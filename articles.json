@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T19:18:03.425108+00:00",
+  "updated": "2026-11-16T01:52:01.948092+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,38 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "129779d254ef",
+      "source": "uno",
+      "title": "読者を「ムラ社会化」しないために何が必要か？",
+      "url": "https://note.com/wakusei2nduno/n/nb1c7e0f13591",
+      "date": "2026-11-16T01:46:04+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/336719108/rectangle_large_type_2_562404b2b64ba7268138fc906223e5a3.png?width=800",
+      "author": "宇野常寛",
+      "subtitle": "",
+      "body": [
+        "今日はこの春から始めようと思っている、新しいメディア関係の企画（流れるかもしれないが……）の打ち合わせがある。なので、週末いろいろ考えていたのだけれど、やはりポイントはどういうタイプの読者を集めるか、しっかり考えることだと思う。いや、正確には、どういった読書集めないかが、鍵になると僕は思っている。",
+        "たとえばどの業界にも「人間関係でゲタを履こうとする問題」がある。出版とか、批評の世界もそうだ。このインターネット社会では、本当によい書き手は単に、自然と「見つかる」のだけど、世界にはプライドは高いけれど能力がそれに伴わない人がどうしても出てくる。"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "28bd6ea962ab",
+      "source": "kazobara",
+      "title": "「右派-左派」には12領域72軸あるんやで、AIで過剰考察-自分にちょうどいい解像度で観察する",
+      "url": "https://note.com/kazobara/n/nab5260f64e1e",
+      "date": "2026-11-15T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/336329415/rectangle_large_type_2_ac30c8b2ebbe0dd419d262cc91d1258f.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "前回の記事　資本主義ー社会主義って軸で単純化しすぎると、いろいろ絡み合って選択肢をせばめるよという投稿のあと、",
+        "「一番こんがらがってる対立軸を　AI全力でほぐしたらどうなるだろう？」",
+        "ということで",
+        "「右派-左派」やってみたら なんと 12領域72軸 になりました。というネタ企画です。（私が信条的にどうこうという話しではないです）"
+      ],
+      "truncated": true
+    },
     {
       "id": "1560a345d2a7",
       "source": "ochiai",
@@ -7077,20 +7109,6 @@
       "truncated": true
     },
     {
-      "id": "69a6cb831dac",
-      "source": "kazobara",
-      "title": "なぜ今、『ヤニねこ』『地元最高！』『みいちゃんと山田さん』がアニメになるのか - 「最適化されない人間」が、物語の中心へ戻ってきた",
-      "url": "https://note.com/kazobara/n/n1af3dbbff377",
-      "date": "2026-08-23T02:12:58+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/306154795/rectangle_large_type_2_0cfd499a475a0d0c0616f36f531b3c23.png?width=800",
-      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
-      "subtitle": "",
-      "body": [
-        "「最適化されない人間」が、物語の中心へ戻ってきた"
-      ],
-      "truncated": true
-    },
-    {
       "id": "063ae49f4728",
       "source": "crossdig",
       "title": "【タッカー･カールソン】「トランプ氏は弱い」「米国を裏切った」「イスラエルに操られている」／バンス氏が大統領ならイラン戦争はなかった／中間選挙で共和党は代償を払う／MAGA派インフルエンサーが決別宣言",
@@ -8589,21 +8607,6 @@
         "実はこのところ以下のPodcastにお邪魔させていただいた。読んでくださった皆さん、登録してくださった皆さんありがとうございます。Slow Timesのことも、よろしくお願いします。",
         "引き続きSNSなどでのご感想、心よりお待ちしております。",
         "これまでのSlow Timesの記事で一番面白いと思ってくださった内容、今回のニュースレターの感想等、皆さんの声を聞けることを楽しみにしている。"
-      ],
-      "truncated": true
-    },
-    {
-      "id": "05591dd13ed7",
-      "source": "uno",
-      "title": "オタク的想像力と「歴史」の問題",
-      "url": "https://note.com/wakusei2nduno/n/n05dfdf846714",
-      "date": "2026-07-29T03:30:38+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/298516100/rectangle_large_type_2_70ba81d6498e1f5a231ebed69db0baa8.png?width=800",
-      "author": "宇野常寛",
-      "subtitle": "",
-      "body": [
-        "先日、石岡良治さん、成馬零一さん、吉田尚記さんと僕の四人で『天幕のジャードゥーガル』についての座談会を収録した。",
-        "動画は明日公開の予定で、作品についてはそちらを見てほしいのだけど、今日はそこで話したことと、そのときに考えたことを簡単にまとめておきたい。"
       ],
       "truncated": true
     },
