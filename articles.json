@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T21:35:21.883451+00:00",
+  "updated": "2026-11-18T03:25:58.319609+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,37 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "387d697acda7",
+      "source": "uno",
+      "title": "『庭の話』と「男性問題」",
+      "url": "https://note.com/wakusei2nduno/n/nbb3afff922c1",
+      "date": "2026-11-18T00:52:53+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/337500826/rectangle_large_type_2_2cbbdbae283631676e64acea9dbe48f6.png?width=800",
+      "author": "宇野常寛",
+      "subtitle": "",
+      "body": [
+        "『庭の話』が出版されて、もうすぐ2年になる。お陰様で想像以上の評価とセールスの結果を残せたのだけれど、この本は不思議な本で、あるタイプの人から、あるタイプの反発を、ある形式でハンコを押したようにいただくのだ。"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "8ea58968ecd9",
+      "source": "kazobara",
+      "title": "高速に学ぶために「失敗を設計」する-SpaceXがなぜ圧倒的早さで進化するのか？",
+      "url": "https://note.com/kazobara/n/nfacb5172613d",
+      "date": "2026-11-17T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/337269906/rectangle_large_type_2_2b1f682d7849ccca27dfcb4b7115ba30.jpeg?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "好評だった「PDCAではなくDCPA」がAI時代になぜ重要か？の実例が、イーロンマスクによって成されたので解説記事です。",
+        "「高頻度で飛ばし、壊れた箇所からボトルネックを特定し、数週間〜数ヶ月単位でハードウェアごと作り直す」",
+        "2026年11月14日、SpaceXの巨大宇宙船「スターシップ（マザーシップ）」が、約22時間半の地球周回飛行と過酷な大気圏再突入を乗り越え、史上初めて発射台の巨大アーム「チョップスティックス」による空中キャッチ帰還に成功しました。(感動の瞬間は下記動画にて）",
+        "https://www.youtube.com/shorts/GbPUwg23JIM"
+      ],
+      "truncated": true
+    },
     {
       "id": "262d76afb62c",
       "source": "nishiguchi",
@@ -6985,22 +7016,6 @@
       "truncated": true
     },
     {
-      "id": "b4f06bc1672d",
-      "source": "kazobara",
-      "title": "プロセスが自分の心のOSを書き換えてくれる理由-510号-",
-      "url": "https://note.com/kazobara/n/n506689aa8f70",
-      "date": "2026-08-24T23:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/306761940/rectangle_large_type_2_36a0aa6ea95b2c9c1e020b03aba31679.png?width=800",
-      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
-      "subtitle": "",
-      "body": [
-        "（2021年1月11日の動画を記事化しました）",
-        "はい！",
-        "どうもこんにちは！今日は、何でプロセスエコノミーが大事になってくるのか？という話をしていきます。"
-      ],
-      "truncated": true
-    },
-    {
       "id": "e8929a34e255",
       "source": "lifeisbeautiful",
       "title": "ロボットは「労働力」ではなく「人口」なのか？",
@@ -8600,20 +8615,6 @@
       "truncated": false,
       "kind": "video",
       "video": "c5NAbyeLG8E"
-    },
-    {
-      "id": "e1e6bf5f0bf4",
-      "source": "uno",
-      "title": "格差と労働、そして都市の問題の「結節点」としての「住宅」",
-      "url": "https://note.com/wakusei2nduno/n/n821957b52ea9",
-      "date": "2026-07-31T07:46:47+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/299156775/rectangle_large_type_2_76947350c2081ad09af7df7ae8380f37.png?width=800",
-      "author": "宇野常寛",
-      "subtitle": "",
-      "body": [
-        "さて、今日は昨日に続いて、もう少し「住宅」について考えてみたい。"
-      ],
-      "truncated": true
     },
     {
       "id": "8fb0c057b1e2",
