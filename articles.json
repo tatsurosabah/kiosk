@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T11:28:17.731624+00:00",
+  "updated": "2026-11-19T21:14:52.666369+00:00",
   "sources": [
     {
       "id": "uno",
@@ -114,9 +114,34 @@
   "generated_by": "fetch.py",
   "articles": [
     {
+      "id": "730edcbc7c5a",
+      "source": "cambria",
+      "title": "カンブリア宮殿【やっぱり村上龍はすごかった！　経営者1000人を斬った男】予告",
+      "url": "https://www.youtube.com/watch?v=Q6M9FPAXZm0",
+      "date": "2026-11-19T14:54:35+00:00",
+      "image": "https://i2.ytimg.com/vi/Q6M9FPAXZm0/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "【11月26日(木)夜11時6分放送】",
+        "放送開始から20年。新MCのトップクリエイター2人が化学反応を起こしながら企業トップに切り込む。ワクワクする“経済トークショー”の幕開けです。",
+        "https://txbiz.tv-tokyo.co.jp/cambria?utm_source=youtube&utm_medium=video&utm_campaign=cambria",
+        "【ＭＣ】金原ひとみ　ヒャダイン",
+        "「カンブリア宮殿」最新回や過去の放送、TV番組未公開が見放題！",
+        "■テレ東BIZ",
+        "https://txbiz.tv-tokyo.co.jp/cambria?utm_source=youtube&utm_medium=video&utm_campaign=cambria",
+        "■番組HP",
+        "https://www.tv-tokyo.co.jp/cambria/",
+        "#カンブリア宮殿 #金原ひとみ #ヒャダイン #村上龍"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "Q6M9FPAXZm0"
+    },
+    {
       "id": "31648ccd5e37",
       "source": "ochiai",
-      "title": "【命の恩人は100円のなめ茸】グラミー賞候補のLiSAが激白！「紅蓮華」への想い、アニメとの出会いとは？「３０歳までやるとは…」悩みを救ったのは落合陽一？制作の変化、作詞方法、下積み時代、新たな夢は…",
+      "title": "【ご飯食べられるお金もなかった】グラミー賞候補のLiSAが激白！「紅蓮華」への想い、アニメとの出会いとは？「３０歳までやるとは…」悩みを救ったのは落合陽一？制作の変化、作詞方法、下積み時代、新たな夢",
       "url": "https://www.youtube.com/watch?v=uS7rCohkf6U",
       "date": "2026-11-19T11:00:32+00:00",
       "image": "https://i2.ytimg.com/vi/uS7rCohkf6U/hqdefault.jpg",
@@ -178,6 +203,29 @@
       "body": [
         "（前回までの解説はこちら）",
         "文化系のための『マタギドライヴ』の読み方｜宇野常寛｜note宇野常寛による落合陽一『マタギドライヴ』の徹底解説シリーズ。文系目線で、限界まで噛み砕いています。ここまでやれば初読者でもnote.com"
+      ],
+      "truncated": true
+    },
+    {
+      "id": "fa97d7f43533",
+      "source": "slowtimes",
+      "title": "#47 ユタに移る、アメリカ文化のOS",
+      "url": "https://slowtimesjp.substack.com/p/47-americas-next-cultural-export-comes-from-utah",
+      "date": "2026-11-18T22:05:32+00:00",
+      "image": "https://substack-post-media.s3.amazonaws.com/public/images/3463e89a-c0c0-4db6-88d3-575d4005dc42_1731x909.png",
+      "author": "Tetsuro Miyatake",
+      "subtitle": "ニューヨークでもLAでもない。",
+      "body": [
+        "今週月曜分に相当する記事を先週金曜にお送りしたが読んでもらえただろうか？",
+        "皆さんからのnotes上でのコメントやTwitterにおけるコメントなど励みになっている！コメントをくださった皆さんありがとうございます。",
+        "このニュースレターは皆さんのシェアによって成長します。シェアは無料ですし、引き続き本ニュースレターを発行し続けるための大きな助けになります。",
+        "目次",
+        "アルコール vs ダーティソーダ",
+        "アメリカを席巻するユタの価値観",
+        "ユタ発のブランドとユタ・コードのブランド",
+        "結論",
+        "#Appendix - Glossary",
+        "伝統的にテクノロジーを除くアメリカの文化は、常に東海岸のニューヨークか西海岸のロサンゼルスから始まってきた。ニューヨークのメディア大手とLAのハリウッドの存在に加え、多くのセレブリティが両都市に頻繁に出入りしているおかげで、アメリカの文化の震源地はほぼ常にニューヨークとLAであった。"
       ],
       "truncated": true
     },
