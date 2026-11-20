@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T11:04:26.442917+00:00",
+  "updated": "2026-11-20T20:58:16.864434+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,32 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "41bfd8de795f",
+      "source": "gaia",
+      "title": "ガイアの夜明け【激変!インバウンド新時代3　‟ニッポンの文化”で大逆転！】予告",
+      "url": "https://www.youtube.com/watch?v=RLtllv94c-o",
+      "date": "2026-11-20T13:53:23+00:00",
+      "image": "https://i3.ytimg.com/vi/RLtllv94c-o/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "【11月27日(金)夜10時放送】",
+        "日本そして世界の経済の動きを幅広いテーマで描くドキュメンタリー。",
+        "https://txbiz.tv-tokyo.co.jp/gaia?utm_source=youtube&utm_medium=video&utm_campaign=gaia",
+        "【案内人】長谷川博己",
+        "【ナレーター】田中哲司",
+        "「ガイアの夜明け」最新回や過去の放送、TV番組未公開が見放題！",
+        "■テレ東BIZ",
+        "https://txbiz.tv-tokyo.co.jp/gaia?utm_source=youtube&utm_medium=video&utm_campaign=gaia",
+        "■番組HP",
+        "https://www.tv-tokyo.co.jp/gaia/",
+        "#ガイアの夜明け"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "RLtllv94c-o"
+    },
     {
       "id": "466da17a908c",
       "source": "cambria",
