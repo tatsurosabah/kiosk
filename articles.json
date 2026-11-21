@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T20:58:16.864434+00:00",
+  "updated": "2026-11-21T03:01:47.458617+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,21 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "c64a5a079a7d",
+      "source": "kazobara",
+      "title": "イーロン・マスクの宇宙事業の戦略思想から学べること - 自社戦略再構築の視点-プロンプト付",
+      "url": "https://note.com/kazobara/n/n64529da81cab",
+      "date": "2026-11-20T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/337286421/rectangle_large_type_2_a8b7b3bb68c2bf958946e4c256924c00.jpeg?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "「宇宙から戻ってきたロケットを、どうやって“飛行機のように”安く再利用するのか？」",
+        "2026年11月14日、SpaceXの巨大宇宙船「スターシップ（マザーシップ）」が、約22時間半の地球周回飛行と大気圏再突入を乗り越え、発射台の巨大アームによる空中キャッチ帰還に史上初めて成功しました。"
+      ],
+      "truncated": true
+    },
     {
       "id": "41bfd8de795f",
       "source": "gaia",
@@ -7021,21 +7036,6 @@
       "truncated": false,
       "kind": "video",
       "video": "gW-lsuAwuik"
-    },
-    {
-      "id": "cf960c4c9e9a",
-      "source": "kazobara",
-      "title": "SNSに僕等はどう変容されてて、でも、僕等の承認欲求はしたたかなのか-511号-",
-      "url": "https://note.com/kazobara/n/n238ac6cdf580",
-      "date": "2026-08-27T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/306859209/rectangle_large_type_2_f063db3d8db269c80de1c18c5a8f1923.png?width=800",
-      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
-      "subtitle": "",
-      "body": [
-        "（2020年12月9日 解説動画を記事化しました）",
-        "インスタグラムとかツイッターが、最近ユーザーインターフェースをものすごく変えていて。"
-      ],
-      "truncated": true
     },
     {
       "id": "41b9d6d412c9",
