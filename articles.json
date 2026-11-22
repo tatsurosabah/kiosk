@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T16:40:21.770116+00:00",
+  "updated": "2026-11-22T01:58:32.503158+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,30 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "71a424b4a5a4",
+      "source": "crossdig",
+      "title": "【巨額投資のウラに“破格の税優遇”】地元住民の雇用義務なし／投資家にリスク転嫁も／州の政治家が“後押し”？／「マンハッタン級」データセンターで繁栄？それとも廃墟化？",
+      "url": "https://www.youtube.com/watch?v=r2EPHVsVWz0",
+      "date": "2026-11-21T23:00:16+00:00",
+      "image": "https://i3.ytimg.com/vi/r2EPHVsVWz0/hqdefault.jpg",
+      "author": "TBS CROSS DIG with Bloomberg",
+      "subtitle": "",
+      "body": [
+        "https://youtube.com/@tbs_bloomberg",
+        "👆チャンネル登録・高評価をよろしくお願いします",
+        "Metaが約30兆円を投じ、巨大AIデータセンターの建設を予定しているのが米ルイジアナ州のリッチランド群です。湿地帯とトウモロコシ畑が広がり、米国で最も貧しい地域の一つに数えられるこの土地を選んだ理由とは？",
+        "（ブルームバーグ 2026年5月19日 配信）",
+        "▼TBS CROSS DIG with Bloomberg",
+        "https://newsdig.tbs.co.jp/list/withbloomberg",
+        "▼公式Xアカウント",
+        "https://x.com/tbs_bloomberg",
+        "#tbs #crossdig #meta"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "r2EPHVsVWz0"
+    },
     {
       "id": "c64a5a079a7d",
       "source": "kazobara",
