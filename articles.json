@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T11:59:32.954646+00:00",
+  "updated": "2026-11-24T00:39:17.250129+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,23 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "159cbc844001",
+      "source": "kazobara",
+      "title": "尾原も5年実施：自分をアップデートできる振り返りメソッド-536号-",
+      "url": "https://note.com/kazobara/n/n5cdd60b30c8d",
+      "date": "2026-11-23T22:00:00+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/336839968/rectangle_large_type_2_028836e2d8b20016d5e490f3cd696a48.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "（2021年11月25日の解説動画を記事化しました）",
+        "はい！",
+        "どうもこんばんは！",
+        "尾原のオンラインサロンハックのお時間でございます！"
+      ],
+      "truncated": true
+    },
     {
       "id": "664b57aba5ca",
       "source": "cambria",
@@ -6859,21 +6876,6 @@
       "truncated": false,
       "kind": "video",
       "video": "QjmIajiZHco"
-    },
-    {
-      "id": "5d7525139970",
-      "source": "kazobara",
-      "title": "昭和100年の激変期で何がおきてる？日本の一等地——錦市場に学ぶ非連続のビジネスチャンス",
-      "url": "https://note.com/kazobara/n/nf75f722eebe3",
-      "date": "2026-08-31T03:27:31+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/308783229/rectangle_large_type_2_d3f4158dfcb80f48ceb438ac11dd03f4.png?width=800",
-      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
-      "subtitle": "",
-      "body": [
-        "この記事で得られること",
-        "昭和100年、戦後80年という節目で、日本の各地で相続による所有権の非連続な移転が起きている。この記事では、京都・錦市場の変貌を手がかりに、その背景にある構造と、そこに眠るビジネスチャンスの捉え方を整理する。"
-      ],
-      "truncated": true
     },
     {
       "id": "b9794d050b9f",
