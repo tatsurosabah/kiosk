@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T03:59:21.250467+00:00",
+  "updated": "2026-11-27T18:45:28.660355+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,33 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "8f3057ab6883",
+      "source": "gaia",
+      "title": "ガイアの夜明け【カスハラ現場、最前線】予告",
+      "url": "https://www.youtube.com/watch?v=ier1hcn8PiY",
+      "date": "2026-11-27T13:53:02+00:00",
+      "image": "https://i2.ytimg.com/vi/ier1hcn8PiY/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "【12月4日(金)夜10時放送】",
+        "※12月4日（金）は「卓球混合団体ワールドカップ2026」のため、放送時間変更の可能性があります。",
+        "今年10月1日の法改正で、すべての企業を対象に対策が義務化された「カスハラ」。カスハラにもがき苦しみ、答えを見つけようとする人々の姿を追った。",
+        "https://txbiz.tv-tokyo.co.jp/gaia?utm_source=youtube&utm_medium=video&utm_campaign=gaia",
+        "【案内人】長谷川博己",
+        "【ナレーター】田中哲司",
+        "「ガイアの夜明け」最新回や過去の放送、TV番組未公開が見放題！",
+        "■テレ東BIZ",
+        "https://txbiz.tv-tokyo.co.jp/gaia?utm_source=youtube&utm_medium=video&utm_campaign=gaia",
+        "■番組HP",
+        "https://www.tv-tokyo.co.jp/gaia/",
+        "#ガイアの夜明け"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "ier1hcn8PiY"
+    },
     {
       "id": "8aa8b41ffa2d",
       "source": "kazobara",
