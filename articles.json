@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T03:47:16.453977+00:00",
+  "updated": "2026-11-28T17:26:00.082840+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,31 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "87fc64b49da4",
+      "source": "gaia",
+      "title": "物流倉庫の省人化へ！商品の種類や発注数も複雑な一筋縄ではいかない「まいばすけっと」の仕分けに挑む！【ガイアの夜明け】",
+      "url": "https://www.youtube.com/watch?v=OAz5MYAj7aA",
+      "date": "2026-11-28T10:00:02+00:00",
+      "image": "https://i4.ytimg.com/vi/OAz5MYAj7aA/hqdefault.jpg",
+      "author": "テレ東BIZ ダイジェスト",
+      "subtitle": "",
+      "body": [
+        "▼番組のフル視聴（43分）はこちらから（27年1月8日まで初回登録14日間無料！）▼",
+        "https://txbiz.tv-tokyo.co.jp/gaia/vod/post_351641?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_3min_261106_yt_OAz5MYAj7aA",
+        "▼本編では伝えきれなかったエピソード「安川電機トップが語る製造業とAIの未来」▼",
+        "https://txbiz.tv-tokyo.co.jp/gaia/vod/post_351998?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_3min_261106_yt_OAz5MYAj7aA",
+        "▼本編では伝えきれなかったエピソード「Mujin 2人の創業者　独占インタビュー」▼",
+        "https://txbiz.tv-tokyo.co.jp/gaia/vod/post_351999?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_3min_261106_yt_OAz5MYAj7aA",
+        "▼「テレ東BIZ」会員登録はこちら▼",
+        "https://txbiz.tv-tokyo.co.jp/lp/?utm_source=youtube&utm_medium=video&utm_campaign=freegaia_3min_261106_yt_OAz5MYAj7aA",
+        "人の代わりに、AIが考え、ロボットが働く――。「フィジカルAI」が、工場や物流の現場を変えようとしている。これまでプログラミングされた動きを繰り返すだけだった機械が、目の前の状況を自ら読み取り、自ら判断して作業するのだ。内閣府と経済産業省の試算では、その世界市場は2040年に約55兆円へと急拡大する見通しだ。フィジカルAIは深刻な人手不足に直面する日本の産業に、新たな可能性をもたらすのか。物流の現場では、ロボットを動かすAIを手がけるスタートアップ「Mujin」が、物流センターの省人化に挑む。産業用ロボットの世界的メーカー「安川電機」も、AIを活用したロボットの開発に力を注ぐ。長年培ってきたモーターや制御技術を武器に、これまで人の手に頼ってきた繊細な作業をロボットに任せようというのだ。傘下のベンチャー「東京ロボティクス」では、油のふき取りや部品の交換など、人にかわって産業用ロボットを補助する新型ロボットの開発が進む。AIという「頭脳」と、日本が磨いてきた「正確に動かす技術」。2つを結びつけ、激しさを増す世界の競争に挑もうというのだ。働くAI開発の最前線に密着し、ニッポンの勝ち筋を探る。",
+        "#ガイアの夜明け #フィジカルAI #Mujin #安川電機 #東京ロボティクス #AI #省人化 #自動化 #開発 #テレビ東京 #テレ東BIZ"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "OAz5MYAj7aA"
+    },
     {
       "id": "2e9fdcf38233",
       "source": "joho",
