@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T18:45:28.660355+00:00",
+  "updated": "2026-11-28T03:47:16.453977+00:00",
   "sources": [
     {
       "id": "uno",
@@ -113,6 +113,86 @@
   ],
   "generated_by": "fetch.py",
   "articles": [
+    {
+      "id": "2e9fdcf38233",
+      "source": "joho",
+      "title": "【確定】スマホとAIで、あなたは確実に「バカ」になっている（PISA/学力/教育/学校/デジタル/タブレット/アメリカ/ニューヨーク/マムダニ/解説:森川潤、後藤直義）",
+      "url": "https://www.youtube.com/watch?v=lpGH6yGWe4w",
+      "date": "2026-11-28T03:00:33+00:00",
+      "image": "https://i1.ytimg.com/vi/lpGH6yGWe4w/hqdefault.jpg",
+      "author": "NewsPicks /ニューズピックス",
+      "subtitle": "",
+      "body": [
+        "▼番組のフル視聴はこちらから",
+        "https://npx.me/s/1Gcb9eWb",
+        "▼10日間無料トライアル実施中",
+        "https://s.npx.me/ySXyEJt8",
+        "-------------------------------------------------------------",
+        "子どもに1人1台の端末を。そんなデジタル教育の常識が、覆りつつあります。アメリカでは学校でのスマホ禁止が40州以上に広がり、ニューヨーク市は生徒の生成AI利用にまでストップをかけました。一方、世界の学力調査では、先進国の数学と読解力の平均点が過去最低に。テクノロジーは、やっぱり子どもたちを「バカ」にするのか。「バカ」にならないAIの使い方はあるのか。教育の世界で起きている大転換を、読み解きます。",
+        "▼お知らせ",
+        "👇公式Xのフォローお願いします！",
+        "https://x.com/shukanjoho_SNS",
+        "▼目次",
+        "00:00 オープニング",
+        "05:26 2026年、スマホ禁止が止まらない",
+        "10:18 AIも禁止。テック企業への「怒り」沸騰中",
+        "15:52 スマホとAIは、やっぱり子どもを「バカ」にする",
+        "▶フル版では…",
+        "👉「バカになりにくい使い方」も見えてきた",
+        "👉あのテック富豪たちは、高みの見物",
+        "…などなど",
+        "▼出演",
+        "森川潤（NewsPicks NY支局長）",
+        "https://bit.ly/3X4Z5ln",
+        "後藤直義（NewsPicks 編集委員／NY支局）",
+        "https://bit.ly/3CW2TOT",
+        "#生成ai",
+        "#教育",
+        "#アメリカ"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "lpGH6yGWe4w"
+    },
+    {
+      "id": "ecf8c685fe76",
+      "source": "crossdig",
+      "title": "【スペイン総選挙】「欧州左派の旗手」退陣か／極右Voxが躍進？／列車事故で与党劣勢／線路のメンテ費用はフランス・ドイツの半分以下／ヨーロッパ“右傾化ドミノ”の引き金に？",
+      "url": "https://www.youtube.com/watch?v=iOL9gzoQxwI",
+      "date": "2026-11-28T01:00:17+00:00",
+      "image": "https://i2.ytimg.com/vi/iOL9gzoQxwI/hqdefault.jpg",
+      "author": "TBS CROSS DIG with Bloomberg",
+      "subtitle": "",
+      "body": [
+        "https://youtube.com/@tbs_bloomberg",
+        "👆チャンネル登録・高評価をよろしくお願いします",
+        "29日に行われるスペイン総選挙。列車事故を受け、サンチェス首相が率いる中道左派の与党「社会労働党」の劣勢が伝えられていますが、8年ぶりの政権交代となるのでしょうか？",
+        "（ブルームバーグ 2026年11月17日 配信）",
+        "▼TBS CROSS DIG with Bloomberg",
+        "https://newsdig.tbs.co.jp/list/withbloomberg",
+        "▼公式Xアカウント",
+        "https://x.com/tbs_bloomberg",
+        "#tbs #crossdig #spain"
+      ],
+      "truncated": false,
+      "kind": "video",
+      "video": "iOL9gzoQxwI"
+    },
+    {
+      "id": "820e0efb7757",
+      "source": "kazobara",
+      "title": "「意味の一等地」の世代交代を見逃すな。〜新規事業は、まだ誰もいない場所を探すだけじゃない〜",
+      "url": "https://note.com/kazobara/n/n1deed22f5a51",
+      "date": "2026-11-27T23:46:54+00:00",
+      "image": "https://assets.st-note.com/production/uploads/images/341679429/rectangle_large_type_2_c7f871117ec66e30053a52cf57f31fd2.png?width=800",
+      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
+      "subtitle": "",
+      "body": [
+        "いやぁ、久しぶりに本屋を巡ってみると面白いですね。",
+        "箕輪さんのYouTubeを見ていたら、細木数子さんから始まった「六星占術」の本が、幻冬舎さんから出るようになったという話がありまして。"
+      ],
+      "truncated": true
+    },
     {
       "id": "8f3057ab6883",
       "source": "gaia",
@@ -6828,21 +6908,6 @@
       "truncated": false,
       "kind": "video",
       "video": "ism6yjFk_hU"
-    },
-    {
-      "id": "358ccc8ec14c",
-      "source": "kazobara",
-      "title": "数字からおりるときに一番怖い？お金の奴隷にならないステップ-513号-",
-      "url": "https://note.com/kazobara/n/n7e4f12caf6a6",
-      "date": "2026-09-03T22:00:00+00:00",
-      "image": "https://assets.st-note.com/production/uploads/images/309020730/rectangle_large_type_2_eb9365ae4a136e8882ebba5a944de93e.png?width=800",
-      "author": "尾原 和啓 (アフターデジタル/プロセスエコノミーなど著述：おばら かずひろ）",
-      "subtitle": "",
-      "body": [
-        "（2020年7月20日の動画解説を記事化しました）ㅤㅤ",
-        "今日は何を語りたいっていうと、あえて数字からおりるの数字の中でも、最強のお金の奴隷にどうやってならずに済むのか。お金の奴隷にならずに済む方法を教えてくれたらってあったので、そのあたりを解説していきたいと思います。"
-      ],
-      "truncated": true
     },
     {
       "id": "55539d22b635",
